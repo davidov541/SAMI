@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="remoteCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="remoteCommand" scope="public">
+    <tag>out.Command="remote";</tag>
+    <one-of>
+      <item>
+        <ruleref uri="#tvCommands"/>
+        <tag>out.remoteButton=rules.latest().remoteButton;</tag>
+        <tag>out.channel=rules.latest().channel;</tag>
+      </item>
+      <item>
+        <ruleref uri="#dvrCommands" />
+        <tag>out.remoteButton=rules.latest().remoteButton;</tag>
+        <tag>out.channel=rules.latest().channel;</tag>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="tvCommands" scope="public">
+    <tag>out.remoteButton="None";</tag>
+    <tag>out.channel="None";</tag>
+    <item>
+      <tag>out.remoteButton="powerup";</tag>
+      <item repeat="0-1">can you</item>
+      <one-of>
+        <item>turn on the tv</item>
+        <item>turn the tv on</item>
+      </one-of>
+      <item>to</item>
+      <ruleref uri="#TvChannel" />
+      <tag>out.channel=rules.latest();</tag>
+    </item>
+  </rule>
+  <rule id="dvrCommands" scope="public">
+    <tag>out.remoteButton="None";</tag>
+    <tag>out.channel="None";</tag>
+    <one-of>
+      <item>
+        <tag>out.remoteButton="pause";</tag>
+        pause this show
+      </item>
+      <item>
+        <tag>out.remoteButton="play";</tag>
+        play
+      </item>
+      <item>
+        <tag>out.remoteButton="record";</tag>
+        record this show
+      </item>
+      <item>
+        <tag>out.remoteButton="info";</tag>
+        what is on tv
+      </item>
+      <item>
+        <item>Turn to </item>
+        <ruleref uri="#TvChannel" />
+        <tag>out.channel=rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="TvChannel" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#ChannelName"/>
+        <tag>out=rules.latest();</tag>
+      </item>
+      <item>
+        <item repeat="0-1">channel</item>
+        <ruleref uri="#Number"/>
+        <tag>out=rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

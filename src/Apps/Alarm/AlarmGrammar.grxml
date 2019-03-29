@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="AlarmCommand"
+		xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+	<rule id="AlarmCommand" scope="public">
+		<tag>out.Command="Alarm";</tag>
+		<one-of>
+			<item>
+				<tag>out.SubCommand="Duration";</tag>
+				<ruleref uri="#AlarmDuration"/>
+				<tag>out.Hours=rules.latest().Hours;</tag>
+				<tag>out.Minutes=rules.latest().Minutes;</tag>
+				<tag>out.Seconds=rules.latest().Seconds;</tag>
+			</item>
+			<item>
+				<tag>out.SubCommand="Time";</tag>
+				<ruleref uri="#AlarmAtTime"/>
+				<tag>out.Time=rules.latest();</tag>
+			</item>
+			<item>
+				<tag>out.SubCommand="List";</tag>
+				<one-of>
+					<item>What alarms are running</item>
+					<item>What timers are running</item>
+					<item>List the alarms</item>
+					<item>List the timers</item>
+				</one-of>
+			</item>
+			<item>
+				<tag>out.SubCommand="DeleteLast";</tag>
+				<one-of>
+					<item>Remove the last alarm</item>
+					<item>Delete the last alarm</item>
+					<item>Remove the last timer</item>
+					<item>Delete the last timer</item>
+				</one-of>
+			</item>
+			<item>
+				<tag>out.SubCommand="DeleteAll";</tag>
+				<one-of>
+					<item>Remove all alarms</item>
+					<item>Delete all alarms</item>
+					<item>Remove all timers</item>
+					<item>Delete all timers</item>
+				</one-of>
+			</item>
+		</one-of>
+	</rule>
+
+	<rule id="AlarmDuration" scope="public">
+		<item>
+			<tag>out.Hours="0";</tag>
+			<tag>out.Minutes="0";</tag>
+			<tag>out.Seconds="0";</tag>
+			<item>
+				<one-of>
+					<item>Set a timer for</item>
+					<item>Set an alarm for</item>
+				</one-of>
+			</item>
+			<item>
+				<ruleref uri="#RelativeTime" />
+				<tag>out.Hours=rules.latest().Hours;</tag>
+				<tag>out.Minutes=rules.latest().Minutes;</tag>
+				<tag>out.Seconds=rules.latest().Seconds;</tag>
+			</item>
+		</item>
+	</rule>
+
+	<rule id="AlarmAtTime" scope="public">
+		<item>
+			<one-of>
+				<item>Set a timer for</item>
+				<item>Set an alarm for</item>
+			</one-of>
+			<item>
+				<one-of>
+					<item><ruleref uri="#DT_Time"/></item>
+					<item><ruleref uri="#DT_DateTime"/></item>
+				</one-of>
+				<tag>out=rules.latest();</tag>
+			</item>
+		</item>
+	</rule>
+
+</grammar>

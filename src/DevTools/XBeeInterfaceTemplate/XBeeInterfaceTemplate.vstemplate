@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>SAMI XBee IO Interface</Name>
+    <Description>Creates an XBee-based IO Interface for the Smart Apartment Management Interface (SAMI).</Description>
+    <Icon>XBeeInterfaceTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>85233031-d1d4-49ad-865e-e3efd75e4edf</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>XBeeInterface</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="XBeeInterface.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Interface.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">ConsoleConfiguration.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true">KinectConfiguration.xml</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

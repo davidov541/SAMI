@@ -1,0 +1,10 @@
+<RemoteCodes>
+      <RemoteCode Name="volumeup" Code="01-00-00-00-00-05-FA-02-FD-20" />
+      <RemoteCode Name="volumedown" Code="01-00-00-00-00-05-FA-BA-45-20" />
+      <RemoteCode Name="mute" Code="01-00-00-00-00-05-FA-38-C7-20" />
+      <RemoteCode Name="input" Code="01-00-00-00-00-05-FA-58-A7-20" />
+      <RemoteCode Name="up" Code="01-00-00-00-00-05-FA-9A-65-20" />
+      <RemoteCode Name="down" Code="01-00-00-00-00-05-FA-8A-75-20" />
+      <RemoteCode Name="enter" Code="01-00-00-00-00-05-FA-AA-55-20" />
+      <RemoteCode Name="power" Code="01-00-00-00-00-05-FA-FA-05-20" />
+</RemoteCodes>

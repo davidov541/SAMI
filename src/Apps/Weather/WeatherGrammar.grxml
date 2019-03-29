@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="weatherCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="weatherCommand" scope="public">
+    <tag>out.Command="weather";</tag>
+    <one-of>
+      <item>
+        <tag>out.Location="here";</tag>
+        <tag>out.Time="TimeOfDay=now;";</tag>
+        <one-of>
+          <item>How is the weather</item>
+          <item>How is the weather today</item>
+          <item>What's the weather like</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.Location="here";</tag>
+        <item>How will the weather be</item>
+        <item repeat="0-1">
+          in
+          <ruleref uri="#locations" />
+          <tag>out.Location=rules.latest();</tag>
+        </item>
+        <item>
+          <one-of>
+            <item>
+              <ruleref uri="#DT_Date"/>
+            </item>
+            <item>
+              <ruleref uri="#DT_Time"/>
+            </item>
+            <item>
+              <ruleref uri="#DT_DateTime"/>
+            </item>
+          </one-of>
+          <tag>out.Time=rules.latest();</tag>
+        </item>
+      </item>
+      <item>
+        <tag>out.Location="here";</tag>
+        <item>What's the forecast for</item>
+        <item repeat="0-1">
+          <ruleref uri="#locations" />
+          <tag>out.Location=rules.latest();</tag>
+        </item>
+        <item>
+          <one-of>
+            <item>
+              <ruleref uri="#DT_Date"/>
+            </item>
+            <item>
+              <ruleref uri="#DT_Time"/>
+            </item>
+            <item>
+              <ruleref uri="#DT_DateTime"/>
+            </item>
+          </one-of>
+          <tag>out.Time=rules.latest();</tag>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

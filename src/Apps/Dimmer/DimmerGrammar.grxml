@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="DimmerCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="DimmerCommand" scope="public">
+    <one-of>
+      <item>
+        <tag>out.Command="Dimmer";</tag>
+        <item>set the</item>
+        <ruleref uri="#DimmableSwitchName"/>
+        <tag>out.Switch=rules.latest();</tag>
+        <item>to</item>
+        <ruleref uri="#Percentage"/>
+        <tag>out.Level=rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

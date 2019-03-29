@@ -1,0 +1,894 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0" root="Number">
+  <rule id="locations" scope="public">
+    <one-of>
+      <item>
+        <tag>out="here";</tag>
+        here
+      </item>
+      <item>
+        <tag>out="45439";</tag>
+        Dayton
+      </item>
+      <item>
+        <tag>out="10003";</tag>
+        New York City
+      </item>
+      <item>
+        <tag>out="90012";</tag>
+        Los Angeles
+      </item>
+      <item>
+        <tag>out="60602";</tag>
+        Chicago
+      </item>
+      <item>
+        <tag>out="77002";</tag>
+        Houston
+      </item>
+      <item>
+        <tag>out="19107";</tag>
+        Philadelphia
+      </item>
+      <item>
+        <tag>out="85003";</tag>
+        Phoenix
+      </item>
+      <item>
+        <tag>out="78205";</tag>
+        San Antonio
+      </item>
+      <item>
+        <tag>out="92101";</tag>
+        San Diego
+      </item>
+      <item>
+        <tag>out="75201";</tag>
+        Dallas
+      </item>
+      <item>
+        <tag>out="95113";</tag>
+        San Jose
+      </item>
+      <item>
+        <tag>out="46204";</tag>
+        Indianapolis
+      </item>
+      <item>
+        <tag>out="78701";</tag>
+        Austin
+      </item>
+      <item>
+        <tag>out="32202";</tag>
+        Jacksonville
+      </item>
+      <item>
+        <tag>out="94102";</tag>
+        San Francisco
+      </item>
+      <item>
+        <tag>out="43215";</tag>
+        Columbus
+      </item>
+      <item>
+        <tag>out="76102";</tag>
+        Fort Worth
+      </item>
+      <item>
+        <tag>out="28202";</tag>
+        Charlotte
+      </item>
+      <item>
+        <tag>out="48226";</tag>
+        Detroit
+      </item>
+      <item>
+        <tag>out="79901";</tag>
+        El Paso
+      </item>
+      <item>
+        <tag>out="38103";</tag>
+        Memphis
+      </item>
+      <item>
+        <tag>out="37201";</tag>
+        Nashville
+      </item>
+      <item>
+        <tag>out="02109";</tag>
+        Boston
+      </item>
+      <item>
+        <tag>out="98104";</tag>
+        Seattle
+      </item>
+      <item>
+        <tag>out="80204";</tag>
+        Denver
+      </item>
+      <item>
+        <tag>out="20004";</tag>
+        Washington D C
+      </item>
+      <item>
+        <tag>out="21202";</tag>
+        Baltimore
+      </item>
+      <item>
+        <tag>out="97201";</tag>
+        Portland
+      </item>
+      <item>
+        <tag>out="73102";</tag>
+        Oklahoma City
+      </item>
+      <item>
+        <tag>out="53202";</tag>
+        Milwaukee
+      </item>
+      <item>
+        <tag>out="40202";</tag>
+        Louisville
+      </item>
+      <item>
+        <tag>out="89101";</tag>
+        Las Vegas
+      </item>
+      <item>
+        <tag>out="87102";</tag>
+        Albuquerque
+      </item>
+      <item>
+        <tag>out="85701";</tag>
+        Tucson
+      </item>
+      <item>
+        <tag>out="93721";</tag>
+        Fresno
+      </item>
+      <item>
+        <tag>out="95814";</tag>
+        Sacramento
+      </item>
+      <item>
+        <tag>out="90802";</tag>
+        Long Beach
+      </item>
+      <item>
+        <tag>out="64105";</tag>
+        Kansas City
+      </item>
+      <item>
+        <tag>out="85201";</tag>
+        Mesa
+      </item>
+      <item>
+        <tag>out="23456";</tag>
+        Virginia Beach
+      </item>
+      <item>
+        <tag>out="30303";</tag>
+        Atlanta
+      </item>
+      <item>
+        <tag>out="80903";</tag>
+        Colorado Springs
+      </item>
+      <item>
+        <tag>out="27603";</tag>
+        Raleigh
+      </item>
+      <item>
+        <tag>out="68102";</tag>
+        Omaha
+      </item>
+      <item>
+        <tag>out="33128";</tag>
+        Miami
+      </item>
+      <item>
+        <tag>out="94612";</tag>
+        Oakland
+      </item>
+      <item>
+        <tag>out="74103";</tag>
+        Tulsa
+      </item>
+      <item>
+        <tag>out="55415";</tag>
+        Minneapolis
+      </item>
+      <item>
+        <tag>out="44114";</tag>
+        Cleveland
+      </item>
+      <item>
+        <tag>out="67202";</tag>
+        Wichita
+      </item>
+      <item>
+        <tag>out="76010";</tag>
+        Arlington
+      </item>
+      <item>
+        <tag>out="96813";</tag>
+        Honolulu
+      </item>
+      <item>
+        <tag>out="70112";</tag>
+        New Orleans
+      </item>
+      <item>
+        <tag>out="93301";</tag>
+        Bakersfield
+      </item>
+      <item>
+        <tag>out="33602";</tag>
+        Tampa
+      </item>
+      <item>
+        <tag>out="92805";</tag>
+        Anaheim
+      </item>
+      <item>
+        <tag>out="80012";</tag>
+        Aurora
+      </item>
+      <item>
+        <tag>out="92701";</tag>
+        Santa Ana
+      </item>
+      <item>
+        <tag>out="63103";</tag>
+        Saint Louis
+      </item>
+      <item>
+        <tag>out="92501";</tag>
+        Riverside
+      </item>
+      <item>
+        <tag>out="78401";</tag>
+        Corpus Christi
+      </item>
+      <item>
+        <tag>out="15219";</tag>
+        Pittsburgh
+      </item>
+      <item>
+        <tag>out="40507";</tag>
+        Lexington
+      </item>
+      <item>
+        <tag>out="11771";</tag>
+        Oyster Bay
+      </item>
+      <item>
+        <tag>out="99501";</tag>
+        Anchorage
+      </item>
+      <item>
+        <tag>out="95202";</tag>
+        Stockton
+      </item>
+      <item>
+        <tag>out="45202";</tag>
+        Cincinnati
+      </item>
+      <item>
+        <tag>out="55102";</tag>
+        Saint Paul
+      </item>
+      <item>
+        <tag>out="43604";</tag>
+        Toledo
+      </item>
+      <item>
+        <tag>out="07102";</tag>
+        Newark
+      </item>
+      <item>
+        <tag>out="27401";</tag>
+        Greensboro
+      </item>
+      <item>
+        <tag>out="75074";</tag>
+        Plano
+      </item>
+      <item>
+        <tag>out="89015";</tag>
+        Henderson
+      </item>
+      <item>
+        <tag>out="68508";</tag>
+        Lincoln
+      </item>
+      <item>
+        <tag>out="14202";</tag>
+        Buffalo
+      </item>
+      <item>
+        <tag>out="46802";</tag>
+        Fort Wayne
+      </item>
+      <item>
+        <tag>out="07302";</tag>
+        Jersey City
+      </item>
+      <item>
+        <tag>out="91910";</tag>
+        Chula Vista
+      </item>
+      <item>
+        <tag>out="32801";</tag>
+        Orlando
+      </item>
+      <item>
+        <tag>out="33701";</tag>
+        Saint Petersburg
+      </item>
+      <item>
+        <tag>out="23510";</tag>
+        Norfolk
+      </item>
+      <item>
+        in zip code
+        <tag>out=0</tag>
+        <item repeat = "5">
+          <ruleref uri="#Number0to9" />
+          <tag>out=(out*10)+rules.latest();</tag>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="Number" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#RepeatedNumbers" />
+        <tag>out=rules.latest().toString();</tag>
+      </item>
+      <item>
+        <ruleref uri="#NumberThousands" />
+        <tag>out=rules.latest().toString();</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="RepeatedNumbers" scope="public">
+    <item>
+      <tag>out=0</tag>
+      <item repeat = "1-">
+        <ruleref uri="#Number0to9" />
+        <tag>out=(out*10)+rules.latest();</tag>
+      </item>
+    </item>
+  </rule>
+
+  <rule id="Percentage" scope="public">
+    <tag>out=0;</tag>
+    <item>
+      <one-of>
+        <item>
+          <ruleref uri="#NumberTens" />
+          <tag>out=out+rules.latest();</tag>
+        </item>
+        <item>
+          one hundred
+          <tag>out="100";</tag>
+        </item>
+      </one-of>
+      percent
+    </item>
+  </rule>
+
+  <rule id="Number1to9" scope="public">
+    <one-of>
+      <item>
+        one
+        <tag>out=1;</tag>
+      </item>
+      <item>
+        two
+        <tag>out=2;</tag>
+      </item>
+      <item>
+        three
+        <tag>out=3;</tag>
+      </item>
+      <item>
+        four
+        <tag>out=4;</tag>
+      </item>
+      <item>
+        five
+        <tag>out=5;</tag>
+      </item>
+      <item>
+        six
+        <tag>out=6;</tag>
+      </item>
+      <item>
+        seven
+        <tag>out=7;</tag>
+      </item>
+      <item>
+        eight
+        <tag>out=8;</tag>
+      </item>
+      <item>
+        nine
+        <tag>out=9;</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="Number0to9" scope="public">
+    <one-of>
+      <item>
+        zero
+        <tag>out=0;</tag>
+      </item>
+      <item>
+        <ruleref uri="#Number1to9"/>
+        <tag>out=rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="NumberTens" scope="public">
+    <tag>out=0;</tag>
+    <one-of>
+      <item>
+        <ruleref uri="#Number0to9" />
+        <tag>out=rules.latest();</tag>
+      </item>
+      <item>
+        ten
+        <tag>out=10;</tag>
+      </item>
+      <item>
+        eleven
+        <tag>out=11;</tag>
+      </item>
+      <item>
+        twelve
+        <tag>out=12;</tag>
+      </item>
+      <item>
+        thirteen
+        <tag>out=13;</tag>
+      </item>
+      <item>
+        fourteen
+        <tag>out=14;</tag>
+      </item>
+      <item>
+        fifteen
+        <tag>out=15;</tag>
+      </item>
+      <item>
+        sixteen
+        <tag>out=16;</tag>
+      </item>
+      <item>
+        seventeen
+        <tag>out=17;</tag>
+      </item>
+      <item>
+        eighteen
+        <tag>out=18;</tag>
+      </item>
+      <item>
+        nineteen
+        <tag>out=19;</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>
+            twenty
+            <tag>out=20;</tag>
+          </item>
+          <item>
+            thirty
+            <tag>out=30;</tag>
+          </item>
+          <item>
+            forty
+            <tag>out=40;</tag>
+          </item>
+          <item>
+            fifty
+            <tag>out=50;</tag>
+          </item>
+          <item>
+            sixty
+            <tag>out=60;</tag>
+          </item>
+          <item>
+            seventy
+            <tag>out=70;</tag>
+          </item>
+          <item>
+            eighty
+            <tag>out=80;</tag>
+          </item>
+          <item>
+            ninety
+            <tag>out=90;</tag>
+          </item>
+        </one-of>
+        <item repeat="0-1">
+          <ruleref uri="#Number0to9" />
+          <tag>out=out+rules.latest()</tag>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="NumberHundreds" scope="public">
+    <tag>out=0;</tag>
+    <one-of>
+      <item>
+        <ruleref uri="#NumberTens" />
+        <tag>out=out+rules.latest();</tag>
+      </item>
+      <item>
+        <item>
+          <ruleref uri="#Number0to9" />
+          <tag>out=rules.latest()*100;</tag>
+        </item>
+        <item>hundred</item>
+        <item repeat="0-1">
+          <ruleref uri="#NumberTens" />
+          <tag>out=out+rules.latest();</tag>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="NumberThousands" scope="public">
+    <tag>out=0;</tag>
+    <one-of>
+      <item>
+        <ruleref uri="#NumberHundreds" />
+        <tag>out=out+rules.latest();</tag>
+      </item>
+      <item>
+        <item>
+          <ruleref uri="#NumberHundreds" />
+          <tag>out=rules.latest()*1000;</tag>
+        </item>
+        <item>thousand</item>
+        <item repeat="0-1">
+          <ruleref uri="#NumberHundreds" />
+          <tag>out=out+rules.latest();</tag>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="Number1to12" scope="public">
+    <one-of>
+      <item>
+        one
+        <tag>out=1;</tag>
+      </item>
+      <item>
+        two
+        <tag>out=2;</tag>
+      </item>
+      <item>
+        three
+        <tag>out=3;</tag>
+      </item>
+      <item>
+        four
+        <tag>out=4;</tag>
+      </item>
+      <item>
+        five
+        <tag>out=5;</tag>
+      </item>
+      <item>
+        six
+        <tag>out=6;</tag>
+      </item>
+      <item>
+        seven
+        <tag>out=7;</tag>
+      </item>
+      <item>
+        eight
+        <tag>out=8;</tag>
+      </item>
+      <item>
+        nine
+        <tag>out=9;</tag>
+      </item>
+      <item>
+        ten
+        <tag>out=10;</tag>
+      </item>
+      <item>
+        eleven
+        <tag>out=11;</tag>
+      </item>
+      <item>
+        twelve
+        <tag>out=12;</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="Number10to59" scope="public">
+    <one-of>
+      <item>
+        ten
+        <tag>out=10;</tag>
+      </item>
+      <item>
+        eleven
+        <tag>out=11;</tag>
+      </item>
+      <item>
+        twelve
+        <tag>out=12;</tag>
+      </item>
+      <item>
+        thirteen
+        <tag>out=13;</tag>
+      </item>
+      <item>
+        fourteen
+        <tag>out=14;</tag>
+      </item>
+      <item>
+        fifteen
+        <tag>out=15;</tag>
+      </item>
+      <item>
+        sixteen
+        <tag>out=16;</tag>
+      </item>
+      <item>
+        seventeen
+        <tag>out=17;</tag>
+      </item>
+      <item>
+        eighteen
+        <tag>out=18;</tag>
+      </item>
+      <item>
+        nineteen
+        <tag>out=19;</tag>
+      </item>
+      <item>
+        Ten
+        <tag>out=10;</tag>
+      </item>
+      <item>
+        <item>
+          <one-of>
+            <item>
+              twenty
+              <tag>out=20;</tag>
+            </item>
+            <item>
+              thirty
+              <tag>out=30;</tag>
+            </item>
+            <item>
+              forty
+              <tag>out=40;</tag>
+            </item>
+            <item>
+              fifty
+              <tag>out=50;</tag>
+            </item>
+          </one-of>
+        </item>
+        <item repeat="0-1">
+          <ruleref uri="#Number0to9" />
+          <tag>out=out+rules.latest();</tag>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="OrdinalNumber1to9" scope="public">
+    <one-of>
+      <item>
+        first
+        <tag>out=1;</tag>
+      </item>
+      <item>
+        second
+        <tag>out=2;</tag>
+      </item>
+      <item>
+        third
+        <tag>out=3;</tag>
+      </item>
+      <item>
+        fourth
+        <tag>out=4;</tag>
+      </item>
+      <item>
+        fifth
+        <tag>out=5;</tag>
+      </item>
+      <item>
+        sixth
+        <tag>out=6;</tag>
+      </item>
+      <item>
+        seventh
+        <tag>out=7;</tag>
+      </item>
+      <item>
+        eighth
+        <tag>out=8;</tag>
+      </item>
+      <item>
+        nineth
+        <tag>out=9;</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="OrdinalNumberTens" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#OrdinalNumber1to9"/>
+        <tag>out=rules.latest();</tag>
+      </item>
+      <item>
+        eleventh
+        <tag>out=11;</tag>
+      </item>
+      <item>
+        twelfth
+        <tag>out=12;</tag>
+      </item>
+      <item>
+        thirteenth
+        <tag>out=13;</tag>
+      </item>
+      <item>
+        forteenth
+        <tag>out=14;</tag>
+      </item>
+      <item>
+        fifteenth
+        <tag>out=15;</tag>
+      </item>
+      <item>
+        sixteenth
+        <tag>out=16;</tag>
+      </item>
+      <item>
+        seventeeth
+        <tag>out=17;</tag>
+      </item>
+      <item>
+        eighteenth
+        <tag>out=18;</tag>
+      </item>
+      <item>
+        nineteenth
+        <tag>out=19;</tag>
+      </item>
+      <item>
+        twentieth
+        <tag>out=20;</tag>
+      </item>
+      <item>
+        thirtieth
+        <tag>out=30;</tag>
+      </item>
+      <item>
+        fortieth
+        <tag>out=40;</tag>
+      </item>
+      <item>
+        fiftieth
+        <tag>out=50;</tag>
+      </item>
+      <item>
+        sixtieth
+        <tag>out=60;</tag>
+      </item>
+      <item>
+        seventieth
+        <tag>out=70;</tag>
+      </item>
+      <item>
+        eightieth
+        <tag>out=80;</tag>
+      </item>
+      <item>
+        ninetieth
+        <tag>out=90;</tag>
+      </item>
+      <item>
+        <item>twenty</item>
+        <ruleref uri="#OrdinalNumber1to9"/>
+        <tag>out=20+rules.latest()</tag>
+      </item>
+      <item>
+        <item>thirty</item>
+        <ruleref uri="#OrdinalNumber1to9"/>
+        <tag>out=30+rules.latest()</tag>
+      </item>
+      <item>
+        <item>forty</item>
+        <ruleref uri="#OrdinalNumber1to9"/>
+        <tag>out=40+rules.latest()</tag>
+      </item>
+      <item>
+        <item>fifty</item>
+        <ruleref uri="#OrdinalNumber1to9"/>
+        <tag>out=50+rules.latest()</tag>
+      </item>
+      <item>
+        <item>sixty</item>
+        <ruleref uri="#OrdinalNumber1to9"/>
+        <tag>out=60+rules.latest()</tag>
+      </item>
+      <item>
+        <item>seventy</item>
+        <ruleref uri="#OrdinalNumber1to9"/>
+        <tag>out=70+rules.latest()</tag>
+      </item>
+      <item>
+        <item>eighty</item>
+        <ruleref uri="#OrdinalNumber1to9"/>
+        <tag>out=80+rules.latest()</tag>
+      </item>
+      <item>
+        <item>ninty</item>
+        <ruleref uri="#OrdinalNumber1to9"/>
+        <tag>out=90+rules.latest()</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="RelativeTime" scope="public">
+    <tag>out.Hours="0";</tag>
+    <tag>out.Minutes="0";</tag>
+    <tag>out.Seconds="0";</tag>
+    <item repeat="0-1">
+      <item>
+        <ruleref uri="#Number" />
+        <tag>out.Hours=rules.latest();</tag>
+      </item>
+      <one-of>
+        <item>hour</item>
+        <item>hours</item>
+      </one-of>
+      <item repeat="0-1">and</item>
+    </item>
+    <item repeat="0-1">
+      <item>
+        <ruleref uri="#Number" />
+        <tag>out.Minutes=rules.latest();</tag>
+      </item>
+      <one-of>
+        <item>minute</item>
+        <item>minutes</item>
+      </one-of>
+      <item repeat="0-1">and</item>
+    </item>
+    <item repeat="0-1">
+      <item>
+        <ruleref uri="#Number" />
+        <tag>out.Seconds=rules.latest();</tag>
+      </item>
+      <one-of>
+        <item>seconds</item>
+        <item>second</item>
+      </one-of>
+    </item>
+  </rule>
+</grammar>

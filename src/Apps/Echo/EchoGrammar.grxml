@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="echoCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="echoCommand" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#echo_canYouSay" />
+      </item>
+      <item>
+        <tag>out.Command="echo";</tag>
+        <tag>out.Param="Good Morning"</tag>
+        Good morning
+      </item>
+      <item>
+        <tag>out.Command="echo";</tag>
+        <tag>out.Param="Good Night"</tag>
+        Good night
+      </item>
+      <item>
+        <tag>out.Command="echo";</tag>
+        <tag>out.Param="My name is Sammie. I am an extensible personal assistant who can give you the next showtime at the theater, while also controling various devices around the house. Feel free to ask me anything, and I will have an answer for you.";</tag>
+        Can you introduce yourself
+      </item>
+    </one-of>
+  </rule>
+  <rule id="echo_canYouSay" scope="public">
+    <item>
+      <tag>out.Command="echo";</tag>
+      Can you say
+    </item>
+    <item>
+      <ruleref uri="#echo_params" />
+      <tag>out.Param=rules.latest().toString();</tag>
+    </item>
+  </rule>
+  <rule id="echo_params" scope="public">
+    <one-of>
+      <item>
+        <tag>out="hello";</tag>
+        hello
+      </item>
+    </one-of>
+  </rule>
+</grammar>

@@ -1,0 +1,4286 @@
+<DrinkRecipes>
+  <Cocktails>
+    <Drink Key="french_cosmo" Name="French Cosmo" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1.5" Unit="part" />
+        <Ingredient Key="blackcurrant_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,blackcurrant_liqueur,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="raspberry_champagne" Name="Raspberry Champagne" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="black_raspberry_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="champagne" Quantity="5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="black_raspberry_liqueur,champagne" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arugments="berries" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="kir_royale" Name="Kir Royale" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="blackcurrant_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="champagne" Quantity="5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="blackcurrant_liqueur,champagne" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="kir_speciale" Name="Kir Speciale" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="triple_sec" Quantity="0.5" Unit="part" />
+        <Ingredient Key="blackcurrant_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="champagne" Quantity="5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="triple_sec,blackcurrant_liqueur,champagne" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="arise_my_love" Name="Arise My Love" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="champagne" Quantity="5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="mint_liqueur,champagne" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="chocolate_raspberry_delight" Name="Raspberry Delight" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="irish_cream" Quantity="1.5" Unit="part" />
+        <Ingredient Key="black_raspberry_liqueur" Quantity="1.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_cream,black_raspberry_liqueur" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="strawberry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cassis_tini" Name="Cassis Tini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="blackcurrant_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,blackcurrant_liqueur,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="berries" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="showbiz" Name="Showbiz" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="blackcurrant_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="grapefruit_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,blackcurrant_liqueur,grapefruit_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="agave_kiss" Name="Agave Kiss" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="black_raspberry_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="1" Unit="part" />
+        <Ingredient Key="half_half" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,black_raspberry_liqueur,white_creme_de_cacao,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="berries" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="sexual_chocolate" Name="Sexual Chocolate" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="coffee_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="creme_de_cacao" Quantity="1" Unit="part" />
+        <Ingredient Key="black_raspberry_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="milk" Quantity="1" Unit="dash" />
+        <Ingredient Key="soda" Quantity="1" Unit="dash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_cream,coffee_liqueur,creme_de_cacao,black_raspberry_liqueur,milk" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="soda" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="gina" Name="Gina" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="blackcurrant_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="soda" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,blackcurrant_liqueur,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="berries" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="red_brandy_sunset" Name="Red Brandy Sunset" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="brandy" Quantity="1" Unit="part" />
+        <Ingredient Key="blackcurrant_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sprite" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="brandy,blackcurrant_liqueur,lemon_juice" />
+        <Step Type="Pour" Arguments="sprite" />
+        <Step Type="Garnish" Arguments="lemon_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="elixir_of_love" Name="Elixir of Love" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="2" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="1" Unit="part" />
+        <Ingredient Key="half_half" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,amaretto,white_creme_de_cacao,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cinnamon" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="valentines_day_on_the_rocks" Name="Valentine's Day on the Rocks" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="cherry_brandy" Quantity="1" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="1" Unit="dash" />
+        <Ingredient Key="ginger_ale" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,cherry_brandy,grenadine,ginger_ale" />
+        <Step Type="Pour" Arguments="ginger_ale" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="amf" Name="AMF" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="0.5" Unit="part" />
+        <Ingredient Key="white_rum" Quantity="0.5" Unit="part" />
+        <Ingredient Key="tequila" Quantity="0.5" Unit="part" />
+        <Ingredient Key="gin" Quantity="0.5" Unit="part" />
+        <Ingredient Key="blue_curacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="soda" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,white_rum,tequila,gin,blue_curacao,sugar_syrup,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="lemon_wheel,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bikini_martini" Name="Bikini Martini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="coconut_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="1" Unit="dash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="coconut_rum,vodka,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="grenadine" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="chocolate_covered_strawberry" Name="Chocolate Covered Strawberry" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="strawberry_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="half_half" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="strawberry_liqueur,white_creme_de_cacao,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="strawberry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="strawberry_mojito" Name="Strawberry Mojito" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1.5" Unit="part" />
+        <Ingredient Key="strawberry_liqueur" Quantity="1.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="soda" Quantity="3" Unit="part" />
+        <Ingredient Key="mint_leaves" Quantity="4" Unit="(piece)" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Crush" Arguments="mint_leaves" />
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,strawberry_liqueur,sugar_syrup,lime_juice,mint_leaves" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lime_wedge,strawberry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="sex_on_the_pooltable" Name="Sex on the Pool Table" Glass="Hurricane">
+      <Ingredients>
+        <Ingredient Key="triple_sec" Quantity="1" Unit="part" />
+        <Ingredient Key="peach_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="black_raspberry_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="midori" Quantity="1" Unit="part" />
+        <Ingredient Key="grapefruit_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="triple_sec,peach_schnapps,black_raspberry_liqueur,midori,grapefruit_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="caribbean_lovers" Name="Caribbean Lovers" Glass="Hurricane">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1.5" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,amaretto,pineapple_juice,orange_juice,grenadine" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="burning_sun" Name="Burning Sun" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="strawberry_liqueur" Quantity="1.5" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="strawberry_liqueur,pineapple_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="strawberry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="strawberry_colada" Name="Strawberry Colada" Glass="Hurricane">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1.5" Unit="part" />
+        <Ingredient Key="strawberry_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="half_half" Quantity="1" Unit="part" />
+        <Ingredient Key="coconut_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,strawberry_liqueur,half_half,coconut_liqueur,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="pineapple_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="well_heeled" Name="Well Heeled" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="dark_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="strawberry_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="dark_rum" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="strawberry,orange_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cosmopolitan" Name="Cosmopolitan" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="cointreau" Quantity="1" Unit="part" />
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="cointreau,vodka,lime_juice,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="strawberry_martini_no2" Name="Strawberry Martini #2" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="strawberry_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="vodka,strawberry_liqueur,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="strawberry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="screaming_orgasm" Name="Screaming Orgasm" Glass="Sour">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="1" Unit="part" />
+        <Ingredient Key="half_half" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,irish_cream,amaretto" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="affair" Name="Affair" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="strawberry_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="soda" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="strawberry_liqueur,orange_juice,cranberry_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="soda" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cherry_popper" Name="Cherry Popper" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="strawberry_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sprite" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="strawberry_liqueur,sprite" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="emerald_isle" Name="Emerald Isle" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="angostura" Quantity="3" Unit="dash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,mint_liqueur,angostura" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="everybodys_irish" Name="Everybody's Irish" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="chartreuse" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,mint_liqueur,chartreuse" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="olive" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="shamrock_shaker" Name="Shamrock Shaker" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="coffee_liqueur" Quantity="1.5" Unit="part" />
+        <Ingredient Key="milk" Quantity="2" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="coffee_liqueur,milk,amaretto" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="luckytini" Name="Luckytini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="midori" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,midori,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="orange_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="four_leaf_clover" Name="Four Leaf Clover" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="splash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,orange_juice,sugar_syrup,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="mint_liqueur" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="paddys_girl" Name="Paddy's Girl" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="creme_de_cacao" Quantity="1" Unit="part" />
+        <Ingredient Key="coffee" Quantity="1" Unit="part" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="irish_whiskey,irish_cream,creme_de_cacao,coffee" />
+        <Step Type="Blend" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="chocolate" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_blond" Name="Irish Blond" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="orange_curacao" Quantity="0.75" Unit="part" />
+        <Ingredient Key="sherry" Quantity="0.5" Unit="part" />
+        <ChoiceOf Key="triple_sec_choice" Quantity="1" Unit="dash">
+          <Ingredient Key="triple_sec" />
+          <Ingredient Key="cointreau" />
+        </ChoiceOf>
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,orange_curacao,sherry,triple_sec_choice" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="orange_peel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="tipperary" Name="Tipperary" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="sweet_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="chartreuse" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,sweet_vermouth,chartreuse" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="dubliner" Name="Dubliner" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_mist" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,irish_mist" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="whipped_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="shamrock" Name="Shamrock" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="1.5" Unit="part" />
+        <Ingredient Key="dry_vermouth" Quantity="0.5" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,dry_vermouth,mint_liqueur" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="after_eight_martini" Name="After Eight Martini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="2" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,irish_cream,mint_liqueur" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="midori_cosmopolitan" Name="Midori Cosmopolitan" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="midori" Quantity="1" Unit="part" />
+        <Ingredient Key="citrus_vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="midori,citrus_vodka,cranberry_juice,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="raspberry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="sprite_and_midori" Name="Sprite and Midori" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)"/>
+        <Ingredient Key="midori" Quantity="1" Unit="part" />
+        <ChoiceOf Key="sprite_choice" Quantity="2" Unit="part">
+          <Ingredient Key="sprite" />
+          <Ingredient Key="7up" />
+        </ChoiceOf>
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="midori,sprite_choice" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="sprite_and_vodka" Name="Sprite and Vodka" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)"/>
+        <ChoiceOf Key="sprite_choice" Quantity="1" Unit="part">
+          <Ingredient Key="sprite" />
+          <Ingredient Key="7up" />
+        </ChoiceOf>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,sprite_choice" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="midori_sour" Name="Midori Sour" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="midori" Quantity="1" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="midori,sugar_syrup,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="orange_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_buck" Name="Irish Buck" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="4" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,lime_juice" />
+        <Step Type="Pour" Arguments="ginger_ale" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_gold" Name="Irish Gold" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="2" Unit="part" />
+        <Ingredient Key="peach_schnapps" Quantity="0.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="1" Unit="splash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,peach_schnapps,orange_juice" />
+        <Step Type="Pour" Arguments="ginger_ale" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lemon_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="kerry_cooler" Name="Kerry Cooler" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="sherry" Quantity="1.5" Unit="part" />
+        <Ingredient Key="oregat_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="soda" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,sherry,oregat_syrup,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="orange_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="morning_with_the_leprechauns" Name="Morning with the Leprechauns" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_cream" Quantity="1.5" Unit="part" />
+        <Ingredient Key="irish_whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="cherry_brandy" Quantity="0.5" Unit="part" />
+        <Ingredient Key="coffee" Quantity="3" Unit="part" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="irish_cream,irish_whiskey,cherry_brandy,coffee" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_cactus" Name="Irish Cactus" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_cream" Quantity="2" Unit="part" />
+        <Ingredient Key="tequila" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_cream,tequila" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_canadian_sangree" Name="Irish Canadian Sangaree" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_mist" Quantity="0.5" Unit="part" />
+        <Ingredient Key="canadian_whisky" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_mist,canadian_whisky,lemon_juice,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="nutmeg" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_eyes" Name="Irish Eyes" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="dash" />
+        <Ingredient Key="half_half" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,mint_liqueur,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_fix" Name="Irish Fix" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="irish_mist" Quantity="0.5" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,irish_mist,pineapple_juice,lemon_juice,sugar_syrup" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="orange_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="leprechaun" Name="Leprechaun" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="tonic" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,tonic" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lemon_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="nutty_irishman" Name="Nutty Irishman" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="hazelnut_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="half_half" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_cream,hazelnut_liqueur,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_shillelagh" Name="Irish Shillelagh" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="1.5" Unit="part" />
+        <Ingredient Key="sloe_gin" Quantity="0.5" Unit="part" />
+        <ChoiceOf Key="white_rum_choice" Quantity="1" Unit="teaspoon">
+          <Ingredient Key="white_rum" />
+          <Ingredient Key="gold_rum" />
+          <Ingredient Key="dark_rum" />
+        </ChoiceOf>
+        <Ingredient Key="peach_schnapps" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,sloe_gin,white_rum_choice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="black_velvet" Name="Black Velvet" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="stout_beer" Quantity="2" Unit="part" />
+        <Ingredient Key="champagne" Quantity="2" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="stout_beer" />
+        <Step Type="Pour" Arguments="champagne" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_flag" Name="Irish Flag" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="mint_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="0.5" Unit="part" />
+        <Ingredient Key="grand_marnier" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="mint_liqueur" />
+        <Step Type="Pour" Arguments="irish_cream" />
+        <Step Type="Pour" Arguments="grand_marnier" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_carbomb" Name="Irish Car Bomb" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="stout_beer" Quantity="0.75" Unit="pint" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="irish_whiskey" />
+        <Step Type="Pour" Arguments="irish_cream" />
+        <Step Type="Pour" Arguments="stout_beer" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="greentini" Name="Greentini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="midori" Quantity="1.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,midori" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_coffee" Name="Irish Coffee" Glass="Irish Coffee Glass">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="coffee" Quantity="4" Unit="part" />
+
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="irish_whiskey,irish_cream" />
+        <Step Type="Pour" Arguments="coffee" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="whipped_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="after_five" Name="After Five" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="coffee_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="0.5" Unit="part" />
+        <Ingredient Key="peppermint_schnapps" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="coffee_liqueur" />
+        <Step Type="Pour" Arguments="irish_cream" />
+        <Step Type="Pour" Arguments="peppermint_schnapps" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="anaconda" Name="Anaconda" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="white_sambuca" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="whiskey,white_sambuca" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bazooka_joe" Name="Bazooka Joe" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="irish_cream" Quantity="0.5" Unit="part" />
+        <Ingredient Key="blue_curacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="banana_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_cream,blue_curacao,banana_liqueur" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="blow_job" Name="Blow Job" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <ChoiceOf Key="amaretto_choice" Quantity="1" Unit="part">
+          <Ingredient Key="amaretto" />
+          <Ingredient Key="coffee_liqueur" />
+        </ChoiceOf>
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="irish_cream,amaretto_choice" />
+        <Step Type="Garnish" Arguments="whipped_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="buttery_nipple" Name="Buttery Nipple" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="butterscotch_schnapps" Quantity="0.5" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="butterscotch_schnapps" />
+        <Step Type="Pour" Arguments="irish_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="candy_corn" Name="Candy Corn" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="galliano" Quantity="0.5" Unit="part" />
+        <Ingredient Key="orange_curacao" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="galliano" />
+        <Step Type="Pour" Arguments="orange_curacao" />
+        <Step Type="Garnish" Arguments="whipped_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cement_mixer" Name="Cement Mixer" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="irish_cream" />
+        <Step Type="Pour" Arguments="lime_juice" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="fireball" Name="Fireball" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="goldschlager" Quantity="1" Unit="part" />
+        <Ingredient Key="tabasco_sauce" Quantity="1" Unit="dash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,goldschlager,tabasco_sauce" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="fourth_of_july" Name="Fourth of July" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="grenadine" Quantity="0.25" Unit="part" />
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="blue_curacao" Quantity="0.25" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="grenadine" />
+        <Step Type="Pour" Arguments="vodka" />
+        <Step Type="Pour" Arguments="blue_curacao" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="grasshopper" Name="Grasshopper" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="mint_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="half_half" Quantity="0.5" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="mint_liqueur,half_half,white_creme_de_cacao" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mind_eraser" Name="Mind Eraser" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1.5" Unit="part" />
+        <Ingredient Key="coffee_liqueur" Quantity="1.5" Unit="part" />
+        <Ingredient Key="tonic" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,coffee_liqueur,tonic" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="scooby_snack" Name="Scooby Snack" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="coconut_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="banana_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="midori" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="coconut_rum,banana_liqueur,midori,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="whipped_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="nuts_and_berries" Name="Nuts and Berries" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="citrus_vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="hazelnut_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="citrus_vodka,hazelnut_liqueur,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="chocolate_cake" Name="Chocolate Cake" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="hazelnut_liqueur" Quantity="1" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="vodka,hazelnut_liqueur" />
+        <Step Type="Garnish" Arguments="sugar_coated_lemon" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="purple_hooter" Name="Purple Hooter" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="black_raspberry_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,black_raspberry_liqueur,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="red_snapper" Name="Red Snapper" Glass="Shooter">
+      <Ingredients>
+        <ChoiceOf Key="whiskey_choice" Quantity="1" Unit="part">
+          <Ingredient Key="whiskey" />
+          <Ingredient Key="canadian_whisky" />
+        </ChoiceOf>
+        <Ingredient Key="amaretto" Quantity="1" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="whiskey_choice,amaretto,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="red_headed_slut" Name="Red Headed Slut" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="jagermeister" Quantity="1" Unit="part" />
+        <Ingredient Key="peach_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="jagermeister,peach_schnapps,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="tootsie_roll" Name="Tootsie Roll" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="coffee_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="creme_de_cacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="hazelnut_liqueur" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="coffee_liqueur,creme_de_cacao,hazelnut_liqueur" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="washington_apple" Name="Washington Apple" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="canadian_whisky" Quantity="0.5" Unit="part" />
+        <Ingredient Key="apple_schnapps" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="canadian_whisky,apple_schnapps,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="apple_pie" Name="Apple Pie" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="apple_juice" Quantity="1" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="vodka,apple_juice" />
+        <Step Type="Garnish" Arguments="whipped_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="red_royal" Name="Red Royal" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="canadian_whisky" Quantity="1.5" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="canadian_whisky,amaretto" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="three_wise_men" Name="Three Wise Men" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="scotch" Quantity="0.5" Unit="part" />
+        <Ingredient Key="whiskey" Quantity="0.5" Unit="part" />
+        <Ingredient Key="irish_whiskey" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="scotch,whiskey,irish_whiskey" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="liquid_cocaine" Name="Liquid Cocaine" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="jagermeister" Quantity="0.5" Unit="part" />
+        <Ingredient Key="goldschlager" Quantity="0.5" Unit="part" />
+        <Ingredient Key="peppermint_schnapps" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="jagermeister,goldschlager,peppermint_schnapps" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="surfer_on_acid" Name="Surfer on Acid" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="jagermeister" Quantity="0.5" Unit="part" />
+        <ChoiceOf Key="coconut_rum_choice" Quantity="0.5" Unit="part">
+          <Ingredient Key="coconut_rum" />
+          <Ingredient Key="peach_schnapps" />
+        </ChoiceOf>
+        <Ingredient Key="pineapple_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="jagermeister,coconut_rum_choice,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="woo_woo_shot" Name="Woo Woo Shot" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="peach_schnapps" Quantity="0.5" Unit="part" />
+        <Ingredient Key="vodka" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="peach_schnapps,vodka,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="soco_and_lime" Name="Soco and Lime" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="southern_comfort" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="splash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="southern_comfort,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="melon_ball" Name="Melon Ball" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="midori" Quantity="0.5" Unit="part" />
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="midori,vodka,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="flaming_dr_pepper" Name="Flaming Dr. Pepper" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="amaretto" Quantity="1.5" Unit="oz" />
+        <Ingredient Key="overproof_rum" Quantity="0.5" Unit="oz" />
+        <Ingredient Key="beer" Quantity="1" Unit="pint" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="amaretto" />
+        <Step Type="Pour" Arguments="overproof_rum" />
+        <Step Type="Ignite"/>
+        <Step Type="Pour" Arguments="beer" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="tequila_popper" Name="Tequila Popper" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="1" Unit="part" />
+        <ChoiceOf Key="7up_choice" Quantity="1" Unit="part">
+          <Ingredient Key="7up" />
+          <Ingredient Key="sprite" />
+        </ChoiceOf>
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="tequila,7up_choice" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="tequila_slammer" Name="Tequila Slammer" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="1" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="1" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="tequila,ginger_ale" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="zipper" Name="Zipper" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="grand_marnier" Quantity="0.5" Unit="part" />
+        <Ingredient Key="tequila" Quantity="0.5" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="grand_marnier" />
+        <Step Type="Pour" Arguments="tequila" />
+        <Step Type="Pour" Arguments="irish_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="firecracker" Name="Firecracker" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="0.5" Unit="part" />
+        <Ingredient Key="goldschlager" Quantity="0.5" Unit="part" />
+        <Ingredient Key="peppermint_schnapps" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,goldschlager,peppermint_schnapps" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="lemon_drop_shot" Name="Lemon Drop Shot" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1.5" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,triple_sec,lemon_juice,sugar_syrup" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="poinsettia" Name="Poinsettia" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="champagne" Quantity="2" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="champagne,triple_sec,cranberry_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="cranberries" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="rossini" Name="Rossini" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="strawberry" Quantity="1" Unit="(ice)" />
+        <Ingredient Key="champagne" Quantity="4" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Crush" Arguments="strawberry" />
+        <Step Type="Pour" Arguments="strawberry,champagne" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="Strawberries" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="brandy_alexander" Name="Brandy Alexander" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="brandy" Quantity="1" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="1" Unit="part" />
+        <Ingredient Key="half_half" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="brandy,white_creme_de_cacao,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="nutmeg" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="lemon_drop" Name="Lemon Drop" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1.5" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,triple_sec,lemon_juice,sugar_syrup" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mimosa" Name="Mimosa" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="orange_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="champagne" Quantity="3" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="orange_juice,champagne" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="orange_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="the_ghost" Name="The Ghost" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="champagne" Quantity="5" Unit="part" />
+        <Ingredient Key="midori" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="champagne,midori" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="goodnight_kiss" Name="Goodnight Kiss" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="sugar_cube" Quantity="1" Unit="(piece)" />
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="campari" Quantity="1" Unit="part" />
+        <Ingredient Key="champagne" Quantity="4" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="sugar_cube" />
+        <Step Type="Pour" Arguments="angostura,campari" />
+        <Step Type="Pour" Arguments="champagne" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="morning_glory" Name="Morning Glory" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="cointreau" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cherry_brandy" Quantity="0.5" Unit="part" />
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="champagne" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="cointreau,cherry_brandy,angostura" />
+        <Step Type="Pour" Arguments="champagne" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="happy_youth" Name="Happy Youth" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="sugar_cube" Quantity="1" Unit="(piece)" />
+        <Ingredient Key="brandy" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cherry_brandy" Quantity="0.5" Unit="part" />
+        <Ingredient Key="champagne" Quantity="4" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="sugar_cube" />
+        <Step Type="Pour" Arguments="brandy,cherry_brandy" />
+        <Step Type="Pour" Arguments="champagne" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="champagne_julep" Name="Champagne Julep" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="mint_leaves" Quantity="1" Unit="(piece)" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="champagne" Quantity="4" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="mint_leaves" />
+        <Step Type="Pour" Arguments="sugar_syrup,whiskey" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="champagne" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="primavera" Name="Primavera" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="galliano" Quantity="0.5" Unit="part" />
+        <Ingredient Key="campari" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.25" Unit="part" />
+        <Ingredient Key="grapefruit_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="champagne" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="galliano,campari,sugar_syrup,grapefruit_juice,champagne" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="midnight_millionaire" Name="Midnight Millionaire" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="champagne" Quantity="4" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="vodka,champagne" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="raspberry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="diamond_fizz" Name="Diamond Fizz" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="1" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="dash" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="champagne" Quantity="4" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="gin,sugar_syrup,lemon_juice" />
+        <Step Type="Pour" Arguments="champagne" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bellini" Name="Bellini" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="champagne" Quantity="3" Unit="part" />
+        <Ingredient Key="peach_juice" Quantity="2" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="champagne,peach_juice" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="french_75" Name="French 75" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="1" Unit="part" />
+        <Ingredient Key="champagne" Quantity="5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,sugar_syrup,lemon_juice" />
+        <Step Type="Pour" Arguments="champagne" />
+        <Step Type="Garnish" Arguments="lemon_wheel,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="atomic_cat" Name="Atomic Cat" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="orange_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="tonic" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="orange_juice,tonic" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="orange_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="eggnog_martini" Name="Eggnog Martini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="eggnog" Quantity="1" Unit="part" />
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="1" Unit="part" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="eggnog,vodka,amaretto" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="poinsettia" Name="Poinsettia" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="champagne" Quantity="2" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="champagne,triple_sec,cranberry_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="cranberries" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="irish_coffee" Name="Irish Coffee" Glass="Irish Coffee Glass">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="coffee" Quantity="4" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="irish_whiskey,irish_cream" />
+        <Step Type="Pour" Arguments="coffee" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="whipped_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="white_christmas_dream" Name="White Christmas Dream" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="1" Unit="part" />
+        <Ingredient Key="half_half" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,white_creme_de_cacao,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="chocolate_kiss" Name="Chocolate Kiss" Glass="Irish Coffee Glass">
+      <Ingredients>
+        <Ingredient Key="coffee_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="peppermint_schnapps" Quantity="1.5" Unit="part" />
+        <Ingredient Key="hot_chocolate" Quantity="4" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="coffee_liqueur,peppermint_schnapps" />
+        <Step Type="Pour" Arguments="hot_chocolate" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="whipped_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="chocolatini" Name="Chocolatini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="irish_cream" Quantity="1.5" Unit="part" />
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="creme_de_cacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_cream,vodka,creme_de_cacao" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="chocolate" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="ski_lift" Name="Ski Lift" Glass="Irish Coffee Glass">
+      <Ingredients>
+        <Ingredient Key="peach_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="white_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="coconut_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="hot_chocolate" Quantity="4" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="peach_schnapps,white_rum,coconut_liqueur" />
+        <Step Type="Pour" Arguments="hot_chocolate" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="whipped_cream" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="warm_and_toasty" Name="Warm and Toasty" Glass="Irish Coffee Glass">
+      <Ingredients>
+        <Ingredient Key="whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="hot_water" Quantity="4" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="whiskey,lemon_juice,grenadine" />
+        <Step Type="Pour" Arguments="hot_water" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="cinnamon_stick" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="hot_peppermint_patty" Name="Hot Peppermint Patty" Glass="Irish Coffee Glass">
+      <Ingredients>
+        <Ingredient Key="peppermint_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="creme_de_cacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="dash" />
+        <Ingredient Key="hot_chocolate" Quantity="4" Unit="part" />
+
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="peppermint_schnapps,creme_de_cacao,mint_liqueur" />
+        <Step Type="Pour" Arguments="hot_chocolate" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="whipped_cream,chocolate" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="peppermint_stick" Name="Peppermint Stick" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="peppermint_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="1.5" Unit="part" />
+        <Ingredient Key="half_half" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="peppermint_schnapps,white_creme_de_cacao,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="candy_cane" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="crantini" Name="Crantini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cranberries" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="candy_cane_martini" Name="Candy Cane Martini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1.5" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="0.25" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,mint_liqueur" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="white_christmas" Name="White Christmas" Glass="Snifter">
+      <Ingredients>
+        <Ingredient Key="eggnog" Quantity="4" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="southern_comfort" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="eggnog,white_creme_de_cacao,southern_comfort" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="peppermint_patty" Name="Peppermint Patty" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="peppermint_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="1" Unit="part" />
+        <Ingredient Key="half_half" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,peppermint_schnapps,white_creme_de_cacao,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="holiday_almond" Name="Holiday Almond" Glass="Snifter">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="1" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="0.5" Unit="part" />
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="dash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,amaretto,angostura,lime_juice" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="holiday_frapple" Name="Holiday Frapple" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="coffee_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,irish_cream,coffee_liqueur" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="jingle_juice" Name="Jingle Juice" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="1" Unit="dash" />
+        <Ingredient Key="orange_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,triple_sec,lemon_juice,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="grenadine" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="red_rooster" Name="Red Rooster" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,orange_juice,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="stinger" Name="Stinger" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="brandy" Quantity="2" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="brandy,mint_liqueur" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="merry_irishman" Name="Merry Irishman" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="irish_whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="coffee_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="irish_whiskey,coffee_liqueur,mint_liqueur" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="snow_cap" Name="Snow Cap" Glass="Snifter">
+      <Ingredients>
+        <Ingredient Key="half_half" Quantity="3" Unit="part" />
+        <Ingredient Key="whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="1.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="half_half,whiskey,triple_sec,sugar_syrup" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bourbon_ball" Name="Bourbon Ball" Glass="Snifter">
+      <Ingredients>
+        <Ingredient Key="whiskey" Quantity="1.5" Unit="part" />
+        <Ingredient Key="half_half" Quantity="1" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="0.5" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="whiskey,half_half,amaretto,white_creme_de_cacao" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="rudolph_the_red_nosed_reindeer" Name="Rudolph the Red Nosed" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,lemon_juice,grenadine" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="cranberry_juice" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="russian_santa" Name="Russian Santa" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="coffee_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="eggnog" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,coffee_liqueur,eggnog" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="jack_frost_manhattan" Name="Jack Frost Manhattan" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="peppermint_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="sweet_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="whiskey,peppermint_schnapps,sweet_vermouth" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="santas_sleigh" Name="Santa's Sleigh" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="eggnog" Quantity="2" Unit="part" />
+        <Ingredient Key="brandy" Quantity="0.5" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cream" Quantity="2" Unit="scoop" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Garnish" Arguments="chocolate" />
+        <Step Type="Pour" Arguments="eggnog,brandy,amaretto,ice_cream" />
+        <Step Type="Blend" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="black_santa" Name="Black Santa" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="coffee_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="peppermint_schnapps" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,coffee_liqueur,peppermint_schnapps" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mintini" Name="Mintini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="peppermint_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,mint_liqueur,peppermint_schnapps" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="candy_cane" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="holiday_hopper" Name="Holiday Hopper" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="midori" Quantity="1" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="half_half" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="midori,mint_liqueur,white_creme_de_cacao,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="mint_leaves,rasberry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="grinch" Name="Grinch" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="midori" Quantity="2" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="dash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="midori,lemon_juice,sugar_syrup" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry,candy_stick" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="peppermint_kiss" Name="Peppermint Kiss" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="midori" Quantity="1" Unit="part" />
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="peppermint_schnapps" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="midori,vodka,pineapple_juice,lemon_juice,peppermint_schnapps" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="mint_leaves,rasberry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="winter_chill" Name="Winter Chill" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="blue_curacao" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,blue_curacao,lime_juice,triple_sec" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cranberry_kick" Name="Cranberry Kick" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="half" />
+        <Ingredient Key="cranberry_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,lime_juice,cranberry_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lemon_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cosmopolitan" Name="Cosmopolitan" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="cointreau" Quantity="1" Unit="part" />
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="cointreau,vodka,lime_juice,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="batman_cocktail" Name="Batman Cocktail" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="6" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="grenadine,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="orange_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bora_bora" Name="Bora_Bora" Glass="Hurricane">
+      <Ingredients>
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="grenadine,lime_juice,pineapple_juice,ginger_ale" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lime_wheel,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="brontosaurus" Name="Brontosaurus" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="grapefruit_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="soda" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="grenadine,lime_juice,grapefruit_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="orange_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cranberry_cooler" Name="Cranberry Cooler" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="apple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="soda" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="lemon_juice,cranberry_juice,apple_juice,soda" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="pink_lemonade" Name="Pink Lemonade" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1.5" Unit="part" />
+        <Ingredient Key="soda" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="sugar_syrup,grenadine,lemon_juice,soda" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="pomola" Name="Pomola" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="grenadine" Quantity="1" Unit="dash" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="cola" Quantity="5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="grenadine,lime_juice,cola" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="rail_splitter" Name="Rail Splitter" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="sugar_syrup,lemon_juice,ginger_ale" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lemon_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="roy_rogers" Name="Roy Rogers" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="grenadine" Quantity="1" Unit="dash" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="grenadine,lemon_juice,ginger_ale" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lemon_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="st_clemens" Name="St Clemens" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="orange_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1.5" Unit="part" />
+        <Ingredient Key="soda" Quantity="1.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="orange_juice,lemon_juice,soda" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lemon_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="yellowjacket" Name="Yellowjacket" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1.5" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="orange_juice,lemon_juice,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="southern_ginger" Name="Southern Ginger" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="5" Unit="part" />
+        <Ingredient Key="mint_leaves" Quantity="4" Unit="(piece)" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Crush" Arguments="mint_leaves" />
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="sugar_syrup,lemon_juice,ginger_ale,mint_leaves" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="fruit_punch" Name="Fruit Punch" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="soda" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="orange_juice,pineapple_juice,cranberry_juice,soda" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mint_cooler" Name="Mint Cooler" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="grapefruit_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="soda" Quantity="2" Unit="part" />
+        <Ingredient Key="mint_leaves" Quantity="4" Unit="(piece)" />
+        <Ingredient Key="smashed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Crush" Arguments="mint_leaves" />
+        <Step Type="Add" Arguments="smashed_ice" />
+        <Step Type="Pour" Arguments="sugar_syrup,grapefruit_juice,soda" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="toothless_shark" Name="Toothless Shark" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="lime_juice,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="grenadine" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mickey_mouse" Name="Mickey Mouse" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="cola" Quantity="5" Unit="part" />
+        <Ingredient Key="ice_cream" Quantity="1" Unit="scoop" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="cola" />
+        <Step Type="Pour" Arguments="ice_cream" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cuba_libre" Name="Cuba Libre" Glass="Collins">
+      <Ingredients>
+        <ChoiceOf Key="white_rum_choice" Quantity="2" Unit="part">
+          <Ingredient Key="white_rum" />
+          <Ingredient Key="gold_rum" />
+          <Ingredient Key="dark_rum" />
+        </ChoiceOf>
+        <Ingredient Key="lime_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cola" Quantity="5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum_choice,lime_juice" />
+        <Step Type="Pour" Arguments="cola" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="martini" Name="Martini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="dry_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,dry_vermouth" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="olive" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mojito" Name="Mojito" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="soda" Quantity="3" Unit="part" />
+        <Ingredient Key="mint_leaves" Quantity="4" Unit="(piece)" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Crush" Arguments="mint_leaves" />
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,angostura,sugar_syrup,lime_juice,soda,mint_leaves" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="tequila_sunrise" Name="Tequila Sunrise" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="grenadine" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="zombie" Name="Zombie" Glass="Hurricane">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="gold_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="white_rum,angostura,gold_rum,orange_juice,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="orange,pineapple" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="pina_colada" Name="Pina Colada" Glass="Hurricane">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="coconut_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="white_rum,coconut_liqueur,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="pineapple_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="daiquiri" Name="Daiquiri" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="lime_juice" Quantity="0.5" Unit="(piece)" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="white_rum,sugar_syrup,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lime_slice" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="long_island_iced_tea" Name="Long Island Iced Tea" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="0.5" Unit="part" />
+        <ChoiceOf Key="white_rum_choice" Quantity="0.5" Unit="part">
+          <Ingredient Key="white_rum" />
+          <Ingredient Key="gold_rum" />
+          <Ingredient Key="dark_rum" />
+        </ChoiceOf>
+        <Ingredient Key="tequila" Quantity="0.5" Unit="part" />
+        <ChoiceOf Key="triple_sec_choice" Quantity="0.5" Unit="part">
+          <Ingredient Key="triple_sec" />
+          <Ingredient Key="cointreau" />
+        </ChoiceOf>
+        <Ingredient Key="vodka" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="cola" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,white_rum_choice,tequila,triple_sec_choice,vodka,sugar_syrup,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="cola" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="salty_dog" Name="Salty Dog" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="grapefruit_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,lemon_juice,grapefruit_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="salt,lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="hawaiian_vodka" Name="Hawaiian Vodka" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="3" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="orange_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,grenadine,orange_juice,lemon_juice,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lemon_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="blue_hawaiian" Name="Blue Hawaiian" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="coconut_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="blue_curacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="white_rum,coconut_liqueur,blue_curacao,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mai_tai" Name="Mai Tai" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="gold_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="orange_curacao" Quantity="0.5" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="(piece)" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,gold_rum,orange_curacao,grenadine,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="pineapple_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mai_tai_original" Name="Mai Tai Original" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gold_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="(piece)" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gold_rum,amaretto,sugar_syrup,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="pineapple_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mai_tai_light" Name="Mai Tai Light" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="2" Unit="teaspoon" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="(piece)" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,triple_sec,sugar_syrup,grenadine,lime_juice,orange_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="pineapple_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="lime_gin_fizz" Name="Lime Gin Fizz" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="(piece)" />
+        <Ingredient Key="soda" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,lime_juice" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="gin_fizz" Name="Gin Fizz" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="dash" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="soda" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,sugar_syrup,lemon_juice" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="margarita" Name="Margarita" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Garnish" Arguments="salt" />
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,triple_sec,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="black_russian" Name="Black Russian" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="coffee_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,coffee_liqueur" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="chocolate_sticks" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="white_russian" Name="White Russian" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="coffee_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="half_half" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,coffee_liqueur,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="red_russian" Name="Red Russian" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="cherry_brandy" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,cherry_brandy" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="screwdriver" Name="Screwdriver" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="orange_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="harvey_wallbanger" Name="Harvey Wallbanger" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="galliano" Quantity="1" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="galliano" />
+        <Step Type="Garnish" Arugments="orange_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bacardi_cocktail" Name="Bacardi Cocktail" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,sugar_syrup,grenadine,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="white_lady" Name="White Lady" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <ChoiceOf Key="triple_sec_choice" Quantity="1" Unit="part">
+          <Ingredient Key="triple_sec" />
+          <Ingredient Key="cointreau" />
+        </ChoiceOf>
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,triple_sec_choice,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bronx" Name="Bronx" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="dry_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="sweet_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,dry_vermouth,sweet_vermouth,orange_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bronx_dry" Name="Bronx Dry" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="dry_vermouth" Quantity="2" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,dry_vermouth,orange_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="acapulco" Name="Acapulco" Glass="Hurricane">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="tequila" Quantity="1" Unit="part" />
+        <Ingredient Key="coconut_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="grapefruit_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,tequila,coconut_liqueur,pineapple_juice,grapefruit_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="pineapple_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="freddy_fudpucker" Name="Freddy Fudpucker" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="galliano" Quantity="1" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="galliano" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="luigi" Name="Luigi" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="dry_vermouth" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cointreau" Quantity="1" Unit="dash" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,dry_vermouth,cointreau,grenadine,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="orange_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="silver_fizz" Name="Silver Fizz" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="dash" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="soda" Quantity="4" Unit="part" />
+        <Ingredient Key="egg_white" Quantity="1" Unit="(piece)" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="gin,sugar_syrup,lemon_juice,egg_white" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="lemon_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="rum_fizz" Name="Rum Fizz" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="dash" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="soda" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="white_rum,sugar_syrup,lemon_juice" />
+        <Step Type="Shake"/>
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="green_russian" Name="Green Russian" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="0" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,mint_liqueur" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="manhattan" Name="Manhattan" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="sweet_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="angostura,sweet_vermouth,whiskey" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="gin_swizzle" Name="Gin Swizzle" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="0.5" Unit="(piece)" />
+        <Ingredient Key="soda" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,angostura,sugar_syrup,lime_juice" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="blue_arrow" Name="Blue Arrow" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="1" Unit="part" />
+        <Ingredient Key="blue_curacao" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="smashed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="smashed_ice" />
+        <Step Type="Pour" Arguments="gin,triple_sec,blue_curacao,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="gin_daisy" Name="Gin Daisy" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="soda" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+        <Ingredient Key="smashed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="smashed_ice" />
+        <Step Type="Pour" Arguments="gin,grenadine,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="orange_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="planters_punch" Name="Planters Punch" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="gold_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,gold_rum,grenadine,orange_juice,lemon_juice,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="pineapple_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="collins" Name="Collins" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="soda" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Add" Arguments="gin,sugar_syrup,lemon_juice" />
+        <Step Type="Stir" />
+        <Step Type="Add" Arguments="soda" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="gimlet" Name="Gimlet" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="orange_blossom" Name="Orange Blossom" Glass="Sour">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,sugar_syrup,orange_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="orange_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="maidens_prayer" Name="Maidens Prayer" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="cointreau" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,angostura,cointreau,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="flying_dutchman" Name="Flying Dutchman" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,triple_sec" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="new_yorker" Name="New Yorker" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="whiskey" Quantity="3" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="smashed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="smashed_ice" />
+        <Step Type="Pour" Arguments="whiskey,sugar_syrup,grenadine,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mint_julep" Name="Mint Julep" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="whiskey" Quantity="3" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="mint_leaves" Quantity="5" Unit="(piece)" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Crush" Arguments="mint_leaves" />
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="whiskey,sugar_syrup" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="old_fashioned" Name="Old Fashioned" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="angostura" Quantity="2" Unit="dash" />
+        <Ingredient Key="whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="soda" Quantity="1" Unit="dash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Garnish" Arguments="sugar" />
+        <Step Type="Pour" Arguments="angostura,soda" />
+        <Step Type="Stir"/>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="whiskey" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="the_sour" Name="The Sour" Glass="Sour">
+      <Ingredients>
+        <Ingredient Key="whiskey" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="whiskey,sugar_syrup,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="tiger_juice" Name="Tiger Juice" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="whiskey" Quantity="1.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="whiskey,orange_juice,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bloody_mary" Name="Bloody Mary" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="worcester_sauce" Quantity="2" Unit="dash" />
+        <Ingredient Key="tomato_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="dash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+        <Ingredient Key="salt" Quantity="1" Unit="pinch" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,worcester_sauce,tomato_juice,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="celery" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="fifty_fifty" Name="Fifty_Fifty" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="1.5" Unit="part" />
+        <Ingredient Key="dry_vermouth" Quantity="1.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,dry_vermouth" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="olive" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="pink_gin" Name="Pink Gin" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,angostura" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="b52" Name="B52" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="cointreau" Quantity="0.5" Unit="part" />
+        <Ingredient Key="coffee_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="coffee_liqueur" />
+        <Step Type="Pour" Arguments="irish_cream" />
+        <Step Type="Pour" Arguments="cointreau" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="sex_on_the_beach" Name="Sex on the Beach" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="peach_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="1" Unit="dash" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,peach_schnapps,grenadine,orange_juice,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="orange_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="costa_del_sol" Name="Costa del Sol" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="sweet_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="soda" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,sweet_vermouth,sugar_syrup,lemon_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="lemon_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="corkscrew" Name="Corkscrew" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="3" Unit="part" />
+        <Ingredient Key="dry_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="peach_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,dry_vermouth,peach_schnapps" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="pink_rum" Name="Pink Rum" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="soda" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,angostura,cranberry_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="border_crossing" Name="Border Crossing" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cola" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,lime_juice,lemon_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="cola" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="el_dorado" Name="El Dorado" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="3" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+        <Ingredient Key="honey" Quantity="1" Unit="teaspoon" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,lemon_juice,honey" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lemon_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="viva_villa" Name="Viva Villa" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Garnish" Arguments="Sugar" />
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,sugar_syrup,lime_juice,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="havana_beach" Name="Havana Beach" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,sugar_syrup,lime_juice,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="ginger_ale" />
+        <Step Type="Garnish" Arguments="orange_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="grenada" Name="Grenada" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="gold_rum" Quantity="3" Unit="part" />
+        <Ingredient Key="sweet_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gold_rum,sweet_vermouth,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cinnamon" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="ambassador" Name="Ambassador" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="dash" />
+        <Ingredient Key="orange_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,sugar_syrup,orange_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="orange_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="california_dream" Name="California Dream" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="dry_vermouth" Quantity="0.5" Unit="part" />
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="sweet_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="dry_vermouth,tequila,sweet_vermouth" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="icebreaker" Name="Icebreaker" Glass="Sour">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="1" Unit="dash" />
+        <Ingredient Key="grenadine" Quantity="1" Unit="dash" />
+        <Ingredient Key="grapefruit_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="smashed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="smashed_ice" />
+        <Step Type="Pour" Arguments="tequila,triple_sec,grenadine,grapefruit_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="doralto" Name="Doralto" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="tequila" Quantity="1.5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="tonic" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+        <Ingredient Key="smashed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="smashed_ice" />
+        <Step Type="Pour" Arguments="angostura,tequila,sugar_syrup,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="tonic" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="poker_face" Name="Poker Face" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="1.5" Unit="part" />
+        <Ingredient Key="cointreau" Quantity="0.5" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,cointreau,pineapple_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="pineapple_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="mexicano" Name="Mexicano" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="1" Unit="teaspoon" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,grenadine,lemon_juice,pineapple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="kamikaze" Name="Kamikaze" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1.5" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,triple_sec,lime_juice" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="moscow_mule" Name="Moscow Mule" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,lime_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Pour" Arguments="ginger_ale" />
+        <Step Type="Garnish" Arguments="lime_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="purple_passion" Name="Purple Passion" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="grapefruit_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="apple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,sugar_syrup,grapefruit_juice,apple_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="between_the_sheets" Name="Between the Sheets" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="1" Unit="part" />
+        <Ingredient Key="brandy" Quantity="1" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,triple_sec,brandy,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="sea_breeze" Name="Sea Breeze" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="grapefruit_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,grapefruit_juice,cranberry_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="soviet" Name="Soviet" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="dry_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="dry_vermouth,vodka" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="brandy_smash" Name="Brandy Smash" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="brandy" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="mint_leaves" Quantity="4" Unit="(piece)" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Crush" Arguments="mint_leaves" />
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="brandy,sugar_syrup" />
+        <Step Type="Stir" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="florida_sunshine" Name="Florida Sunshine" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="2" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="tequila,orange_juice,pineapple_juice"/>
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="grenadine"/>
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="blue_tequila" Name="Blue Tequila" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="1" Unit="part" />
+        <Ingredient Key="blue_curacao" Quantity="1" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="blue_curacao"/>
+        <Step Type="Pour" Arguments="tequila"/>
+      </Steps>
+    </Drink>
+
+    <Drink Key="b54" Name="B54" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="coffee_liqueur" Quantity="0.5" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="0.5" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="coffee_liqueur"/>
+        <Step Type="Pour" Arguments="irish_cream"/>
+        <Step Type="Pour" Arguments="amaretto"/>
+      </Steps>
+    </Drink>
+
+    <Drink Key="tbt" Name="TBT" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="tequila" Quantity="1" Unit="part" />
+        <Ingredient Key="triple_sec" Quantity="0.5" Unit="part" />
+        <Ingredient Key="banana_liqueur" Quantity="0.5" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="tequila"/>
+        <Step Type="Pour" Arguments="banana_liqueur"/>
+        <Step Type="Pour" Arguments="triple_sec"/>
+      </Steps>
+    </Drink>
+
+    <Drink Key="bloody_brain" Name="Bloody Brain" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="irish_cream" Quantity="0.5" Unit="part" />
+        <Ingredient Key="peach_schnapps" Quantity="1" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="5" Unit="drop" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="peach_schnapps"/>
+        <Step Type="Pour" Arguments="irish_cream"/>
+        <Step Type="Pour" Arguments="grenadine"/>
+      </Steps>
+    </Drink>
+
+    <Drink Key="peppermint_cream" Name="Peppermint Cream" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Pour" Arguments="mint_liqueur"/>
+        <Step Type="Pour" Arguments="irish_cream"/>
+        <Step Type="Garnish" Arguments="whipped_cream"/>
+      </Steps>
+    </Drink>
+
+    <Drink Key="brandy_cuban" Name="Brandy Cuban" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="brandy" Quantity="2" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="cola" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="brandy,lime_juice"/>
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="cola"/>
+        <Step Type="Garnish" Arguments="lime_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="brandy_perfect" Name="Brandy Perfect" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="dry_vermouth" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sweet_vermouth" Quantity="0.5" Unit="part" />
+        <Ingredient Key="brandy" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="dry_vermouth,sweet_vermouth,brandy" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="burnt_orange" Name="Burnt Orange" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="angostura" Quantity="0.5" Unit="dash" />
+        <Ingredient Key="brandy" Quantity="2" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="angostura,brandy,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="orange_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="charles_cocktail" Name="Charles Cocktail" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="angostura" Quantity="0.5" Unit="part" />
+        <Ingredient Key="sweet_vermouth" Quantity="0.5" Unit="part" />
+        <Ingredient Key="brandy" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="angostura,sweet_vermouth,brandy" />
+        <Step Type="Stir" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="city_slicker" Name="City Slicker" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="triple_sec" Quantity="0.5" Unit="part" />
+        <Ingredient Key="brandy" Quantity="2" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="triple_sec,brandy,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="champagne_cocktail" Name="Champagne Cocktail" Glass="Champagne">
+      <Ingredients>
+        <Ingredient Key="angostura" Quantity="2" Unit="dash" />
+        <Ingredient Key="brandy" Quantity="0.5" Unit="part" />
+        <Ingredient Key="champagne" Quantity="3" Unit="part" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Garnish" Arguments="sugar_cube" />
+        <Step Type="Pour" Arguments="angostura,brandy" />
+        <Step Type="Pour" Arguments="champagne" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="french_75" Name="French 75" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="1" Unit="part" />
+        <Ingredient Key="champagne" Quantity="5" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,sugar_syrup,lemon_juice" />
+        <Step Type="Pour" Arguments="champagne" />
+        <Step Type="Garnish" Arguments="lemon_wheel,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="night_and_day" Name="Night and Day" Glass="Sour">
+      <Ingredients>
+        <Ingredient Key="angostura" Quantity="1" Unit="dash" />
+        <Ingredient Key="cointreau" Quantity="0.5" Unit="part" />
+        <Ingredient Key="brandy" Quantity="0.75" Unit="part" />
+        <Ingredient Key="champagne" Quantity="3" Unit="part" />
+        <Ingredient Key="crushed_ice" Quantity="0.5" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="angostura,cointreau,brandy" />
+        <Step Type="Pour" Arguments="champagne" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="st_kitts" Name="St Kitts" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="dry_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="brandy" Quantity="3" Unit="part" />
+        <Ingredient Key="grapefruit_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="dry_vermouth,brandy,grapefruit_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cosmopolitan" Name="Cosmopolitan" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="cointreau" Quantity="1" Unit="part" />
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="cointreau,vodka,lime_juice,cranberry_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lemon_spiral" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="chocolate_martini" Name="Chocolate Martini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="white_creme_de_cacao" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Garnish" Arguments="chocolate" />
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,white_creme_de_cacao" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="strawberry_martini" Name="Strawberry Martini" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="grenadine" Quantity="0.5" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="0.5" Unit="part" />
+        <Ingredient Key="strawberry" Quantity="3" Unit="(piece)" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="vodka,grenadine,lime_juice,strawberry" />
+        <Step Type="Blend" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="screaming_orgasm" Name="Screaming Orgasm" Glass="Sour">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="1" Unit="part" />
+        <Ingredient Key="half_half" Quantity="2" Unit="part" />
+        <Ingredient Key="smashed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="smashed_ice" />
+        <Step Type="Pour" Arguments="vodka,irish_cream,amaretto,half_half" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cranberry_kick" Name="Cranberry Kick" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="half" />
+        <Ingredient Key="cranberry_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,lime_juice,cranberry_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lemon_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="amaretto_sour" Name="Amaretto Sour" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="amaretto" Quantity="2" Unit="part" />
+        <Ingredient Key="lemon_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="amaretto,lemon_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="alabama_slammer" Name="Alabama Slammer" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="1" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="1" Unit="part" />
+        <Ingredient Key="southern_comfort" Quantity="1" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,amaretto,southern_comfort,orange_juice" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="missisippi_mule" Name="Missisippi Mule" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="angostura" Quantity="3" Unit="dash" />
+        <Ingredient Key="southern_comfort" Quantity="2" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="angostura,southern_comfort,lime_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="ginger_ale" />
+        <Step Type="Garnish" Arguments="lime_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="southern_nectar" Name="Southern Nectar" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="southern_comfort" Quantity="2" Unit="part" />
+        <Ingredient Key="apple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="southern_comfort,apple_juice,cranberry_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="americano" Name="Americano" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="campari" Quantity="2" Unit="part" />
+        <Ingredient Key="sweet_vermouth" Quantity="2" Unit="part" />
+        <Ingredient Key="soda" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="campari,sweet_vermouth" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="orange_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="negroni" Name="Negroni" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="1" Unit="part" />
+        <Ingredient Key="sweet_vermouth" Quantity="1" Unit="part" />
+        <Ingredient Key="campari" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,sweet_vermouth,campari" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="orange_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="brass_monkey" Name="Brass Monkey" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="1.5" Unit="part" />
+        <Ingredient Key="vodka" Quantity="1.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="white_rum,vodka,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="cape_codder" Name="Cape Codder" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,cranberry_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="orgasm" Name="Orgasm" Glass="Shooter">
+      <Ingredients>
+        <Ingredient Key="amaretto" Quantity="1" Unit="part" />
+        <Ingredient Key="coffee_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="irish_cream" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="amaretto,coffee_liqueur,irish_cream" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="woo_woo" Name="Woo Woo" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="peach_schnapps" Quantity="0.5" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,peach_schnapps" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="orange_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bay_breeze" Name="Bay Breeze" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1.5" Unit="part" />
+        <Ingredient Key="cranberry_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="pineapple_juice" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,cranberry_juice,pineapple_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="orange_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="bocce_ball" Name="Bocce Ball" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="1" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="1.5" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="3" Unit="part" />
+        <Ingredient Key="soda" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,amaretto,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="pineapple_wedge,cocktail_cherry" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="dark_and_stormy" Name="Dark and Stormy" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="gold_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="ginger_ale" Quantity="2" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gold_rum,ginger_ale" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lime_wedge" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="fuzzy_navel" Name="Fuzzy Navel" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="peach_schnapps" Quantity="2" Unit="part" />
+        <Ingredient Key="orange_juice" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="peach_schnapps,orange_juice" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="orange_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="gin_tonic" Name="Gin and Tonic" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="1" Unit="part" />
+        <Ingredient Key="tonic" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,tonic" />
+        <Step Type="Stir" />
+        <Step Type="Garnish" Arguments="lemon_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="gin_rickey" Name="Gin Rickey" Glass="Collins">
+      <Ingredients>
+        <Ingredient Key="gin" Quantity="2" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="soda" Quantity="4" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="gin,lime_juice" />
+        <Step Type="Stir" />
+        <Step Type="Pour" Arguments="soda" />
+        <Step Type="Garnish" Arguments="lime_wheel" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="godfather" Name="Godfather" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="scotch" Quantity="2" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="scotch,amaretto" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="godmother" Name="Godmother" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="amaretto" Quantity="0.5" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,amaretto" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="vodka_stinger" Name="Vodka Stinger" Glass="Old Fashioned">
+      <Ingredients>
+        <Ingredient Key="vodka" Quantity="2" Unit="part" />
+        <Ingredient Key="mint_liqueur" Quantity="1" Unit="part" />
+        <Ingredient Key="ice_cubes" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="ice_cubes" />
+        <Step Type="Pour" Arguments="vodka,mint_liqueur" />
+        <Step Type="Shake" />
+        <Step Type="Strain" />
+      </Steps>
+    </Drink>
+
+    <Drink Key="strawberry_daiquiri" Name="Strawberry Daiquiri" Glass="Cocktail">
+      <Ingredients>
+        <Ingredient Key="white_rum" Quantity="2" Unit="part" />
+        <Ingredient Key="sugar_syrup" Quantity="1" Unit="part" />
+        <Ingredient Key="lime_juice" Quantity="1" Unit="part" />
+        <Ingredient Key="crushed_ice" Quantity="1" Unit="(ice)" />
+      </Ingredients>
+      <Steps>
+        <Step Type="Add" Arguments="crushed_ice" />
+        <Step Type="Pour" Arguments="sugar_syrup,lime_juice" />
+        <Step Type="Blend" />
+        <Step Type="Strain" />
+        <Step Type="Garnish" Arguments="strawberry" />
+      </Steps>
+    </Drink>
+  </Cocktails>
+
+  <Ingredients>
+    <Ingredient Key="vodka" CabinetShelf="Spirits" Name="vodka"/>
+    <Ingredient Key="blackcurrant_liqueur" CabinetShelf="Liqueurs" Name="blackcurrant liqueur"/>
+    <Ingredient Key="pineapple_juice" CabinetShelf="Mixers" Name="pineapple juice"/>
+    <Ingredient Key="ice_cubes" CabinetShelf="None" Name="ice cubes"/>
+    <Ingredient Key="black_raspberry_liqueur" CabinetShelf="Liqueurs" Name="black raspberry liqueur"/>
+    <Ingredient Key="champagne" CabinetShelf="Spirits" Name="sparkling wine or Champagne"/>
+    <Ingredient Key="triple_sec" CabinetShelf="Liqueurs" Name="triple sec"/>
+    <Ingredient Key="mint_liqueur" CabinetShelf="Liqueurs" Name="mint liqueur"/>
+    <Ingredient Key="irish_cream" CabinetShelf="Liqueurs" Name="Irish cream"/>
+    <Ingredient Key="cranberry_juice" CabinetShelf="Mixers" Name="cranberry juice"/>
+    <Ingredient Key="grapefruit_juice" CabinetShelf="Mixers" Name="grapefruit juice"/>
+    <Ingredient Key="tequila" CabinetShelf="Spirits" Name="tequila"/>
+    <Ingredient Key="white_creme_de_cacao" CabinetShelf="Liqueurs" Name="white Creme De Cacao"/>
+    <Ingredient Key="half_half" CabinetShelf="Mixers" Name="half and half"/>
+    <Ingredient Key="coffee_liqueur" CabinetShelf="Liqueurs" Name="coffee liqueur"/>
+    <Ingredient Key="creme_de_cacao" CabinetShelf="Liqueurs" Name="Creme de Cacao"/>
+    <Ingredient Key="milk" CabinetShelf="Mixers" Name="milk"/>
+    <Ingredient Key="soda" CabinetShelf="Mixers" Name="soda water"/>
+    <Ingredient Key="gin" CabinetShelf="Spirits" Name="gin"/>
+    <Ingredient Key="lemon_juice" CabinetShelf="Mixers" Name="lemon juice"/>
+    <Ingredient Key="brandy" CabinetShelf="Spirits" Name="brandy"/>
+    <Ingredient Key="sprite" CabinetShelf="Mixers" Name="Sprite"/>
+    <Ingredient Key="white_rum" CabinetShelf="Spirits" Name="white rum"/>
+    <Ingredient Key="amaretto" CabinetShelf="Liqueurs" Name="Amaretto"/>
+    <Ingredient Key="cherry_brandy" CabinetShelf="Spirits" Name="cherry brandy"/>
+    <Ingredient Key="grenadine" CabinetShelf="Mixers" Name="grenadine"/>
+    <Ingredient Key="ginger_ale" CabinetShelf="Mixers" Name="ginger ale"/>
+    <Ingredient Key="blue_curacao" CabinetShelf="Liqueurs" Name="Blue Curacao"/>
+    <Ingredient Key="sugar_syrup" CabinetShelf="Mixers" Name="sugar syrup"/>
+    <Ingredient Key="coconut_rum" CabinetShelf="Spirits" Name="coconut rum"/>
+    <Ingredient Key="strawberry_liqueur" CabinetShelf="Liqueurs" Name="strawberry liqueur"/>
+    <Ingredient Key="lime_juice" CabinetShelf="Mixers" Name="lime juice"/>
+    <Ingredient Key="mint_leaves" CabinetShelf="Mixers" Name="mint leaves"/>
+    <Ingredient Key="peach_schnapps" CabinetShelf="Spirits" Name="peach schnapps"/>
+    <Ingredient Key="midori" CabinetShelf="Liqueurs" Name="Midori"/>
+    <Ingredient Key="orange_juice" CabinetShelf="Mixers" Name="orange juice"/>
+    <Ingredient Key="coconut_liqueur" CabinetShelf="Liqueurs" Name="coconut liqueur"/>
+    <Ingredient Key="dark_rum" CabinetShelf="Spirits" Name="dark rum"/>
+    <Ingredient Key="cointreau" CabinetShelf="Liqueurs" Name="Cointreau"/>
+    <Ingredient Key="crushed_ice" CabinetShelf="None" Name="crushed ice"/>
+    <Ingredient Key="smashed_ice" CabinetShelf="None" Name="crushed ice"/>
+    <Ingredient Key="angostura" CabinetShelf="Spirits" Name="Angostura"/>
+    <Ingredient Key="irish_whiskey" CabinetShelf="Spirits" Name="Irish whiskey"/>
+    <Ingredient Key="chartreuse" CabinetShelf="Liqueurs" Name="Chartreuse"/>
+    <Ingredient Key="coffee" CabinetShelf="Mixers" Name="coffee"/>
+    <Ingredient Key="orange_curacao" CabinetShelf="Liqueurs" Name="Orange Curacao"/>
+    <Ingredient Key="sherry" CabinetShelf="Spirits" Name="Sherry"/>
+    <Ingredient Key="sweet_vermouth" CabinetShelf="Spirits" Name="sweet vermouth"/>
+    <Ingredient Key="irish_mist" CabinetShelf="Liqueurs" Name="Irish Mist"/>
+    <Ingredient Key="whipped_cream" CabinetShelf="None" Name="whipped cream"/>
+    <Ingredient Key="dry_vermouth" CabinetShelf="Spirits" Name="dry vermouth"/>
+    <Ingredient Key="citrus_vodka" CabinetShelf="Spirits" Name="Citrus vodka"/>
+    <Ingredient Key="oregat_syrup" CabinetShelf="Mixers" Name="Orgeat syrup"/>
+    <Ingredient Key="canadian_whisky" CabinetShelf="Spirits" Name="Canadian whiskey"/>
+    <Ingredient Key="tonic" CabinetShelf="Mixers" Name="tonic"/>
+    <Ingredient Key="hazelnut_liqueur" CabinetShelf="Liqueurs" Name="Hazelnut liqueur"/>
+    <Ingredient Key="sloe_gin" CabinetShelf="Liqueurs" Name="Sloe gin"/>
+    <Ingredient Key="gold_rum" CabinetShelf="Spirits" Name="gold rum"/>
+    <Ingredient Key="stout_beer" CabinetShelf="Spirits" Name="Stout beer"/>
+    <Ingredient Key="grand_marnier" CabinetShelf="Liqueurs" Name="Grand Marnier"/>
+    <Ingredient Key="peppermint_schnapps" CabinetShelf="Spirits" Name="peppermint schnapps"/>
+    <Ingredient Key="whiskey" CabinetShelf="Spirits" Name="Bourbon whiskey"/>
+    <Ingredient Key="white_sambuca" CabinetShelf="Liqueurs" Name="Sambuca"/>
+    <Ingredient Key="banana_liqueur" CabinetShelf="Liqueurs" Name="banana liqueur"/>
+    <Ingredient Key="butterscotch_schnapps" CabinetShelf="Spirits" Name="Butterscotch schnapps"/>
+    <Ingredient Key="galliano" CabinetShelf="Liqueurs" Name="Galliano"/>
+    <Ingredient Key="cream" CabinetShelf="Mixers" Name="cream"/>
+    <Ingredient Key="goldschlager" CabinetShelf="Spirits" Name="Goldschlager"/>
+    <Ingredient Key="tabasco_sauce" CabinetShelf="Mixers" Name="Tabasco sauce"/>
+    <Ingredient Key="jagermeister" CabinetShelf="Liqueurs" Name="Jagermeister"/>
+    <Ingredient Key="southern_comfort" CabinetShelf="Spirits" Name="Southern Comfort"/>
+    <Ingredient Key="7up" CabinetShelf="Mixers" Name="7 Up"/>
+    <Ingredient Key="beer" CabinetShelf="Liqueurs" Name="Beer"/>
+    <Ingredient Key="energy_drink" CabinetShelf="Mixers" Name="energy drink"/>
+    <Ingredient Key="apple_schnapps" CabinetShelf="Spirits" Name="Apple schnapps"/>
+    <Ingredient Key="apple_juice" CabinetShelf="Mixers" Name="apple juice"/>
+    <Ingredient Key="scotch" CabinetShelf="Spirits" Name="Scotch whisky"/>
+    <Ingredient Key="overproof_rum" CabinetShelf="Spirits" Name="Overproof Rum"/>
+    <Ingredient Key="strawberry" CabinetShelf="Mixers" Name="strawberry"/>
+    <Ingredient Key="sugar_cube" CabinetShelf="None" Name="sugar cube"/>
+    <Ingredient Key="campari" CabinetShelf="Spirits" Name="Campari"/>
+    <Ingredient Key="peach_juice" CabinetShelf="Mixers" Name="peach juice"/>
+    <Ingredient Key="eggnog" CabinetShelf="Mixers" Name="eggnog"/>
+    <Ingredient Key="hot_chocolate" CabinetShelf="Mixers" Name="hot chocolate"/>
+    <Ingredient Key="hot_water" CabinetShelf="None" Name="hot water"/>
+    <Ingredient Key="ice_cream" CabinetShelf="Mixers" Name="ice cream"/>
+    <Ingredient Key="cola" CabinetShelf="Mixers" Name="cola"/>
+    <Ingredient Key="salt" CabinetShelf="None" Name="salt"/>
+    <Ingredient Key="egg_white" CabinetShelf="None" Name="egg white"/>
+    <Ingredient Key="sugar" CabinetShelf="None" Name="sugar"/>
+    <Ingredient Key="worcester_sauce" CabinetShelf="Mixers" Name="Worcester sauce"/>
+    <Ingredient Key="tomato_juice" CabinetShelf="Mixers" Name="tomato juice"/>
+    <Ingredient Key="honey" CabinetShelf="None" Name="honey"/>
+    <Ingredient Key="orange" CabinetShelf="None" Name="orange"/>
+  </Ingredients>
+  <Glasses>
+    <Glass Name="Champagne" Volume="200" />
+    <Glass Name="Cocktail" Volume="250" />
+    <Glass Name="Old Fashioned" Volume="250" />
+    <Glass Name="Collins" Volume="400" />
+    <Glass Name="Hurricane" Volume="300" />
+    <Glass Name="Sour" Volume="120" />
+    <Glass Name="Shooter" Volume="25" />
+    <Glass Name="Irish Coffee Glass" Volume="177" />
+    <Glass Name="Snifter" Volume="350" />
+  </Glasses>
+</DrinkRecipes>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<General>
+		<City>Austin</City>
+		<State>TX</State>
+		<ZipCode>78759</ZipCode>
+	</General>
+	<SQLServer>
+		<Username>mcginnda</Username>
+		<ServerName>s0t86unpe0</ServerName>
+		<FullServerName>s0t86unpe0.database.windows.net</FullServerName>
+		<Password>GGDEeG4n</Password>
+		<Port>1433</Port>
+		<BlobConnectionString>DefaultEndpointsProtocol=https;AccountName=samiupdate;AccountKey=mtgPy5yGOwuGzOGse8Mq7z7AgG8hmY0NZK9L27LMSmbqaU/LaEO+KOVlVHxyu9B9kvmTozDZIpDuKA/1wFeARQ==</BlobConnectionString>
+	</SQLServer>
+	<Redis>
+		<ServerName>samibackend.cloudapp.net</ServerName>
+		<PortNumber>6379</PortNumber>
+		<Password>GGDEeG4nibt7u91K</Password>
+	</Redis>
+	<Movies>
+		<APIKey>cecfaxd766sq2wdufccptn5h</APIKey>
+	</Movies>
+	<Weather>
+		<APIKey>29e42753ce072cec</APIKey>
+	</Weather>
+	<Spotify>
+		<Username>mcginnda</Username>
+		<Password>Lzo425ip</Password>
+		<APIKey>01,2C,09,B7,24,90,7E,8D,81,1E,9C,8F,18,8B,95,48,A9,01,D9,A3,B6,71,30,4D,1F,39,4F,9C,32,98,39,03,3B,1F,83,B6,9D,0C,AF,A9,2B,AC,DA,28,50,0E,30,F3,C1,AD,C4,F5,6D,AC,81,D1,46,26,7F,6A,B9,98,44,E0,8E,F9,41,A9,FC,B9,43,05,B2,24,2C,99,69,FF,16,E2,D8,F0,6A,D2,B5,58,0B,C5,2E,D6,6B,F6,74,EA,92,D6,D0,ED,C5,E2,E1,99,9F,FE,AF,C2,B3,AB,10,E6,D5,68,C3,38,85,EC,5F,A2,44,5F,B4,1B,D6,9B,C2,25,9F,66,2C,0C,8D,9F,8D,22,5C,D3,A5,AE,35,D5,2A,5A,9F,EF,C4,EC,98,BF,F7,E2,A6,D1,6C,AD,59,E1,5A,C8,9C,25,19,EE,28,2E,91,C4,3A,68,70,42,60,50,9A,5C,8F,68,C5,AF,E2,CA,4A,BE,77,93,45,BD,77,FF,6A,42,A2,26,BA,BF,1A,61,50,AB,F1,E2,AD,E4,AE,FD,C9,F3,47,B1,A2,A9,41,33,A6,4A,16,3A,66,0D,35,F4,3F,A4,AA,19,20,A5,C5,41,A7,E1,D2,45,F7,BD,98,C0,FF,4D,44,95,6D,41,10,DA,99,2E,32,F6,92,1A,93,83,9B,90,B3,48,6C,EB,54,AA,E7,63,B9,90,ED,60,FD,36,E5,2E,AD,75,63,F2,1A,CB,86,89,58,F0,71,90,27,7E,5C,3F,7D,05,E9,E7,70,AD,9B,61,B2,41,9C,A0,F7,99,63,FF,B1,02,90,60,01,D2,84,CF,C9,58,CE,43,D3,5D,06,F3,08,FD,D6</APIKey>
+	</Spotify>
+	<Bartender>
+		<AvailableIngredients>
+			<Ingredient>
+				<Key>vodka</Key>
+			</Ingredient>
+			<Ingredient>
+				<Key>cranberry-juice</Key>
+			</Ingredient>
+		</AvailableIngredients>
+	</Bartender>
+	<Podcasts>
+		<Podcast>
+			<Name>Tech News Today</Name>
+			<URL>http://feeds.twit.tv/tnt.xml</URL>
+			<IsOldestFirst>False</IsOldestFirst>
+		</Podcast>
+	</Podcasts>
+</Configuration>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="adjustmentCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="adjustmentCommand" scope="public">
+    <one-of>
+      <item>
+        <tag>out.direction="up";</tag>
+        <tag>out.Command="volume";</tag>
+        <tag>out.levelNum="5";</tag>
+        <one-of>
+          <item>louder</item>
+          <item>more</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.direction="down";</tag>
+        <tag>out.Command="volume";</tag>
+        <tag>out.levelNum="5";</tag>
+        <one-of>
+          <item>softer</item>
+          <item>quieter</item>
+          <item>less</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.levelNum="-1";</tag>
+        <tag>out.Command="volume";</tag>
+        <one-of>
+          <item>perfect</item>
+          <item>good</item>
+          <item>fine</item>
+          <item>yes</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

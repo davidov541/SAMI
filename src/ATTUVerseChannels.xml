@@ -1,0 +1,42 @@
+<Channels>
+      <Channel Name="Fox" Number="1002" />
+      <Channel Name="A B C" Number="1003" />
+      <Channel Name="N B C" Number="1004" />
+      <Channel Name="C B S" Number="1005" />
+      <Channel Name="C W" Number="1012" />
+      <Channel Name="T N T" Number="1108" />
+      <Channel Name="T N T West" Number="1109" />
+      <Channel Name="T B S" Number="1112" />
+      <Channel Name="T B S West" Number="1113" />
+      <Channel Name="Discovery" Number="1120" />
+      <Channel Name="U S A" Number="1124" />
+      <Channel Name="F X" Number="1129" />
+      <Channel Name="F X X" Number="1128" />
+      <Channel Name="Comedy Central" Number="1140" />
+      <Channel Name="True TV" Number="1164" />
+      <Channel Name="A B C Family" Number="1178" />
+      <Channel Name="W G N" Number="1180" />
+      <Channel Name="C N N" Number="1202" />
+      <Channel Name="Travel" Number="1254" />
+      <Channel Name="History" Number="1256" />
+      <Channel Name="Science" Number="1258" />
+      <Channel Name="Disney" Number="1302" />
+      <Channel Name="Disney XD" Number="1304" />
+      <Channel Name="Nickelodeon" Number="1314" />
+      <Channel Name="Nick" Number="1314" />
+      <Channel Name="Cartoon Network" Number="1325" />
+      <Channel Name="Cartoon Network West" Number="1326" />
+      <Channel Name="Hub" Number="1335" />
+      <Channel Name="Food Network" Number="1452" />
+      <Channel Name="E S P N" Number="1602" />
+      <Channel Name="E S P N U" Number="1605" />
+      <Channel Name="E S P N 2" Number="1606" />
+      <Channel Name="M L B" Number="1634" />
+      <Channel Name="The M L B Network" Number="1634" />
+      <Channel Name="N F L" Number="1630" />
+      <Channel Name="C B S Sports" Number="1643" />
+      <Channel Name="N B C Sports" Number="1640" />
+      <Channel Name="Fox Sports 1" Number="1652" />
+      <Channel Name="Fox Sports 2" Number="1651" />
+      <Channel Name="W G N" Number="1180" />
+</Channels>

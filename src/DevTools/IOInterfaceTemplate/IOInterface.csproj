@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<ProductVersion>8.0.30703</ProductVersion>
+		<SchemaVersion>2.0</SchemaVersion>
+		<ProjectGuid>$guid1$</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<AppDesignerFolder>Properties</AppDesignerFolder>
+		<RootNamespace>$safeprojectname$</RootNamespace>
+		<AssemblyName>$safeprojectname$</AssemblyName>
+		<TargetFrameworkVersion>v$targetframeworkversion$</TargetFrameworkVersion>
+		<FileAlignment>512</FileAlignment>
+	</PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - Kinect|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\SAMI\SAMIApplication.exe</StartProgram>
+    <StartArguments>-PluginDirectory . -ConfigurationFile KinectConfiguration.xml</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - Console|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\SAMI\ShellApplication.exe</StartProgram>
+    <StartArguments>-PluginDirectory . -ConfigurationFile ConsoleConfiguration.xml</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+ 		<Optimize>true</Optimize>
+		<OutputPath>bin\Release\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+		<ErrorReport>prompt</ErrorReport>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+	<ItemGroup>
+    <Reference Include="SAMI, Culture=neutral, PublicKeyToken=420fb2bd514a370d, processorArchitecture=MSIL" />
+		<Reference Include="System"/>
+    $if$ ($targetframeworkversion$ >= 3.5)
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core"/>
+		<Reference Include="System.Xml.Linq"/>
+		<Reference Include="System.Data.DataSetExtensions"/>
+		$endif$
+		$if$ ($targetframeworkversion$ >= 4.0)
+		<Reference Include="Microsoft.CSharp"/>
+ 		$endif$
+		<Reference Include="System.Data"/>
+		<Reference Include="System.Xml"/>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="IOInterface.cs" />
+
+		<Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="ConsoleConfiguration.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="KinectConfiguration.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	</ItemGroup>
+	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+
+ </Project>

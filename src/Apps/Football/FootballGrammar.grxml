@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="FootballCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="FootballCommand" scope="public">
+    <tag>out.Command="Football";</tag>
+    <one-of>
+      <item>
+        <tag>out.Team="";</tag>
+        <tag>out.Parameter="Score";</tag>
+        <item>
+          How are the
+        </item>
+        <item>
+          <ruleref uri="#FootballTeams" />
+          <tag>out.Team=rules.latest();</tag>
+        </item>
+        <item>
+          doing
+        </item>
+      </item>
+
+      <item>
+        <tag>out.Team="";</tag>
+        <tag>out.Parameter="Score";</tag>
+        <item>
+          What's the score of the
+        </item>
+        <item>
+          <ruleref uri="#FootballTeams" />
+          <tag>out.Team=rules.latest();</tag>
+        </item>
+        <item>
+          game
+        </item>
+      </item>
+
+    </one-of>
+  </rule>
+</grammar>

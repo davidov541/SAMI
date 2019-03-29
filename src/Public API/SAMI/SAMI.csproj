@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9ED5F5ED-29AC-47E4-B78B-B22E51C9F2DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAMI</RootNamespace>
+    <AssemblyName>SAMI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Components\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Components\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>SAMI.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\bin\Components\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>..\..\bin\Components\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Moq">
+      <HintPath>..\..\packages\Moq.4.2.1409.1722\lib\net40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=1.7.1.17, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\NAudio.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OpenZWaveDotNet, Version=1.0.5461.29350, Culture=neutral, PublicKeyToken=efc406d8ae2d597a, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\ZWave\OpenZWaveDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App Framework\IApp.cs" />
+    <Compile Include="App Framework\DateTimeRange.cs" />
+    <Compile Include="App Framework\InformationalConversation.cs" />
+    <Compile Include="App Framework\Location.cs" />
+    <Compile Include="App Framework\IOInterfaceReference.cs" />
+    <Compile Include="App Framework\SamiDateTime.cs" />
+    <Compile Include="Configuration Manager\IInternalConfigurationManager.cs" />
+    <Compile Include="IOInterface Framework\IIOInterface.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Audio\StreamingAudioIOInterface.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Audio\FileAudioIOInterface.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Audio\IMediaFilePlayer.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Audio\Int32WaveProvider.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Baseball\BaseballGame.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Baseball\BaseballStandings.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Baseball\BaseballStandingsWithWildcard.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Baseball\BaseballTeam.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Baseball\BaseballTeamStanding.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Light Switch\IDimmableLightSwitchController.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Power\IPowerController.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Sports\GameState.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Database\IDatabaseManager.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Football\FootballGame.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Football\FootballTeam.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Football\FootballTeamScore.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Football\IFootballSensor.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Light Switch\SwitchType.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Remote\IDVRRemote.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Sports\SportsTeam.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\Dialog.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Bartender\IBartenderController.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Baseball\BaseballTeamScore.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\ITextOutputController.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\SpeechOutputAddedEventArgs.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\VoiceActivatedApp.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\ComManager.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\IXBee.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\XBee.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\XbeeAtCmdResponse.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\XbeeAtQueryCmd.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\XbeeAtSetCmd.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\XbeeRxData.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\XbeeSerialRxPacket.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\XbeeSerialTxPacket.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\XbeeTxData.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\XbeeTxDataResponse.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Weather\DailyForecast.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Weather\WeatherCondition.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\IZWaveController.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\IZWaveManager.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\ControllerStateChangedEventArgs.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\IZWaveNode.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\IZWaveOptions.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\IZWavePairingMonitor.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\NotificationEventArgs.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\ZWaveController.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\ZWaveManager.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\ZWaveNode.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\ZWave\ZWaveOptions.cs" />
+    <Compile Include="Persistence Framework\IParseable.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Light Switch\ILightSwitchController.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Remote\ITVRemote.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\IOutputController.cs" />
+    <Compile Include="Configuration Manager\ConfigurationManager.cs" />
+    <Compile Include="Configuration Manager\IConfigurationManager.cs" />
+    <Compile Include="Persistence Framework\IParseableMetadata.cs" />
+    <Compile Include="Persistence Framework\ParseableElementType.cs" />
+    <Compile Include="Error\ErrorConversation.cs" />
+    <Compile Include="Error\ErrorManager.cs" />
+    <Compile Include="Error\IErrorManager.cs" />
+    <Compile Include="Error\SAMIUserException.cs" />
+    <Compile Include="Logging\LogCategory.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\IVoiceSensor.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Remote\IVolumeController.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\RecognizedNewPhraseEventArgs.cs" />
+    <Compile Include="Persistence Framework\ParseableElementAttribute.cs" />
+    <Compile Include="Persistence Framework\PersistentProperty.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Audio\PlayerState.cs" />
+    <Compile Include="App Framework\AsyncAlertEventArgs.cs" />
+    <Compile Include="App Framework\AppCollection.cs" />
+    <Compile Include="App Framework\Conversation.cs" />
+    <Compile Include="App Framework\BaseSAMIApp.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\GrammarProvider.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\GrammarProviderCollection.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\GrammarUtility.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\XMLGrammar.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Audio\IAudioProvider.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Baseball\IBaseballSensor.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Movie\IMovieSensor.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Audio\IMusicController.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Weather\IWeatherSensor.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Movie\Showtime.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\XBee\XBeeInterface.cs" />
+    <Compile Include="IOInterface Framework\Interfaces\Voice\VoiceActivatedAppGeneric.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DateTimeGrammar.grxml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UtilityGrammar.grxml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SAMI.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>echo d | xcopy /Y /S "$(SolutionDir)Libraries/ZWave/Source/config" "$(TargetDir)ZWave"
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,33 @@
+1.3.48 (December 3, 2014)
+-------------------------
+Moving to new versioning format of form 1.<YearNum>.<WeekNum>.
+Adding .NET 4.5 installer to installer
+All apps now have messages if they are invalid
+Drinks app now dispenses liquid based on size of glass, which is configurable and noted to the user
+Fixing bug with parsing time early in the morning
+Nested SAMIInclude tags now work correctly
+Removing unused ConfigurationMode property from ConfigurationManager
+
+
+1.3 (November 21, 2014)
+-------------------------
+Adding licensing to installer
+Adding new SAMI logo to installer and executables
+If grammars include numeric values, they are formatted to human readable so they work
+Movie app is generalized to work anywhere
+Removing duplicates from movie app grammar
+
+1.2 (November 9, 2014)
+------------------------
+More phrases for the weather app, per user feedback
+Podcast playing app is now included with installation
+The media player IO interface can now play MP3 files both remotely and locally
+
+1.1 (October 31, 2014)
+------------------------
+Improved user warnings when drivers are not installed properly.
+ConfigurationManager is now passed in, instead of requiring to call a function to get a singleton.
+
+1.0 (October 19, 2014)
+------------------------
+Initial release of developer preview version of SAMI.

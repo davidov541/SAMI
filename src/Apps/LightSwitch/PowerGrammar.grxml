@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="lightSwitchCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="lightSwitchCommand" scope="public">
+    <tag>out.Command="power"</tag>
+    <one-of>
+      <item>
+        <one-of>
+          <item>
+            <item>turn on the</item>
+            <ruleref uri="#SwitchName"/>
+          </item>
+          <item>
+            <item>turn the</item>
+            <ruleref uri="#SwitchName"/>
+            <item>on</item>
+          </item>
+        </one-of>
+        <tag>out.Direction="on"</tag>
+        <tag>out.SwitchName=rules.latest().toString()</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>
+            <item>turn off the</item>
+            <ruleref uri="#SwitchName"/>
+          </item>
+          <item>
+            <item>turn the</item>
+            <ruleref uri="#SwitchName"/>
+            <item>off</item>
+          </item>
+        </one-of>
+        <tag>out.Direction="off"</tag>
+        <tag>out.SwitchName=rules.latest().toString()</tag>
+      </item>
+    </one-of>
+  </rule>
+
+</grammar>

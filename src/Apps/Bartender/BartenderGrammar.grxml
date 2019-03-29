@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="bartenderCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="bartenderCommand" scope="public">
+    <tag>out.Command="Bartender";</tag>
+    <one-of>
+      <item>
+        <item>
+          <one-of>
+            <item>Make me a </item>
+            <item>Give me a </item>
+          </one-of>
+        </item>
+        <item>
+          <ruleref uri="#DrinkName" />
+          <tag>out.DrinkName=rules.latest();</tag>
+        </item>
+      </item>
+      <item>
+        <tag>out.Subcommand="cleanPumps";</tag>
+        Clean out the pumps
+      </item>
+      <item>
+        <tag>out.Subcommand="drinkList";</tag>
+        What drinks can you make
+      </item>
+      <item>
+        <tag>out.Subcommand="ingredientList";</tag>
+        <item>
+          <one-of>
+            <item>What is in a </item>
+          </one-of>
+        </item>
+        <item>
+          <ruleref uri="#DrinkName" />
+          <tag>out.DrinkName=rules.latest();</tag>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

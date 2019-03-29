@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>SAMI Audio File-Based IO Interface</Name>
+    <Description>reates an IO Interface for the Smart Apartment Management Interface (SAMI) which plays audio from a file to a speaker.</Description>
+    <Icon>AudioFileInterfaceTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>07342afd-b9b1-4a35-b443-a1c0cd5c9d3f</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>AudioFileInterface</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="AudioFileInterface.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">AudioFileInterface.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">ConsoleConfiguration.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true">KinectConfiguration.xml</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

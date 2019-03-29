@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="SAMITools..a92fe402-4dd3-45ee-93f4-88ddf17e0b90" Version="1.4.3" Language="en-US" Publisher="SAMI" />
+    <DisplayName>SAMI Tools</DisplayName>
+    <Description xml:space="preserve">Development tools to help engineers develop apps and IO interfaces for the Smart Apartment Management Interface (SAMI).</Description>
+    <MoreInfo>http://www.sourceforge.net/p/samiautomation</MoreInfo>
+    <License>License.rtf</License>
+    <Icon>SAMILogoSmall.ico</Icon>
+    <PreviewImage>SAMILogoSmall.ico</PreviewImage>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0,)" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.VSLS" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.VSWinDesktopExpress" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="AppTemplate" d:TargetPath="|AppTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="XBeeInterfaceTemplate" d:TargetPath="|XBeeInterfaceTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="StreamingAudioInterfaceTemplate" d:TargetPath="|StreamingAudioInterfaceTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="AudioFileInterfaceTemplate" d:TargetPath="|AudioFileInterfaceTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="IOInterfaceTemplate" d:TargetPath="|IOInterfaceTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+  </Assets>
+</PackageManifest>

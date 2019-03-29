@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<General>
+		<City>Austin</City>
+		<State>TX</State>
+		<ZipCode>78759</ZipCode>
+		<CurrentVersion>0.1.0.0</CurrentVersion>
+		<XBeeCOM>COM4</XBeeCOM>
+		<ZWaveCOM>COM5</ZWaveCOM>
+	</General>
+	<Apps>
+		<Alarm />
+		<Baseball />
+		<Drinks />
+		<Current />
+		<Echo />
+		<Jokes />
+		<Movies />
+		<Music />
+		<PodcastApp />
+		<Power />
+		<Remote />
+		<Volume />
+		<Weather />
+		<Football />
+	</Apps>
+	<IOInterfaces>
+		<MLBScores />
+		<VoiceOutput />
+		<KinectTwo />
+		<MediaPlayer />
+		<NFLScores />
+	</IOInterfaces>
+</Configuration>
+
+
+
+
+
+

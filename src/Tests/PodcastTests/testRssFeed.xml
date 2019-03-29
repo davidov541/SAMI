@@ -1,0 +1,1342 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" version="2.0">
+<channel><title>Tech News Today (MP3)</title>
+<link>http://twit.tv/tnt</link>
+<generator>TWiT Feed Generator v2.3</generator>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<language>en-US</language>
+<copyright>
+This work is licensed under a Creative Commons License - Attribution-NonCommercial-ShareAlike - http://creativecommons.org/licenses/by-nc-sa/3.0/
+</copyright>
+<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/3.0/</creativeCommons:license>
+<managingEditor>leo@twit.tv (Leo Laporte)</managingEditor>
+<webMaster>leo@twit.tv (Leo Laporte)</webMaster>
+<ttl>120</ttl>
+<sy:updatePeriod>hourly</sy:updatePeriod>
+<sy:updateFrequency>12</sy:updateFrequency>
+<lastBuildDate>Wed, 5 Nov 2014 11:37:41 -0800</lastBuildDate>
+<pubDate>Wed, 5 Nov 2014 11:37:41 -0800</pubDate>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<image>
+<title>Tech News Today (MP3)</title>
+<url>http://feeds.twit.tv/coverart/tnt144audio.jpg</url>
+<link>http://twit.tv/tnt</link>
+<width>144</width>
+<height>144</height>
+</image>
+<atom:link href="http://feeds.twit.tv/tnt.xml" type="application/rss+xml" rel="self"/>
+<itunes:author>TWiT</itunes:author>
+<itunes:subtitle>Tech News Today with Mike Elgan delivers the top tech news in 30 minutes or less live each weekday.</itunes:subtitle>
+<itunes:summary>
+Tech News Today with Mike Elgan delivers the top tech news in 30 minutes or less live each weekday at 10:00am Pacific, 1:00pm Eastern.
+
+Give us your news and views at 260-TNT-SHOW or tnt@twit.tv, or watch recorded shows on our website at http://twit.tv/tnt
+</itunes:summary>
+<description>
+Tech News Today with Mike Elgan delivers the top tech news in 30 minutes or less live each weekday at 10:00am Pacific, 1:00pm Eastern.
+
+Give us your news and views at 260-TNT-SHOW or tnt@twit.tv, or watch recorded shows on our website at http://twit.tv/tnt
+</description>
+<itunes:keywords>
+Mike Elgan, Tech News, Technology News, TNT, Leo Laporte, TWiT
+</itunes:keywords>
+<itunes:explicit>no</itunes:explicit>
+<itunes:owner>
+<itunes:name>Leo Laporte</itunes:name>
+<itunes:email>leo@twit.tv</itunes:email>
+</itunes:owner>
+<itunes:block>no</itunes:block>
+<itunes:image href="http://feeds.twit.tv/coverart/tnt1400audio.jpg" />
+<itunes:category text="Technology">
+<itunes:category text="Tech News"/>
+</itunes:category>
+<itunes:category text="News &amp; Politics"/>
+<itunes:category text="Business">
+<itunes:category text="Business News"/>
+</itunes:category>
+<item>
+<title>TNT 1129: Beam Me Up Onyx</title>
+<pubDate>Wed, 5 Nov 2014 11:22:30 -0800</pubDate>
+<comments>http://twit.tv/tnt/1129</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Host:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a></p>
+ 
+<p>Samsung to hit the reset button on the Galaxy S6 with "Project Zero," government requests up 24% since 2013 for Facebook, OnBeep's Onyx wearable lets you talk with friends similarly to the 'Star Trek' communicator, Apple Watch rumored to come out February 14th, Spotify royalty payments are greater than iTunes in some markets, Google Wallet usage boosted after Apple Pay launch, CNN caught using Microsoft Surface to hide iPads, and more. </p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/jeffjohnroberts">Jeff John Roberts</a> and <a href="https://twitter.com/jordannovet">Jordan Novet</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=848732764&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1129">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 22:35</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1129/tnt1129.mp3</guid>
+<itunes:subtitle>Government requests for Facebook data is up 24% since 2013.</itunes:subtitle>
+<itunes:summary>
+Host: Mike Elgan
+ 
+Samsung to hit the reset button on the Galaxy S6 with "Project Zero," government requests up 24% since 2013 for Facebook, OnBeep's Onyx wearable lets you talk with friends similarly to the 'Star Trek' communicator, Apple Watch rumored to come out February 14th, Spotify royalty payments are greater than iTunes in some markets, Google Wallet usage boosted after Apple Pay launch, CNN caught using Microsoft Surface to hide iPads, and more. 
+ 
+Guests: Jeff John Roberts and Jordan Novet
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 22:35
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:22:35</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1129/tnt1129.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1129/tnt1129.mp3" length="11077194" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1129/tnt1129.mp3" fileSize="11077194" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Mike Elgan</media:credit>
+<media:credit role="director">Anthony Nielsen</media:credit>
+<media:credit role="editor">Anthony Nielsen</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1128: Silver Linings for Google Cloud</title>
+<pubDate>Tue, 4 Nov 2014 12:05:49 -0800</pubDate>
+<comments>http://twit.tv/tnt/1128</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a> and <a href="https://twitter.com/joepanettieri">Joe Panettieri</a></p>
+ 
+<p>GCHQ chief accuses US tech giants of helping terrorists, banks launch cyber-threat platform Soltra Edge, Microsoft and Dropbox announce a partnership to integrate Dropbox into Office, HP is teases PC gamers with a new laptop launch called Omen, Amazon announces unlimited photo backups for Prime customers, Google makes seven big cloud announcements, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/danackerman">Dan Ackerman</a>, <a href="https://twitter.com/Huangplan">Daniel Huang</a>, and <a href="https://twitter.com/tomwarren">Tom Warren</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=564456784&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1128">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 41:39</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1128/tnt1128.mp3</guid>
+<itunes:subtitle>Britain's spy chief says US tech firms are helping terrorists.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan and Joe Panettieri
+ 
+GCHQ chief accuses US tech giants of helping terrorists, banks launch cyber-threat platform Soltra Edge, Microsoft and Dropbox announce a partnership to integrate Dropbox into Office, HP is teases PC gamers with a new laptop launch called Omen, Amazon announces unlimited photo backups for Prime customers, Google makes seven big cloud announcements, and more.
+ 
+Guests: Dan Ackerman, Daniel Huang, and Tom Warren
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 41:39
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:41:39</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1128/tnt1128.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1128/tnt1128.mp3" length="20226948" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1128/tnt1128.mp3" fileSize="20226948" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="actor">Joe Panettieri</media:credit>
+<media:credit role="producer">Mike Elgan</media:credit>
+<media:credit role="director">Anthony Nielsen</media:credit>
+<media:credit role="editor">Anthony Nielsen</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1127: Apple Watch Running Late</title>
+<pubDate>Mon, 3 Nov 2014 11:26:33 -0800</pubDate>
+<comments>http://twit.tv/tnt/1127</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Host:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a></p>
+ 
+<p>Apple University program to expand into China, Google working on a project called 'Copresence,' new Gmail 5.0 for Android leaked, CNET launches a print magazine, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/markgurman">Mark Gurman</a> and <a href="https://twitter.com/KevinCTofel">Kevin Tofel</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=1205368383&single=truee">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1127">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 18:18</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1127/tnt1127.mp3</guid>
+<itunes:subtitle>New Gmail 5.0 for Android leaked, Apple University program to expand into China, and more.</itunes:subtitle>
+<itunes:summary>
+Host: Mike Elgan
+ 
+Apple University program to expand into China, Google working on a project called 'Copresence,' new Gmail 5.0 for Android leaked, CNET launches a print magazine, and more.
+ 
+Guests: Mark Gurman and Kevin Tofel
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 18:18
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:18:18</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1127/tnt1127.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1127/tnt1127.mp3" length="9022507" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1127/tnt1127.mp3" fileSize="9022507" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Mike Elgan</media:credit>
+<media:credit role="director">Anthony Nielsen</media:credit>
+<media:credit role="editor">Anthony Nielsen</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1126: Silicon Valley Wants to Hack Your Food</title>
+<pubDate>Fri, 31 Oct 2014 12:41:34 -0700</pubDate>
+<comments>http://twit.tv/tnt/1126</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a> and <a href="https://twitter.com/film_girl">Christina Warren</p>
+<p></a></p>
+ 
+<p>FCC Chairman Tom Wheeler is trying the solve Net Neutrality with a solution that everyone will hate, your smartphone passcode is protected but not your fingerprint, Samsung has new all metal phones, and find out why Silicon Valley is hacking food. </p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/jdolcourt">Jessica Dolcourt</a>, and <a href="https://twitter.com/tim">Tim Bradshaw</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1KvXxc0l_j7G3Veego6tNNrdYl4Jurc_OhlSNboe7aWM/pubhtml?gid=2015947491&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1126">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 37:49</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1126/tnt1126.mp3</guid>
+<itunes:subtitle>FCC Net Neutrality, Passcode vs Fingerprint, and Hacking Food. </itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan and Christina Warren
+
+ 
+FCC Chairman Tom Wheeler is trying the solve Net Neutrality with a solution that everyone will hate, your smartphone passcode is protected but not your fingerprint, Samsung has new all metal phones, and find out why Silicon Valley is hacking food. 
+ 
+Guests: Jessica Dolcourt, and Tim Bradshaw.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 37:49
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:37:49</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1126/tnt1126.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1126/tnt1126.mp3" length="18388972" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1126/tnt1126.mp3" fileSize="18388972" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Mike Elgan</media:credit>
+<media:credit role="director">Bryan Burnett</media:credit>
+<media:credit role="editor">Bryan Burnett</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1125: Cook Out</title>
+<pubDate>Thu, 30 Oct 2014 11:17:27 -0700</pubDate>
+<comments>http://twit.tv/tnt/1125</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a> and <a href="https://twitter.com/elisewho">Elise Hu</a></p>
+ 
+<p>Smartphone leader Samsung reports another miserable quarter, Microsoft comes out with its hotly anticipated fitness band, Flipboard comes out with a new topic-centered approach to content, Apple CEO Tim Cook comes out as gay, and more. </p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/FierceWireless">Phil Goldstein</a>, <a href="https://twitter.com/sharatibken">Shara Tibken</a>, <a href="https://twitter.com/lisafleisher">Lisa Fleisher</a>, and <a href="https://twitter.com/harrymccracken">Harry McCracken</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/a/twit.tv/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=1326344800&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1125">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 25:30</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1125/tnt1125.mp3</guid>
+<itunes:subtitle>Samsung reports miserable quarter, Microsoft announces fitness band, Tim Cook comes out, and more.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan and Elise Hu
+ 
+Smartphone leader Samsung reports another miserable quarter, Microsoft comes out with its hotly anticipated fitness band, Flipboard comes out with a new topic-centered approach to content, Apple CEO Tim Cook comes out as gay, and more. 
+ 
+Guests: Phil Goldstein, Shara Tibken, Lisa Fleisher, and Harry McCracken
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 25:30
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:25:30</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1125/tnt1125.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1125/tnt1125.mp3" length="12478193" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1125/tnt1125.mp3" fileSize="12478193" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="actor">Elise Hu</media:credit>
+<media:credit role="producer">Mike Elgan</media:credit>
+<media:credit role="director">Anthony Nielsen</media:credit>
+<media:credit role="editor">Anthony Nielsen</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1124: I Want My FCC TV</title>
+<pubDate>Wed, 29 Oct 2014 11:55:19 -0700</pubDate>
+<comments>http://twit.tv/tnt/1124</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a> and <a href="https://twitter.com/sethr">Seth Rosenblatt</a></p>
+ 
+<p>CurrentC gets hacked, the FCC proposes new rules that would bring cable TV to the Internet in a big way, British intelligence services reportedly can get bulk communications data from the NSA and other US agencies without a warrant, Verizon's wireless subsidiary is funding a tech site called SugarString, Twitch updates its rules of conduct to ban "sexually aggressive clothing," and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/jmhattem">Julian Hattem</a>, <a href="https://twitter.com/alexbarinka">Alex Barinka</a>, <a href="https://twitter.com/superglaze">David Meyer</a>, <a href="https://twitter.com/jbrodkin">Jon Brodkin</a>, and <a href="https://twitter.com/JessConditt">Jessica Conditt</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=46177541&single=truee">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1124">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 36:02</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1124/tnt1124.mp3</guid>
+<itunes:subtitle>FCC wants to bring cable TV to the Internet, UK gets NSA data without warrant, and more.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan and Seth Rosenblatt
+ 
+CurrentC gets hacked, the FCC proposes new rules that would bring cable TV to the Internet in a big way, British intelligence services reportedly can get bulk communications data from the NSA and other US agencies without a warrant, Verizon's wireless subsidiary is funding a tech site called SugarString, Twitch updates its rules of conduct to ban "sexually aggressive clothing," and more.
+ 
+Guests: Julian Hattem, Alex Barinka, David Meyer, Jon Brodkin, and Jessica Conditt
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 36:02
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:36:02</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1124/tnt1124.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1124/tnt1124.mp3" length="17533410" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1124/tnt1124.mp3" fileSize="17533410" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Mike Elgan</media:credit>
+<media:credit role="director">Anthony Nielsen</media:credit>
+<media:credit role="editor">Anthony Nielsen</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1123: Forecast for Microsoft and EMC: Cloudy!</title>
+<pubDate>Tue, 28 Oct 2014 12:20:18 -0700</pubDate>
+<comments>http://twit.tv/tnt/1123</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a> and <a href="https://twitter.com/joepanettieri">Joe Panettieri</a></p>
+ 
+<p>T-Mobile and Twitter announced earnings yesterday. Both companies exceeded expectations for user growth, but Wall Street is unimpressed. Plus, EMC and Microsoft offer powerful new enterprise cloud goodies, and wait until you hear about the new Motorola Droid.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/marinalopes331">Marina Lopes</a> and <a href="https://twitter.com/sohear">Steve O'Hear</a></p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=857102389&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1123">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 36:01</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1123/tnt1123.mp3</guid>
+<itunes:subtitle>T-Mobile and Twitter announces earnings, EMC acquires 3 companies, and Droid Turbo revealed.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan and Joe Panettieri
+ 
+T-Mobile and Twitter announced earnings yesterday. Both companies exceeded expectations for user growth, but Wall Street is unimpressed. Plus, EMC and Microsoft offer powerful new enterprise cloud goodies, and wait until you hear about the new Motorola Droid.
+ 
+Guests: Marina Lopes and Steve O'Hear
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 36:01
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:36:01</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1123/tnt1123.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1123/tnt1123.mp3" length="17525469" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1123/tnt1123.mp3" fileSize="17525469" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Joe Panettieri</media:credit>
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Mike Elgan</media:credit>
+<media:credit role="director">Anthony Nielsen</media:credit>
+<media:credit role="editor">Anthony Nielsen</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1122: Retailers Say No Way to Apple Pay</title>
+<pubDate>Mon, 27 Oct 2014 11:52:46 -0700</pubDate>
+<comments>http://twit.tv/tnt/1122</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a>, <a href="http://twitter.com/lturrentine">Lindsey Turrentine</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>CurrentC is backed by a consortium of retailers as an alternative to Apple Pay, Fitbit announces three new wearables, Amazon unveils its Fire TV Stick as well as crowdsourced publishing via Kindle Scout, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/reneritchieimore.com">Rene Ritchie</a>, <a href="https://twitter.com/jetscott">Scott Stein</a> and <a href="https://twitter.com/brusselsgeek">Jennifer Baker</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=1721337165&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1122">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 39:49</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1122/tnt1122.mp3</guid>
+<itunes:subtitle>Apple Pay launched a week ago, and now a group of retailers are fighting it with their own solution</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan, Lindsey Turrentine and Jason Howell.
+ 
+CurrentC is backed by a consortium of retailers as an alternative to Apple Pay, Fitbit announces three new wearables, Amazon unveils its Fire TV Stick as well as crowdsourced publishing via Kindle Scout, and more.
+ 
+Guests: Rene Ritchie, Scott Stein and Jennifer Baker.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 39:49
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:39:49</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1122/tnt1122.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1122/tnt1122.mp3" length="19343382" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1122/tnt1122.mp3" fileSize="19343382" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="actor">Lindsey Turrentine</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1121: Get a Room, Facebook</title>
+<pubDate>Fri, 24 Oct 2014 11:29:47 -0700</pubDate>
+<comments>http://twit.tv/tnt/1121</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/sarahlane">Sarah Lane</a>, <a href="http://twitter.com/strngwys">Roberto Baldwin</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>Amazon Fire Phone costs Amazon $170 million, a closer look at GamerGate, Facebook launches Rooms, Shuddle is the uber of rides for children, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/chelseabot">Chelsea Stark</a>, <a href="https://twitter.com/alex">Alex Wilhelm</a> and <a href="https://twitter.com/lizgannes">Liz Gannes</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=635136985&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1121">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 41:37</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1121/tnt1121.mp3</guid>
+<itunes:subtitle>Facebook launches a new standalone app called Rooms that enables anonymous discussion.</itunes:subtitle>
+<itunes:summary>
+Hosts: Sarah Lane, Roberto Baldwin and Jason Howell.
+ 
+Amazon Fire Phone costs Amazon $170 million, a closer look at GamerGate, Facebook launches Rooms, Shuddle is the uber of rides for children, and more.
+ 
+Guests: Chelsea Stark, Alex Wilhelm and Liz Gannes.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 41:37
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:41:37</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1121/tnt1121.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1121/tnt1121.mp3" length="20208976" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1121/tnt1121.mp3" fileSize="20208976" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Sarah Lane</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1120: Ello Says Hello to Money</title>
+<pubDate>Thu, 23 Oct 2014 12:05:33 -0700</pubDate>
+<comments>http://twit.tv/tnt/1120</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/sarahlane">Sarah Lane</a>, <a href="http://twitter.com/elisewho">Elise Hu</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>Xiaomi migrating user data to servers outside of China, Zuckerberg speaks in Chinese at Tsinghua University, Ello raises $5.5 Million, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/michael_kan">Michael Kan</a> and <a href="https://twitter.com/eslivka">Eric Slivka</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=1910348859&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1120">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 43:53</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1120/tnt1120.mp3</guid>
+<itunes:subtitle>Facebook alternative Ello raised $5.5 million in new venture funding.</itunes:subtitle>
+<itunes:summary>
+Hosts: Sarah Lane, Elise Hu and Jason Howell.
+ 
+Xiaomi migrating user data to servers outside of China, Zuckerberg speaks in Chinese at Tsinghua University, Ello raises $5.5 Million, and more.
+ 
+Guests: Michael Kan and Eric Slivka.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 43:53
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:43:53</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1120/tnt1120.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1120/tnt1120.mp3" length="21299640" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1120/tnt1120.mp3" fileSize="21299640" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Elise Hu</media:credit>
+<media:credit role="actor">Sarah Lane</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1119: Mr. Cook Goes to China</title>
+<pubDate>Wed, 22 Oct 2014 12:01:23 -0700</pubDate>
+<comments>http://twit.tv/tnt/1119</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/leolaporte">Leo Laporte</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>Yahoo posts strong earnings, Apple and GT part ways amicably, iPad Air 2 is impressive if not revolutionary, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/philiped">Philip Elmer-DeWitt</a>, <a href="https://twitter.com/reckless">Nilay Patel</a> and <a href="https://twitter.com/eslivka">Eric Slivka</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=1244352428&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1119">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 28:35</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1119/tnt1119.mp3</guid>
+<itunes:subtitle>Tim Cook visits with Chinese official after claims that China is harvesting iCloud logins.</itunes:subtitle>
+<itunes:summary>
+Hosts: Leo Laporte and Jason Howell.
+ 
+Yahoo posts strong earnings, Apple and GT part ways amicably, iPad Air 2 is impressive if not revolutionary, and more.
+ 
+Guests: Philip Elmer-DeWitt, Nilay Patel and Eric Slivka.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 28:35
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:28:35</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1119/tnt1119.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1119/tnt1119.mp3" length="13958814" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1119/tnt1119.mp3" fileSize="13958814" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Leo Laporte</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1118: Samsung Knox on NSA's Door</title>
+<pubDate>Tue, 21 Oct 2014 11:42:12 -0700</pubDate>
+<comments>http://twit.tv/tnt/1118</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/leolaporte">Leo Laporte</a>, <a href="https://twitter.com/joepanettieri">Joe Panettieri</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>Samsung gains NSA approval for certain devices, Apple's record quarter, App store submissions soon to have a 64-bit requirement, Nielsen joins forces with Adobe for a rating system that covers online digital content, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/ldignan">Larry Dignan</a> and <a href="https://twitter.com/xpangler">Todd Spangler</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=855055564&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1118">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 35:26</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1118/tnt1118.mp3</guid>
+<itunes:subtitle>Samsung announced that its Knox security platform received NSA approval for use by US Government. </itunes:subtitle>
+<itunes:summary>
+Hosts: Leo Laporte, Joe Panettieri and Jason Howell.
+ 
+Samsung gains NSA approval for certain devices, Apple's record quarter, App store submissions soon to have a 64-bit requirement, Nielsen joins forces with Adobe for a rating system that covers online digital content, and more.
+ 
+Guests: Larry Dignan and Todd Spangler.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 35:26
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:35:26</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1118/tnt1118.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1118/tnt1118.mp3" length="17240838" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1118/tnt1118.mp3" fileSize="17240838" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Joe Panettieri</media:credit>
+<media:credit role="actor">Leo Laporte</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1117: China in the Middle</title>
+<pubDate>Mon, 20 Oct 2014 11:31:45 -0700</pubDate>
+<comments>http://twit.tv/tnt/1117</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/leolaporte">Leo Laporte</a>, <a href="https://twitter.com/lturrentine">Lindsey Turrentine</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>iOS 8.1 begins its rollout along with the launch of Apple Pay, IBM announces its earnings for Q3 2014, Chinese government might be intercepting Apple iCloud connections from China, Whisper responds to privacy allegations, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/sharatibken">Shara Tibken</a>, <a href="https://twitter.com/russellbrandom">Russell Brandom</a> and <a href="https://twitter.com/jank0">Janko Roetggers</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml#">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1117">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 38:48</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1117/tnt1117.mp3</guid>
+<itunes:subtitle>Reports claim that the Chinese government is intercepting connections to Apple's iCloud from China.</itunes:subtitle>
+<itunes:summary>
+Hosts: Leo Laporte, Lindsey Turrentine and Jason Howell.
+ 
+iOS 8.1 begins its rollout along with the launch of Apple Pay, IBM announces its earnings for Q3 2014, Chinese government might be intercepting Apple iCloud connections from China, Whisper responds to privacy allegations, and more.
+ 
+Guests: Shara Tibken, Russell Brandom and Janko Roetggers.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 38:48
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:38:48</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1117/tnt1117.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1117/tnt1117.mp3" length="18856669" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1117/tnt1117.mp3" fileSize="18856669" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Leo Laporte</media:credit>
+<media:credit role="actor">Lindsey Turrentine</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1116: Careless Whisper</title>
+<pubDate>Fri, 17 Oct 2014 11:55:20 -0700</pubDate>
+<comments>http://twit.tv/tnt/1116</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a>, <a href="https://twitter.com/christinawarren">Christina Warren</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>Apple's new range of iPads and iMacs, Apple SIM slipped under the radar during the announcement, Guardian reports that anonymous messaging app Whisper has been storing all information since 2012, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/futureboy">Chris Taylor</a> and <a href="https://twitter.com/karissabe">Karissa Bell</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/a/twit.tv/spreadsheets/d/1djK6AtYzrt6lSLMT4xUqJwYvbjs8Wi6wAZJkj1sp_JA/pubhtml?gid=98682585&single=true">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1116">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 44:38</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1116/tnt1116.mp3</guid>
+<itunes:subtitle>A Guardian report yesterday slammed the anonymous messaging app Whisper for tracking users.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan, Christina Warren and Jason Howell.
+ 
+Apple's new range of iPads and iMacs, Apple SIM slipped under the radar during the announcement, Guardian reports that anonymous messaging app Whisper has been storing all information since 2012, and more.
+ 
+Guests: Chris Taylor and Karissa Bell.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 44:38
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:44:38</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1116/tnt1116.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1116/tnt1116.mp3" length="21658667" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1116/tnt1116.mp3" fileSize="21658667" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1115: Google's Wireless Fiber</title>
+<pubDate>Thu, 16 Oct 2014 10:11:32 -0700</pubDate>
+<comments>http://twit.tv/tnt/1115</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a>, <a href="https://twitter.com/elisewho">Elise Hu</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>Google's wireless high speed technology that could provide fiber-like speeds, CBS announced a new online VOD subscription service, Facebook's new service tells friends you are ok in the event of an emergency, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/lexnfx">Alexei Oreskovic</a> and <a href="https://twitter.com/kurtwagner8">Kurt Wagner</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/a/twit.tv/spreadsheet/pub?key=0AnfwL2-_1Rv3dHFhVFdSdGMtTUpZS0ktWEpLVXdXQlE&gid=135">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1115">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 17:05</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1115/tnt1115.mp3</guid>
+<itunes:subtitle>Google's wireless high speed technology that could provide fiber-like speeds.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan, Elise Hu and Jason Howell.
+ 
+Google's wireless high speed technology that could provide fiber-like speeds, CBS announced a new online VOD subscription service, Facebook's new service tells friends you are ok in the event of an emergency, and more.
+ 
+Guests: Alexei Oreskovic and Kurt Wagner.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 17:05
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:17:05</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1115/tnt1115.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1115/tnt1115.mp3" length="8436110" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1115/tnt1115.mp3" fileSize="8436110" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="actor">Elise Hu</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1114: Poodle in the Middle</title>
+<pubDate>Wed, 15 Oct 2014 11:49:04 -0700</pubDate>
+<comments>http://twit.tv/tnt/1114</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>Google unveils Lollipop and a few new Nexus devices, a new bug in SSL 3.0 called Poodle, the drama between Apple and GT Advanced Technologies continues, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/dennisf">Dennis Fisher</a> and <a href="https://twitter.com/fiercewireless">Phil Goldstein</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/a/twit.tv/spreadsheet/pub?key=0AnfwL2-_1Rv3dHFhVFdSdGMtTUpZS0ktWEpLVXdXQlE&gid=134">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1114">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 24:42</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1114/tnt1114.mp3</guid>
+<itunes:subtitle>Google researchers have discovered a bug in SSL 3.0 enables hackers to hijack secure cookies.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan and Jason Howell.
+ 
+Google unveils Lollipop and a few new Nexus devices, a new bug in SSL 3.0 called Poodle, the drama between Apple and GT Advanced Technologies continues, and more.
+ 
+Guests: Dennis Fisher and Phil Goldstein.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 24:42
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:24:42</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1114/tnt1114.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1114/tnt1114.mp3" length="12087611" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1114/tnt1114.mp3" fileSize="12087611" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1113: From Russia With Worms</title>
+<pubDate>Tue, 14 Oct 2014 12:14:33 -0700</pubDate>
+<comments>http://twit.tv/tnt/1113</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a>, <a href="https://twitter.com/joepanettieri">Joe Panettieri</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>Russian hackers used a bug in Microsoft Windows to spy on several Western governments, a closer look at the Dropbox password share, Amazon's brick and mortar stores, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/mrseb">Sebastian Anthony</a> and <a href="https://twitter.com/dsilverman">Dwight Silverman</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/a/twit.tv/spreadsheet/pub?key=0AnfwL2-_1Rv3dHFhVFdSdGMtTUpZS0ktWEpLVXdXQlE&gid=133">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1113">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 38:23</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1113/tnt1113.mp3</guid>
+<itunes:subtitle>Russian hackers used a bug in Microsoft Windows to spy on several Western governments.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan, Joe Panettieri and Jason Howell.
+ 
+Russian hackers used a bug in Microsoft Windows to spy on several Western governments, a closer look at the Dropbox password share, Amazon's brick and mortar stores, and more.
+ 
+Guests: Sebastian Anthony and Dwight Silverman.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 38:23
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:38:23</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1113/tnt1113.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1113/tnt1113.mp3" length="18661482" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1113/tnt1113.mp3" fileSize="18661482" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1112: Beats Beats Bose</title>
+<pubDate>Mon, 13 Oct 2014 11:16:27 -0700</pubDate>
+<comments>http://twit.tv/tnt/1112</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>Twitter is working with a French bank to enable money transfers via tweets, a software bug affected viewing estimates for TV shows during the fall season, Carl Zeiss is getting into the virtual reality business, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/christhedj">Chris Merriman</a>, <a href="https://twitter.com/jackneff">Jack Neff</a> and <a href="https://twitter.com/vrfocus">Kevin Joyce</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/spreadsheet/pub?key=0AnfwL2-_1Rv3dHFhVFdSdGMtTUpZS0ktWEpLVXdXQlE&gid=132">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1112">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 20:20</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1112/tnt1112.mp3</guid>
+<itunes:subtitle>Twitter is working with a French bank to enable money transfers via tweets.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan and Jason Howell.
+ 
+Twitter is working with a French bank to enable money transfers via tweets, a software bug affected viewing estimates for TV shows during the fall season, Carl Zeiss is getting into the virtual reality business, and more.
+ 
+Guests: Chris Merriman, Jack Neff and Kevin Joyce.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 20:20
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:20:20</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1112/tnt1112.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1112/tnt1112.mp3" length="10056538" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1112/tnt1112.mp3" fileSize="10056538" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1111: Karma Doesn't Pay the Bills</title>
+<pubDate>Fri, 10 Oct 2014 12:06:11 -0700</pubDate>
+<comments>http://twit.tv/tnt/1111</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a>.</p>
+ 
+<p>Tesla's electric sedan features, Snapchat pictures and videos stolen, social network harvesting by digital marketing companies, Satya Nadella's comments about women in tech, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/jtemple">James Temple</a>, <a href="https://twitter.com/superglaze">David Meyer</a>, <a href="https://twitter.com/dmac1">Doug MacMillan</a>, <a href="https://twitter.com/selenalarson">Selena Larson</a>, <a href="https://twitter.com/danackerman">Dan Ackerman</a>, and <a href="https://twitter.com/@jowens510">Jeremy C. Owens</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/a/twit.tv/spreadsheet/pub?key=0AnfwL2-_1Rv3dHFhVFdSdGMtTUpZS0ktWEpLVXdXQlE&gid=131">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1111">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 29:50</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1111/tnt1111.mp3</guid>
+<itunes:subtitle>Microsoft CEO Satya Nadella implied that women shouldn't ask for a raise when they feel underpaid.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan and Jason Howell.
+ 
+Tesla's electric sedan features, Snapchat pictures and videos stolen, social network harvesting by digital marketing companies, Satya Nadella's comments about women in tech, and more.
+ 
+Guests: James Temple, David Meyer, Doug MacMillan, Selena Larson, Dan Ackerman, and Jeremy C. Owens.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 29:50
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:29:50</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1111/tnt1111.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1111/tnt1111.mp3" length="14553988" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1111/tnt1111.mp3" fileSize="14553988" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+<item>
+<title>TNT 1110: HTC's Re-diculous Camera</title>
+<pubDate>Thu, 9 Oct 2014 11:33:47 -0700</pubDate>
+<comments>http://twit.tv/tnt/1110</comments>
+<itunes:author>TWiT</itunes:author>
+<author>leo@twit.tv (Leo Laporte)</author>
+<category>Technology</category>
+<category>Tech News</category>
+<category>News</category>
+<description>
+<![CDATA[
+<p><img src="http://feeds.twit.tv/coverart/tnt144audio.jpg" align="right" hspace="20" vspace="20" border="0" title="Tech News Today" alt="Tech News Today"/></p><p><strong>Hosts:</strong> <a href="http://twitter.com/mikeelgan">Mike Elgan</a> and <a href="https://twitter.com/jasonhowell">Jason Howell</a></p>
+ 
+<p>HTC announced a range of new camera-focused products, Google launches Chromebook for Work, Snowball for Android unifies messaging conversations, and more.</p>
+ 
+<p><strong>Guests:</strong> <a href="https://twitter.com/dcseifert">Dan Seifert</a>, <a href="https://plus.google.com/+stevenvaughannichols">Steven Vaughan-Nichols</a>, <a href="https://twitter.com/jordannovet">Jordan Novet</a> and <a href="https://twitter.com/jackidove">Jackie Dove</a>.</p>
+ 
+<p>Download or subscribe to this show at <a href="http://twit.tv/tnt">twit.tv/tnt</a>.</p>
+ 
+<p>Submit and vote on story coverage at <a href="http://technewstoday.reddit.com">technewstoday.reddit.com</a>.</p>
+ 
+<p>Check out the full <a href="https://docs.google.com/a/twit.tv/spreadsheet/pub?key=0AnfwL2-_1Rv3dHFhVFdSdGMtTUpZS0ktWEpLVXdXQlE&gid=130">show notes</a> for today's episode.</p>
+ 
+<p>We invite you to read, add to, and amend the wiki entry for this episode at <a href="http://wiki.twit.tv/wiki/Tech_News_Today_1110">wiki.twit.tv</a>.</p>
+ 
+<p>Thanks to <a href="http://www.cachefly.com/">Cachefly</a> for the bandwidth for this show.</p>
+ 
+<p><strong>Running time:</strong> 39:14</p>
+]]>
+</description>
+<guid isPermaLink="false">http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1110/tnt1110.mp3</guid>
+<itunes:subtitle>HTC announced a range of new camera-focused products, including the Desire Eye and the Re camera.</itunes:subtitle>
+<itunes:summary>
+Hosts: Mike Elgan and Jason Howell
+ 
+HTC announced a range of new camera-focused products, Google launches Chromebook for Work, Snowball for Android unifies messaging conversations, and more.
+ 
+Guests: Dan Seifert, Steven Vaughan-Nichols, Jordan Novet and Jackie Dove.
+ 
+Download or subscribe to this show at twit.tv/tnt.
+ 
+Submit and vote on story coverage at technewstoday.reddit.com.
+ 
+Check out the full show notes for today's episode.
+ 
+We invite you to read, add to, and amend the wiki entry for this episode at wiki.twit.tv.
+ 
+Thanks to Cachefly for the bandwidth for this show.
+ 
+Running time: 39:14
+</itunes:summary>
+<itunes:explicit>no</itunes:explicit>
+<itunes:duration>0:39:14</itunes:duration>
+<link>http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1110/tnt1110.mp3</link>
+<enclosure url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1110/tnt1110.mp3" length="19067320" type="audio/mpeg"/>
+<media:content url="http://www.podtrac.com/pts/redirect.mp3/twit.cachefly.net/audio/tnt/tnt1110/tnt1110.mp3" fileSize="19067320" type="audio/mpeg" medium="audio">
+<media:credit role="actor">Jason Howell</media:credit>
+<media:credit role="actor">Mike Elgan</media:credit>
+<media:credit role="producer">Jason Howell</media:credit>
+<media:credit role="director">Jason Howell</media:credit>
+<media:credit role="editor">Jason Howell</media:credit>
+<media:rating scheme="urn:simple">nonadult</media:rating>
+</media:content>
+</item>
+</channel>
+</rss>

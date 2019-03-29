@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="current"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="current" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#current_whatIsIt" />
+      </item>
+      <item>
+        <ruleref uri="#current_whatsthedate" />
+      </item>
+    </one-of>
+  </rule>
+  <rule id="current_whatIsIt" scope="public">
+    <item>
+      <tag>out.Command="current";</tag>
+      What 
+      <one-of>
+        <item>
+          <tag>out.Param="time";</tag>
+          time
+        </item>
+        <item>
+          <tag>out.Param="day";</tag>
+          day
+        </item>
+      </one-of>
+      is it?
+    </item>
+  </rule>
+  <rule id="current_whatsthedate" scope="public">
+    <item>
+      <tag>out.Command="current";</tag>
+      <tag>out.Param="date";</tag>
+      What's today's date?
+    </item>
+  </rule>
+</grammar>

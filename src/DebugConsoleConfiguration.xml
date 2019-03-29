@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns:xi="http://www.w3.org/2001/XInclude">
+	<General>
+		<City>Austin</City>
+		<State>TX</State>
+		<ZipCode>78759</ZipCode>
+		<CurrentVersion>0.1.0.0</CurrentVersion>
+		<XBeeCOM>COM21</XBeeCOM>
+		<ZWaveCOM>COM3</ZWaveCOM>
+	</General>
+	<Apps>
+		<Alarm />
+		<Baseball />
+		<Dimmer />
+		<Drinks />
+		<Current />
+		<Echo />
+		<Football />
+		<Jokes />
+		<Movies />
+		<Music />
+		<PodcastApp>
+			<Podcast Name="Tech News Today" Url="http://feeds.twit.tv/tnt.xml" IsOldestFirst="False" />
+		</PodcastApp>
+		<Power />
+		<Volume>
+			<Reference References="Spotify" />
+		</Volume>
+		<Weather />
+		<ZWaveUtility />
+	</Apps>
+	<IOInterfaces>
+		<MLBScores />
+		<Bartender XBeeId="13A20040B5E380">
+			<Dispenser Key="gin" DispenserIndex="0" MillilitersPerSecond="0.7"/>
+			<Dispenser Key="tonic" DispenserIndex="1" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="vodka" DispenserIndex="2" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="sprite" DispenserIndex="3" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="midori" DispenserIndex="4" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="white_rum" DispenserIndex="5" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="cranberry_juice" DispenserIndex="6" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="cola" DispenserIndex="7" MillilitersPerSecond="0.6"/>
+		</Bartender>
+		<WeatherChannel APIKey="29e42753ce072cec" />
+		<Spotify Username="mcginnda" Password="Lzo425ipQ2" />
+		<LightSwitch Room="Living Room" XBeeId="13A20040A581DD" Name="Living Room Light" Type="Light" ServoId="1" />
+		<LightSwitch Room="Living Room" XBeeId="13A20040A581DD" Name="Living Room Fan" Type="Fan" ServoId="0" />
+		<LightSwitch Room="Living Room" XBeeId="13A20040A581DD" Name="Dining Room Light" Type="Light" ServoId="2" />
+		<MediaPlayer />
+		<TMSMovies APIKey="cecfaxd766sq2wdufccptn5h" />
+		<TextOutput />
+		<SimulatedSpeechRecognition />
+		<NFLScores />
+		<ZWaveSwitch Name="Table Lamp" NodeId="4" />
+		<ZWaveDimmableSwitch Name="Floor Lamp" NodeId="2" />
+	</IOInterfaces>
+</Configuration>

@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.3.dtd">
+<dotfuscator version="2.3">
+  <!--This is application generated code. Do not edit manually.-->
+  <input>
+    <asmlist>
+      <inputassembly refid="78b20262-6eff-44af-8742-8a7cb16e28db">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Alarm.dll" />
+      </inputassembly>
+      <inputassembly refid="e8de64a9-2a8f-4c0b-a769-1857b67d0940">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="ApiParser.exe" />
+      </inputassembly>
+      <inputassembly refid="a710712d-ae92-4d36-b361-6739fff52503">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="AudioStream.dll" />
+      </inputassembly>
+      <inputassembly refid="f08dbb6a-ced6-4bd4-a0d1-54165838f0cc">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Bartender.dll" />
+      </inputassembly>
+      <inputassembly refid="e4076ff4-3dee-4686-bc88-e16cb4d95469">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Baseball.dll" />
+      </inputassembly>
+      <inputassembly refid="53b8a4d9-5e47-436b-8995-f4b4e5e8ce04">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Common.Logging.dll" />
+      </inputassembly>
+      <inputassembly refid="075883a0-5789-4988-854d-5673918cab42">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Current.dll" />
+      </inputassembly>
+      <inputassembly refid="0d74fe39-e5b3-4f10-9efb-52f7626aac17">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Drinks.dll" />
+      </inputassembly>
+      <inputassembly refid="599e0d17-ab40-4c0c-b510-c9379dd9d31e">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="DynamicJson.dll" />
+      </inputassembly>
+      <inputassembly refid="d271f65c-1917-4f47-be78-f4081ec258e6">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="DZ.MediaPlayer.Vlc.dll" />
+      </inputassembly>
+      <inputassembly refid="8659e5e2-384e-422e-8bad-880a48884f07">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Echo.dll" />
+      </inputassembly>
+      <inputassembly refid="15ee0db4-5357-419f-8e57-d55171f8a926">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Football.dll" />
+      </inputassembly>
+      <inputassembly refid="26c55144-1082-4702-b2cf-2b7de451f20d">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="ICSharpCode.SharpZipLib.dll" />
+      </inputassembly>
+      <inputassembly refid="bf81ab6d-19e8-49a6-be16-9462ed4c5bbc">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="IRRemoteControl.dll" />
+      </inputassembly>
+      <inputassembly refid="8f581ff2-b99f-4cd5-9804-f48ff5ed61bf">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Jokes.dll" />
+      </inputassembly>
+      <inputassembly refid="2854b328-335f-4b80-b20b-993a18b7a0b2">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Kinect.dll" />
+      </inputassembly>
+      <inputassembly refid="15eb2d6e-dc10-4cd4-8caf-19f48c1e7f11">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="KinectTwo.dll" />
+      </inputassembly>
+      <inputassembly refid="a0472c13-732b-4f75-881b-c84550ac4cf8">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="libspotifydotnet.dll" />
+      </inputassembly>
+      <inputassembly refid="f378e2f9-4310-43a8-a100-8fc411516466">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Lights.dll" />
+      </inputassembly>
+      <inputassembly refid="5436b727-6a0f-489e-9d2f-9650f3e72873">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="LightSwitch.dll" />
+      </inputassembly>
+      <inputassembly refid="bd7e4c09-4064-4cf0-a7e3-c42f41dce2b0">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="ManagedApiBuilder.exe" />
+      </inputassembly>
+      <inputassembly refid="aec01dfe-3947-4ec4-ab1b-a41b48b1a98b">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="MediaFilePlayer.dll" />
+      </inputassembly>
+      <inputassembly refid="4c3050e9-feaf-43bc-b59a-31e233b13df3">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="MediaPlayer.dll" />
+      </inputassembly>
+      <inputassembly refid="2e3a9e0b-9ed6-4025-8d31-a4c93f42afe7">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Microsoft.Data.Edm.dll" />
+      </inputassembly>
+      <inputassembly refid="abaea898-865f-40ef-9cce-b8d1ddd4efca">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Microsoft.Data.OData.dll" />
+      </inputassembly>
+      <inputassembly refid="0608d60c-61d8-4cb0-96f5-c2c8094fad06">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Microsoft.Data.Services.Client.dll" />
+      </inputassembly>
+      <inputassembly refid="e3191cde-cafe-41c5-9cf1-14d44215b613">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Microsoft.Kinect.dll" />
+      </inputassembly>
+      <inputassembly refid="79987df5-a82e-4492-abda-cae21ae29938">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Microsoft.WindowsAzure.Configuration.dll" />
+      </inputassembly>
+      <inputassembly refid="bbb7d29b-a52f-4388-b5bf-4159f3258b4c">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Microsoft.WindowsAzure.Storage.dll" />
+      </inputassembly>
+      <inputassembly refid="d3d90e9e-51dd-4fc9-84b1-c7c32aabfbf6">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="MLBScores.dll" />
+      </inputassembly>
+      <inputassembly refid="eba02e41-89a2-4882-af34-7072368e5665">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Movies.dll" />
+      </inputassembly>
+      <inputassembly refid="f090c405-23da-4d96-b495-1e4f19a48986">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Music.dll" />
+      </inputassembly>
+      <inputassembly refid="16dc5649-a3a2-45ca-8f40-2c3c2aa2f630">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="NAudio.dll" />
+      </inputassembly>
+      <inputassembly refid="e402731c-83b0-472d-91c4-772c6325a473">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Newtonsoft.Json.dll" />
+      </inputassembly>
+      <inputassembly refid="f678925b-a039-40a4-9f57-df67ff7f1e57">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="NFLScores.dll" />
+      </inputassembly>
+      <inputassembly refid="6916e850-1307-4cf1-9ff3-cb98a6e5ade7">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="ohLibSpotify.dll" />
+      </inputassembly>
+      <inputassembly refid="6462b0f9-8aee-4c8a-9d27-3ac1e025f1b2">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Podcast.dll" />
+      </inputassembly>
+      <inputassembly refid="58115cce-df22-490c-b37f-f77a7e8bffd4">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Remote.dll" />
+      </inputassembly>
+      <inputassembly refid="ef9c2745-bc2e-4004-81c7-d47349555ecf">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="SAMI.dll" />
+      </inputassembly>
+      <inputassembly refid="6d567efa-b51f-48ce-a553-1a585b002832">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="SAMIApplication.exe" />
+      </inputassembly>
+      <inputassembly refid="45212c20-8c9d-4101-b1a5-c835b3674c50">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Spotify.dll" />
+      </inputassembly>
+      <inputassembly refid="b56ab20c-ef12-4cce-8ed0-55c3ea81af41">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="System.Spatial.dll" />
+      </inputassembly>
+      <inputassembly refid="c3b38a14-6250-4545-a807-dddfd7646046">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="TextOutput.dll" />
+      </inputassembly>
+      <inputassembly refid="d6daaa9a-30ec-4cd3-80e8-a5020d6a0930">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="TMSMovies.dll" />
+      </inputassembly>
+      <inputassembly refid="e612c9a6-ca41-4791-8b5b-4bcc40ab5e53">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="VoiceOutput.dll" />
+      </inputassembly>
+      <inputassembly refid="0dc652dc-eed8-4c1c-bba3-dd60476b1fbb">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Volume.dll" />
+      </inputassembly>
+      <inputassembly refid="a9317ef8-392a-4b20-a898-d3066be09a1e">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="Weather.dll" />
+      </inputassembly>
+      <inputassembly refid="f700067e-9447-4ecc-9104-869bb828c06c">
+        <option>honoroas</option>
+        <option>stripoa</option>
+        <option>library</option>
+        <option>transformxaml</option>
+        <file dir="C:\Users\David\Source\Workspaces\SAMI\bin\SAMI\Release" name="WeatherChannel.dll" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="${configdir}\Released" />
+  </output>
+  <renaming>
+    <option>xmlserialization</option>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="Map.xml" />
+      </mapoutput>
+    </mapping>
+    <referencerulelist>
+      <referencerule rulekey="{494EA3BA-B947-44B5-BEE8-A11CC85AAF9B}" />
+      <referencerule rulekey="{229FD6F8-5BCC-427b-8F72-A7A413ECDF1A}" />
+      <referencerule rulekey="{89769974-93E9-4e71-8D92-BE70E855ACFC}" />
+      <referencerule rulekey="{7D9C8B02-2383-420f-8740-A9760394C2C1}" />
+      <referencerule rulekey="{2B7E7C8C-A39A-4db8-9DFC-6AFD38509061}" />
+      <referencerule rulekey="{6655B10A-FD58-462d-8D4F-5B1316DFF0FF}" />
+      <referencerule rulekey="{4D81E604-A545-4631-8B6D-C3735F793F80}" />
+    </referencerulelist>
+  </renaming>
+  <sos mergeruntime="true">
+    <option>sendanalytics</option>
+    <option>dontsendtamper</option>
+  </sos>
+  <smartobfuscation>
+    <smartobfuscationreport verbosity="all" overwrite="false" />
+  </smartobfuscation>
+</dotfuscator>

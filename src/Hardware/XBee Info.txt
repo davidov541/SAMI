@@ -1,0 +1,24 @@
+SAMI:
+	ID: 3332
+	DH: 0
+	DL: FFFF
+	MY: FFFF
+	SH: 13A200
+	SL: 40A8878F
+
+BAR:
+	ID: 3332
+	DH: 0
+	DL: 0
+	MY: FFFF
+	SH: 13A200
+	SL: 40B5E380
+	
+L1 (Light switch):
+	ID: 3332
+	DH: 0
+	DL: 0
+	MY: FFFF
+	SH: 13A200
+	SL: 40A581DD
+	

@@ -1,0 +1,17 @@
+Front:
+1: Base: 24g
+	1 minute: 66g, 66g, 66g
+	5 minutes: 239g, 242g
+	g/s=0.7
+2: Base: 24g, 1 minute: 59g, 59g, 60g
+	g/s=0.6
+3: Base: 24g, 1 minute: 55g, 57g, 57g
+4: Base: 24g, 1 minute: 57g, 58g, 59g
+
+Back:
+1:
+2:
+3:
+4:
+
+

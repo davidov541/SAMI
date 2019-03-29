@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns:xi="http://www.w3.org/2001/XInclude">
+	<General>
+		<City>Austin</City>
+		<State>TX</State>
+		<ZipCode>78759</ZipCode>
+		<CurrentVersion>0.1.0.0</CurrentVersion>
+		<XBeeCOM>COM21</XBeeCOM>
+		<ZWaveCOM>COM5</ZWaveCOM>
+	</General>
+	<Apps>
+		<Alarm />
+		<Baseball />
+		<Drinks />
+		<Current />
+		<Echo />
+		<Football />
+		<Jokes />
+		<Music />
+		<PodcastApp />
+		<Power />
+		<Volume />
+		<Weather />
+	</Apps>
+	<IOInterfaces>
+		<MLBScores />
+		<MediaPlayer />
+		<TextOutput />
+		<SimulatedSpeechRecognition />
+		<NFLScores />
+	</IOInterfaces>
+</Configuration>

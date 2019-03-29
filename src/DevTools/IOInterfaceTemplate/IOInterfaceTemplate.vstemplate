@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>SAMI IO Interface</Name>
+    <Description>Creates an IO Interface for the Smart Apartment Management Interface (SAMI).</Description>
+    <Icon>IOInterfaceTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>15d85a75-8454-4426-9629-b700759cb32e</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>IOInterface</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="IOInterface.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">IOInterface.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">ConsoleConfiguration.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true">KinectConfiguration.xml</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

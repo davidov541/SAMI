@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<IncludedConfiguration>
+  <MockApp TestProp="IncludedTest" />
+  <MockApp TestProp="IncludedTest2" />
+  <MockApp>
+    <MockSupport TestProp="IncludedTest3" />
+    <MockSupport TestProp="IncludedTest4" />
+  </MockApp>
+  <MockSupport TestProp="IncludedTest5" />
+</IncludedConfiguration>

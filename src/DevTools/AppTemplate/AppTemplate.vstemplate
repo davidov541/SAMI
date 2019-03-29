@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>SAMI App</Name>
+    <Description>Project which creates an app for the Smart Apartment Management Interface (SAMI).</Description>
+    <Icon>AppTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>4.5</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>ec881dee-5669-41a9-b6a9-20b3513aabc6</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>App</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="App.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">App.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">AppGrammar.grxml</ProjectItem>
+      <ProjectItem ReplaceParameters="true">ConsoleConfiguration.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true">KinectConfiguration.xml</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="425f811b-cd3b-4965-a0fb-0a1c2afa12e7" name="UMLClassDiagram" linkedPackageId="56fd7cbe-f605-4e87-885c-c3abbc9b4e64" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="905708fe-1c5c-435a-b890-4b992d78fe7c" name="SAMI" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d6ceae7f-4dc3-4c79-9934-dbce6c932236" />
+        <targetEnds>
+          <association Id="dd27da83-1c9e-47b2-82cb-9827b997d195" isDerived="false" sourceEndRoleName="SAMI" targetEndRoleName="ConversationFactoryCollection" isLeaf="false" isAbstract="false">
+            <classMoniker Id="545ab474-638a-4bc5-95c4-b1c2758a2872" LastKnownName="ConversationFactoryCollection" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="60718e2e-5da3-4869-ad10-b7c158803d01" name="SAMI" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e520dad7-db89-4484-86ba-9ef4273cd791" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f9901ac5-028c-4515-a726-2a8a7b73cece" name="ConversationFactoryCollection" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b1000559-ab26-46f3-bedb-acd5af888a1e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="57532a75-f18e-45f2-961b-44c3c2bcaa89" />
+          </association>
+          <association Id="17a04faa-3baf-4fca-8f95-0747b2751f8c" isDerived="false" sourceEndRoleName="SAMI" targetEndRoleName="Dialog" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e8761d8e-9e84-4085-966b-35926a139070" LastKnownName="Dialog" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6311cff5-a349-4780-bcac-98a7a38f584b" name="SAMI" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="49f6e8be-3161-4a7e-960e-317d466eca81" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9d36c1c9-4241-490e-a269-bcb4c90d83d9" name="Dialog" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="52f53d45-aacf-450a-b216-d9b2901122c8" name="Lower" value="N">
+                      <elementDefinition Id="e886e761-ee2a-46b1-b84a-0cdcd2f9d68c" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="41ba4a15-b448-48df-b9ea-c535d1c2219c" name="Upper" value="N">
+                      <elementDefinition Id="5ded6e16-172f-47f5-bca0-5825adbe973b" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="be419e18-dfc6-45f5-8e4e-4f445849ab83" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d4e953d4-70b6-457e-ab6b-e243d092700e" />
+          </association>
+          <association Id="a979d9b6-a678-4ec6-9a02-599e44467379" isDerived="false" sourceEndRoleName="SAMI" targetEndRoleName="Conversation" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7a0cd7f2-8356-4178-94ac-62fd670692b4" LastKnownName="Conversation" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5df0fb10-9e27-4fda-b593-57c32ebd0a70" name="SAMI" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="39ec5034-d82f-4062-ba53-9385ee590821" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f9806323-f77f-413c-ad6c-326ddb123403" name="Conversation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="55ebbafe-5788-4fd8-8806-62cdf5013679" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="30e582b5-4176-4fed-910c-d3ab7af729b5" />
+          </association>
+          <association Id="d6ac0d50-8c19-48a2-919b-c35f142c9bc7" isDerived="false" sourceEndRoleName="SAMI" targetEndRoleName="VoiceController" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d70828c9-9663-4336-917d-3bb62048d751" LastKnownName="VoiceController" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2a7156a3-7778-4bba-9ff8-14484418abcb" name="SAMI" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dce0ffb3-20ad-4622-aced-ddf1a21bcbac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="96ae670e-fce2-422e-b8ba-78e3c83323ee" name="VoiceController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cfa250d5-912e-46d5-b521-02fd65791057" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a0ebbd51-8c80-42a5-a46f-2ddadb826450" />
+          </association>
+          <association Id="e3a001cc-db1f-4ea6-a2bc-89e2dd1938c6" isDerived="false" sourceEndRoleName="SAMI" targetEndRoleName="KinectController" isLeaf="false" isAbstract="false">
+            <classMoniker Id="3bb2e5fe-b1c5-4be1-a87e-26637ab27627" LastKnownName="KinectController" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="21fa4657-362a-4572-9653-b8dca283813a" name="SAMI" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="50044ba3-0e54-48b5-b0e5-51dc1cf1f84b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="89b310ac-b613-4329-b68b-02c94b26d71a" name="KinectController" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bb42f663-fdeb-40f9-b9b9-3e1a8edf7a21" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="24eaf165-c5c9-4e40-91f0-1e0eef461c81" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="545ab474-638a-4bc5-95c4-b1c2758a2872" name="ConversationFactoryCollection" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b23030d9-d1cc-4d04-be65-9de0165ac51b" />
+        <targetEnds>
+          <association Id="e8c7b9b4-37bd-4234-8810-5166c637b30c" isDerived="false" sourceEndRoleName="ConversationFactoryCollection" targetEndRoleName="ConversationFactory" isLeaf="false" isAbstract="false">
+            <classMoniker Id="bceb6175-538a-408c-a717-a3b2ac61faad" LastKnownName="ConversationFactory" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9b219b9c-edca-497f-8cfc-cefa3078b221" name="ConversationFactoryCollection" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e67b7235-016b-40f1-b13d-1b7778542286" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ebd49ffd-0df2-474e-8875-f126c004531d" name="ConversationFactory" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="ccbab5d5-4914-40d6-97cf-88d51f8a3873" name="Lower" value="N">
+                      <elementDefinition Id="29a86773-0fea-430f-8c3f-daf55f8488b3" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="e79ac657-c1e6-434c-921c-db0b72b769bb" name="Upper" value="N">
+                      <elementDefinition Id="83c0239a-be27-474a-b324-99999abe7baa" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="0ab6e26e-e3e9-4ccf-8074-17f8f415e44e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a187b10a-2d66-4464-8d50-54a352b74d42" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bceb6175-538a-408c-a717-a3b2ac61faad" name="ConversationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="986691c5-e996-46bb-be1c-e38e9409bf31" />
+        <generalsInternal>
+          <generalization Id="21da5469-cb4d-41f6-9810-2559783ecffe" isSubstitutable="false">
+            <classMoniker Id="459df97a-93eb-4f11-83d2-7f66a7a091ed" LastKnownName="AlarmConversationFactory" />
+            <elementDefinition Id="f1ee74ed-f2f9-46e3-906c-ca46b3de9ddb" />
+          </generalization>
+          <generalization Id="f5f5cdb1-891f-4388-95a2-88567f8a1a5b" isSubstitutable="false">
+            <classMoniker Id="0d243021-6a14-4227-852d-0a95a91bf1f8" LastKnownName="EchoConversationFactory" />
+            <elementDefinition Id="36a39727-eb8e-4c1e-ba2e-8fa1fc8e36ea" />
+          </generalization>
+          <generalization Id="37ab13c4-0f8f-4b9e-9a70-3fde99a0a171" isSubstitutable="false">
+            <classMoniker Id="2bada87f-84c5-482f-8a24-2422fe181bbf" LastKnownName="CurrentConversationFactory" />
+            <elementDefinition Id="50df4e5e-3e55-473f-8adf-f9f6be91422e" />
+          </generalization>
+          <generalization Id="d098e4e2-52e4-4f0b-bfe2-cf1abf9b03a3" isSubstitutable="false">
+            <classMoniker Id="9613f908-e040-4652-80d3-c327a48e248c" LastKnownName="RemoteConversationFactory" />
+            <elementDefinition Id="bc3422f6-292c-4de6-9dad-159e56da12c0" />
+          </generalization>
+          <generalization Id="43371b3b-67f2-4ef3-9eb5-5381a3781cb7" isSubstitutable="false">
+            <classMoniker Id="df7f0b37-0456-4e07-92f8-ea7a0042136d" LastKnownName="WeatherConversationFactory" />
+            <elementDefinition Id="41106e5d-ee8a-4ec4-87b7-a9224d868617" />
+          </generalization>
+          <generalization Id="4d50ec36-731d-403f-b47a-a7ec21ad0b38" isSubstitutable="false">
+            <classMoniker Id="53ab68cd-34fd-4c16-8432-34cad7ddf107" LastKnownName="ErrorConversationFactory" />
+            <elementDefinition Id="0d9245e8-db21-432e-ac92-e36273df8c1a" />
+          </generalization>
+          <generalization Id="226bfa26-8a96-49ff-a9a0-2f934713e4b5" isSubstitutable="false">
+            <classMoniker Id="6dfe64e7-3ba5-46ea-aeab-f717e327bb98" LastKnownName="ExitConversationFactory" />
+            <elementDefinition Id="64eb189d-3e80-4c27-9152-64e65f09e92d" />
+          </generalization>
+          <generalization Id="409d62cd-77e6-4740-b452-29faf5259785" isSubstitutable="false">
+            <classMoniker Id="1b718573-573a-4235-891f-e2d4489403ec" LastKnownName="MoviesConversationFactory" />
+            <elementDefinition Id="174db2bf-7684-4623-8f95-cfa0a0ced8e1" />
+          </generalization>
+          <generalization Id="16250c0d-c184-4d82-94bb-6a47af99a35c" isSubstitutable="false">
+            <classMoniker Id="2f87039c-0a54-4101-90a4-8e0458032552" LastKnownName="UtilityConversationFactory" />
+            <elementDefinition Id="dbd73447-b08d-41dd-87b3-e10dd9ca3487" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e8761d8e-9e84-4085-966b-35926a139070" name="Dialog" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="80eac076-0d9f-4277-a6c0-95e07483f4b1" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7a0cd7f2-8356-4178-94ac-62fd670692b4" name="Conversation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="873add9a-82fb-4479-8961-ba5ba43ed5a0" />
+        <generalsInternal>
+          <generalization Id="5bcf890b-acbb-4170-9a31-eb02048c4285" isSubstitutable="false">
+            <classMoniker Id="ed16d5bd-098d-4abb-b691-2cd9e68cee60" LastKnownName="AlarmConversation" />
+            <elementDefinition Id="a0cd8252-b0e4-4240-954d-668a287650e9" />
+          </generalization>
+          <generalization Id="53dc0234-eb16-4faf-bd88-336a1d10aa25" isSubstitutable="false">
+            <classMoniker Id="69b53ef5-8a2c-49de-af3f-ac89cfb0f1dc" LastKnownName="WeatherConversation" />
+            <elementDefinition Id="cfe581ee-791f-4412-9211-e4474c06c974" />
+          </generalization>
+          <generalization Id="e78fe1a2-d574-42a1-a7b7-801783cd874d" isSubstitutable="false">
+            <classMoniker Id="169025dc-5da2-460c-a315-98a97f6b86bf" LastKnownName="ErrorConversation" />
+            <elementDefinition Id="24e08f24-480a-4183-a200-e66681a90b4d" />
+          </generalization>
+          <generalization Id="483c7381-9e50-4531-a3d7-06ba7b471ead" isSubstitutable="false">
+            <classMoniker Id="4629c94f-239c-4c7f-8d9e-0d31528b70f8" LastKnownName="EchoConversation" />
+            <elementDefinition Id="2e5a0a3d-5fed-48a5-9f37-b7eee46a0050" />
+          </generalization>
+          <generalization Id="3e68ae94-7d4a-45b2-ba13-6a894055c14d" isSubstitutable="false">
+            <classMoniker Id="79e0672b-a591-43bc-bd3d-57d37721568e" LastKnownName="ExitConversation" />
+            <elementDefinition Id="9ecf4e25-eb23-4186-a0b8-3078453ab7db" />
+          </generalization>
+          <generalization Id="b114c650-bdf9-4cb6-8e64-c3281f33e908" isSubstitutable="false">
+            <classMoniker Id="a32aeedb-d4a9-483e-b663-86f1da4965b9" LastKnownName="CurrentConversation" />
+            <elementDefinition Id="fa9d8d75-0ffb-4038-b821-bad9dd499feb" />
+          </generalization>
+          <generalization Id="4cfdad77-9a52-4f7e-8119-6f8dfe9827c8" isSubstitutable="false">
+            <classMoniker Id="cb5bf306-db1d-48bc-b58a-e06528163f5a" LastKnownName="MoviesConversation" />
+            <elementDefinition Id="d0c5ac88-509f-4e5c-b9df-27e8901cc092" />
+          </generalization>
+          <generalization Id="5bb8a40c-2b7e-49ec-a725-a50bca3d77e5" isSubstitutable="false">
+            <classMoniker Id="6c8cb88c-0a1d-45ac-ac11-7e8f1537797f" LastKnownName="RemoteConversation" />
+            <elementDefinition Id="a31135dd-fc17-4dcf-8772-bac8ddc4a4c3" />
+          </generalization>
+          <generalization Id="6cc625cb-1092-4ddb-832c-3ae6b92cfa61" isSubstitutable="false">
+            <classMoniker Id="71b9fc67-fd3f-4d94-b4e5-f7cb7a192f92" LastKnownName="UtilityConversation" />
+            <elementDefinition Id="a0a41f9a-bd8b-4173-927a-9d7d990959cb" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="459df97a-93eb-4f11-83d2-7f66a7a091ed" name="AlarmConversationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0db1c0ca-7b51-415e-9773-f45b40870760" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2bada87f-84c5-482f-8a24-2422fe181bbf" name="CurrentConversationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b2f93fba-35f1-4828-a91e-8378c8312513" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0d243021-6a14-4227-852d-0a95a91bf1f8" name="EchoConversationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1d88ea3f-749c-4361-8c4b-c74c0ae05221" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="53ab68cd-34fd-4c16-8432-34cad7ddf107" name="ErrorConversationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="de4caaf8-b015-4da2-ae56-cb8b958599ce" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6dfe64e7-3ba5-46ea-aeab-f717e327bb98" name="ExitConversationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1cda50d3-fb38-4fef-be99-3cb3bd147da8" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1b718573-573a-4235-891f-e2d4489403ec" name="MoviesConversationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d1ecb9e2-86d2-4571-94b4-54bce92ed2ff" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="df7f0b37-0456-4e07-92f8-ea7a0042136d" name="WeatherConversationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bad6e7c2-77cc-4b18-8e50-b9787f98eed8" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2f87039c-0a54-4101-90a4-8e0458032552" name="UtilityConversationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4896e434-b93d-48df-b98a-b4fc1e3e0355" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9613f908-e040-4652-80d3-c327a48e248c" name="RemoteConversationFactory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="546eddb8-112c-4cc7-83ba-c8042c225fe6" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ed16d5bd-098d-4abb-b691-2cd9e68cee60" name="AlarmConversation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="359babf2-bb00-4b15-b33e-bdc612e96a7e" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a32aeedb-d4a9-483e-b663-86f1da4965b9" name="CurrentConversation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2bb8d533-db35-45fb-afd6-f2572ee5c8a5" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4629c94f-239c-4c7f-8d9e-0d31528b70f8" name="EchoConversation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="edd923c5-a770-484c-80cf-e5c6bcf68754" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="169025dc-5da2-460c-a315-98a97f6b86bf" name="ErrorConversation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0b2c8a43-0e0f-477e-95ac-171a35b0edcf" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="79e0672b-a591-43bc-bd3d-57d37721568e" name="ExitConversation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f40d57fa-5fb9-45ef-9243-9e81df63952a" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cb5bf306-db1d-48bc-b58a-e06528163f5a" name="MoviesConversation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="11ffde3a-d35a-4db1-82ad-79ee9c6e04ce" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="69b53ef5-8a2c-49de-af3f-ac89cfb0f1dc" name="WeatherConversation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="18571f0e-a6d3-42e4-8d1e-d46466778dce" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="71b9fc67-fd3f-4d94-b4e5-f7cb7a192f92" name="UtilityConversation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7ab7cfd8-981c-4e87-b234-26eb2986698c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6c8cb88c-0a1d-45ac-ac11-7e8f1537797f" name="RemoteConversation" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="15c2f51e-204f-4e9a-b819-57b3537c3ab0" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d70828c9-9663-4336-917d-3bb62048d751" name="VoiceController" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c056fa78-4b97-4ac4-9e0b-8a275a819f7c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3bb2e5fe-b1c5-4be1-a87e-26637ab27627" name="KinectController" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7589be7f-d167-47f9-b076-f7654db29f47" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="56fd7cbe-f605-4e87-885c-c3abbc9b4e64" name="Diagrams">
+    <elementDefinition Id="d20be460-4159-4d96-9177-cad536caf323" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d72ef6fb-0838-4637-8d39-62aae483638d">
+        <profileInstance Id="b5414f53-336b-4a3a-90dc-67cbf5c25c06" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="126b85a6-3945-4eb5-8d43-f71690258345">
+        <profileInstance Id="459710fd-5b19-4a81-a9c9-684cd033371c" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

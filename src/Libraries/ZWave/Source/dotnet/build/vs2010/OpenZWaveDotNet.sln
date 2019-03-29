@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenZWaveDotNet", "OpenZWaveDotNet.vcxproj", "{0DD42424-B4AB-45C3-897C-774D1C5917C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C} = {497F9828-DEC2-4C80-B9E0-AD066CCB587C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenZWave", "..\..\..\cpp\build\windows\vs2010\OpenZWave.vcxproj", "{497F9828-DEC2-4C80-B9E0-AD066CCB587C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Debug|Win32.Build.0 = Debug|Win32
+		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Debug|x64.ActiveCfg = Debug|x64
+		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Debug|x64.Build.0 = Debug|x64
+		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Release|Win32.ActiveCfg = Release|Win32
+		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Release|Win32.Build.0 = Release|Win32
+		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Release|x64.ActiveCfg = Release|x64
+		{0DD42424-B4AB-45C3-897C-774D1C5917C3}.Release|x64.Build.0 = Release|x64
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|Win32.Build.0 = Debug|Win32
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x64.ActiveCfg = Debug|x64
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x64.Build.0 = Debug|x64
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Debug|x64.Build.2 = ReleaseDLL|x64
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|Win32.ActiveCfg = Release|Win32
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|Win32.Build.0 = Release|Win32
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|x64.ActiveCfg = Release|x64
+		{497F9828-DEC2-4C80-B9E0-AD066CCB587C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

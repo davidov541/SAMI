@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0" root="DateTime">
+
+  <rule id="DT_DateTime" scope="public">
+    <tag>out="";</tag>
+    <one-of>
+
+      <item>
+        <ruleref uri="#DT_Date"/>
+        <tag>out=rules.latest();</tag>
+        <ruleref uri="#DT_Time"/>
+        <tag>out=out+rules.latest();</tag>
+      </item>
+
+      <item>
+        <ruleref uri="#DT_Time"/>
+        <tag>out=rules.latest();</tag>
+        <ruleref uri="#DT_Date"/>
+        <tag>out=out+rules.latest();</tag>
+      </item>
+
+    </one-of>
+  </rule>
+
+  <rule id="DT_Date" scope="public">
+    <tag>out="";</tag>
+    <one-of>
+      <item>
+        today
+        <tag>out="DayOfWeek=today;";</tag>
+      </item>
+      <item>
+        tomorrow
+        <tag>out="DayOfWeek=tomorrow;";</tag>
+      </item>
+      <item>
+        yesterday
+        <tag>out="DayOfWeek=yesterday;";</tag>
+      </item>
+      <item>
+        <item repeat="0-1">on</item>
+        <ruleref uri="#DT_DayOfWeek"/>
+        <tag>out="DayOfWeek="+rules.latest().toString()+";";</tag>
+      </item>
+      <item>
+        <item repeat="0-1">on</item>
+        <item repeat="0-1">
+          <ruleref uri="#DT_Month"/>
+          <tag>out="Month="+rules.latest().toString()+";";</tag>
+        </item>
+        <item repeat="0-1">the</item>
+        <item>
+          <ruleref uri="#OrdinalNumberTens"/>
+          <tag>out=out+"Day="+rules.latest().toString()+";";</tag>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="DT_DayOfWeek" scope="public">
+    <one-of>
+      <item>
+        Sunday
+        <tag>out="0"</tag>
+      </item>
+      <item>
+        Monday
+        <tag>out="1"</tag>
+      </item>
+      <item>
+        Tuesday
+        <tag>out="2"</tag>
+      </item>
+      <item>
+        Wednesday
+        <tag>out="3"</tag>
+      </item>
+      <item>
+        Thursday
+        <tag>out="4"</tag>
+      </item>
+      <item>
+        Friday
+        <tag>out="5"</tag>
+      </item>
+      <item>
+        Saturday
+        <tag>out="6"</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="DT_Month" scope="public">
+    <one-of>
+      <item>
+        January
+        <tag>out="1"</tag>
+      </item>
+      <item>
+        February
+        <tag>out="2"</tag>
+      </item>
+      <item>
+        March
+        <tag>out="3"</tag>
+      </item>
+      <item>
+        April
+        <tag>out="4"</tag>
+      </item>
+      <item>
+        May
+        <tag>out="5"</tag>
+      </item>
+      <item>
+        June
+        <tag>out="6"</tag>
+      </item>
+      <item>
+        July
+        <tag>out="7"</tag>
+      </item>
+      <item>
+        August
+        <tag>out="8"</tag>
+      </item>
+      <item>
+        September
+        <tag>out="9"</tag>
+      </item>
+      <item>
+        October
+        <tag>out="10"</tag>
+      </item>
+      <item>
+        November
+        <tag>out="11"</tag>
+      </item>
+      <item>
+        December
+        <tag>out="12"</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="DT_Time" scope="public">
+    <tag>out="";</tag>
+    <one-of>
+
+      <item>
+        now
+        <tag>out="TimeOfDay=now;";</tag>
+      </item>
+
+      <item>
+        <one-of>
+          <item>morning</item>
+          <item>in the morning</item>
+          <item>this morning</item>
+        </one-of>
+        morning
+        <tag>out="TimeOfDay=morning;";</tag>
+      </item>
+
+      <item>
+        <one-of>
+          <item>afternoon</item>
+          <item>in the afternoon</item>
+          <item>this afternoon</item>
+        </one-of>
+        <tag>out="TimeOfDay=afternoon;";</tag>
+      </item>
+
+      <item>
+        <one-of>
+          <item>evening</item>
+          <item>in the evening</item>
+          <item>this evening</item>
+        </one-of>
+        <tag>out="TimeOfDay=evening;";</tag>
+      </item>
+
+      <item>
+        <one-of>
+          <item>tonight</item>
+          <item>night</item>
+          <item>at night</item>
+          <item>in the night</item>
+        </one-of>
+        <tag>out="TimeOfDay=night;";</tag>
+      </item>
+
+      <item>
+        <item repeat="0-1">at</item>
+        <ruleref uri="#DT_SpecificTime"/>
+        <tag>out=rules.latest()</tag>
+      </item>
+
+    </one-of>
+  </rule>
+
+  <rule id="DT_SpecificTime" scope="public">
+
+    <tag>out.Minutes=0;</tag>
+    <tag>out.TimeOfDay=""</tag>
+    <one-of>
+
+      <item>
+        <item>
+          <ruleref uri="#Number1to12" />
+          <tag>out.Hours=rules.latest();</tag>
+        </item>
+        <item repeat="0-1">
+          <one-of>
+            <item>
+              <ruleref uri="#Number10to59" />
+              <tag>out.Minutes=rules.latest().toString();</tag>
+            </item>
+            <item>
+              <item>o</item>
+              <ruleref uri="#Number0to9" />
+              <tag>out.Minutes=rules.latest().toString();</tag>
+            </item>
+            <item>o clock</item>
+          </one-of>
+        </item>
+        <item repeat="0-1">
+          <one-of>
+            <item>
+              <one-of>
+                <item>P M</item>
+                <item>in the afternoon</item>
+                <item>in the evening</item>
+                <item>in the night</item>
+                <item>at night</item>
+              </one-of>
+              <tag>out.TimeOfDay="pm"</tag>
+            </item>
+            <item>
+              <one-of>
+                <item>A M</item>
+                <item>in the morning</item>
+              </one-of>
+              <tag>out.TimeOfDay="am"</tag>
+            </item>
+          </one-of>
+        </item>
+        <tag>out.Hours=out.Hours.toString();</tag>
+      </item>
+
+
+      <item>
+        noon
+        <tag>out.Hours="12"</tag>
+        <tag>out.Minutes="0"</tag>
+        <tag>out.TimeOfDay="pm"</tag>
+      </item>
+
+      <item>
+        midnight
+        <tag>out.Hours="12"</tag>
+        <tag>out.Minutes="0"</tag>
+        <tag>out.TimeOfDay="midnight"</tag>
+      </item>
+
+
+    </one-of>
+    <tag>out="Hours="+out.Hours+";Minutes="+out.Minutes+";TimeOfDay="+out.TimeOfDay+";";</tag>
+  </rule>
+</grammar>

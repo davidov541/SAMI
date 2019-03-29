@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="ChristmasCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ChristmasCommand" scope="public">
+    <tag>out.Command="Christmas";</tag>
+    <one-of>
+      <item>I'm in the christmas spirit</item>
+      <item>I'm feeling christmasy</item>
+      <item>It's christmas time</item>
+    </one-of>
+  </rule>
+</grammar>

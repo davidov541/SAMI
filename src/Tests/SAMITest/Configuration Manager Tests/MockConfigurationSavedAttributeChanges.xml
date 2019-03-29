@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Configuration>
+	<General>
+		<City>Austin</City>
+		<State>TX</State>
+		<ZipCode>78759</ZipCode>
+		<CurrentVersion>0.1.0.0</CurrentVersion>
+		<XBeeCOM>COM4</XBeeCOM>
+    <ZWaveCOM>COM3</ZWaveCOM>
+	</General>
+	<Apps>
+    <MockApp TestProp="ChangedAttribute" />
+    <MockApp TestProp="Test1" />
+    <MockApp TestProp="Test2">
+      <MockSupport TestProp="Test3" />
+      <MockSupport TestProp="Test4" />
+    </MockApp>
+	</Apps>
+	<IOInterfaces>
+    <MockIOInterface TestProp="Test5" />
+    <MockIOInterface TestProp="Test6">
+      <MockSupport TestProp="Test7" />
+    </MockIOInterface>
+	</IOInterfaces>
+</Configuration>

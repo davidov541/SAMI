@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Configuration>
+	<General>
+		<City>Austin</City>
+		<State>TX</State>
+		<ZipCode>78759</ZipCode>
+		<CurrentVersion>0.1.0.0</CurrentVersion>
+		<XBeeCOM>COM4</XBeeCOM>
+    <ZWaveCOM>COM3</ZWaveCOM>
+	</General>
+	<Apps>
+    <SAMIInclude href="NestedIncludedMockConfiguration.xml" path="//IncludedConfiguration/MockApp" />
+	</Apps>
+	<IOInterfaces>
+    <MockIOInterface TestProp="Test" />
+	</IOInterfaces>
+</Configuration>

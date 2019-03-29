@@ -1,0 +1,130 @@
+﻿<?xml version="1.0"?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="overallCommand" tag-format="semantics/1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="overallCommand" scope="public">
+    <item>Sammie</item>
+    <one-of>
+      <item>
+        <ruleref uri="#movieCommand" />
+      </item>
+    </one-of>
+  </rule>
+  <rule id="movieCommand" scope="public">
+    <tag>out.Command="Movie";</tag>
+    <tag>out.Time="TimeOfDay=today;";</tag>
+    <tag>out.Theater="";</tag>
+    <one-of>
+      <item>
+        <tag>out.SubCommand="Names"</tag>
+        <one-of>
+          <item>What movies are playing </item>
+          <item>What movies will be playing </item>
+          <item>What movies are showing </item>
+          <item>What movies will be showing </item>
+        </one-of>
+        <item repeat="0-1">
+          <item>at </item>
+          <item>
+            <ruleref uri="#TheaterName" />
+            <tag>out.Theater=rules.latest();</tag>
+          </item>
+        </item>
+        <item repeat="0-1">
+          <one-of>
+            <item>
+              <ruleref uri="#DT_Date" />
+            </item>
+            <item>
+              <ruleref uri="#DT_Time" />
+            </item>
+            <item>
+              <ruleref uri="#DT_DateTime" />
+            </item>
+          </one-of>
+          <tag>out.Time=rules.latest();</tag>
+        </item>
+      </item>
+      <item>
+        <tag>out.SubCommand="Showtimes"</tag>
+        <tag>out.Time="TimeOfDay=today;";</tag>
+        <tag>out.Theater="";</tag>
+        What time is
+        <item>
+          <ruleref uri="#MovieName" />
+          <tag>out.Title=rules.latest();</tag>
+        </item>
+        playing 6
+        <item repeat="0-1">
+          <item>at </item>
+          <item>
+            <ruleref uri="#TheaterName" />
+            <tag>out.Theater=rules.latest();</tag>
+          </item>
+        </item>
+        <item repeat="0-1">
+          <one-of>
+            <item>
+              <ruleref uri="#DT_Date" />
+            </item>
+            <item>
+              <ruleref uri="#DT_Time" />
+            </item>
+            <item>
+              <ruleref uri="#DT_DateTime" />
+            </item>
+          </one-of>
+          <tag>out.Time=rules.latest();</tag>
+        </item>
+      </item>
+      <item>
+        <tag>out.SubCommand="Description"</tag>
+        <item>What is </item>
+        <item>
+          <ruleref uri="#MovieName" />
+          <tag>out.Title=rules.latest();</tag>
+        </item>
+        <item>about </item>
+      </item>
+      <item>
+        <tag>out.SubCommand="Rating"</tag>
+        <item>What is </item>
+        <item>
+          <ruleref uri="#MovieName" />
+          <tag>out.Title=rules.latest();</tag>
+        </item>
+        <item>rated </item>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="MovieName" scope="public">
+    <one-of>
+      <item>
+        22 Jump Street <tag>out = "22 Jump Street";</tag>
+      </item>
+      <item>
+        Big Hero 6 <tag>out = "Big Hero 6";</tag>
+      </item>
+      <item>
+        Big Hero 6 3D <tag>out = "Big Hero 6 3D";</tag>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="TheaterName" scope="public">
+    <one-of>
+      <item>
+        Lake Creek 7 <tag>out = "Lake Creek 7";</tag>
+      </item>
+      <item>
+        Regal Gateway Stadium 16 &amp; IMAX <tag>out = "Regal Gateway Stadium 16 &amp; IMAX";</tag>
+      </item>
+      <item>
+        iPic Theaters at The Domain Austin <tag>out = "iPic Theaters at The Domain Austin";</tag>
+      </item>
+      <item>
+        Regal Arbor 8 at Great Hills <tag>out = "Regal Arbor 8 at Great Hills";</tag>
+      </item>
+      <item>
+        Alamo Drafthouse Village <tag>out = "Alamo Drafthouse Village";</tag>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

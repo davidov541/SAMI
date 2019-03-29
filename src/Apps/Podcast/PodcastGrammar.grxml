@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="podcastCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="podcastCommand" scope="public">
+    <one-of>
+      <item>
+        <item>
+          <tag>out.Command="podcast";</tag>
+          <tag>out.Subcommand="playnext";</tag>
+          play
+        </item>
+        <item repeat="0-1">
+          the
+        </item>
+        <item>
+          <ruleref uri="#PodcastName" />
+          <tag>out.Podcast=rules.latest();</tag>
+        </item>
+        <item repeat="0-1">
+          podcast
+        </item>
+      </item>
+      <item>
+        <item>
+          <tag>out.Command="podcast";</tag>
+          <tag>out.Subcommand="pause";</tag>
+          pause the current podcast
+        </item>
+      </item>
+      <item>
+        <item>
+          <tag>out.Command="podcast";</tag>
+          <tag>out.Subcommand="resume";</tag>
+          resume the current podcast
+        </item>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

@@ -1,0 +1,8 @@
+<RemoteCodes>
+      <RemoteCode Name="Power" Code="01-00-00-00-00-00-df-40-bf-20" />
+      <RemoteCode Name="One" Code="01-00-00-00-00-00-df-10-ef-20" />
+      <RemoteCode Name="Two" Code="01-00-00-00-00-00-df-50-af-20" />
+      <RemoteCode Name="Three" Code="01-00-00-00-00-00-df-30-cf-20" />
+      <RemoteCode Name="Four" Code="01-00-00-00-00-00-df-70-8f-20" />
+      <RemoteCode Name="Five" Code="01-00-00-00-00-00-df-88-77-20" />
+</RemoteCodes>

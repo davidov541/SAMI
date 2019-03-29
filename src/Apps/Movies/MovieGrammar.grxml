@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="movieCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="movieCommand" scope="public">
+    <tag>out.Command="Movie";</tag>
+    <tag>out.Time="TimeOfDay=today;";</tag>
+    <tag>out.Theater="";</tag>
+    <one-of>
+      <item>
+        <tag>out.SubCommand="Names"</tag>
+        <one-of>
+          <item>What movies are playing</item>
+          <item>What movies will be playing</item>
+          <item>What movies are showing</item>
+          <item>What movies will be showing</item>
+        </one-of>
+        <item repeat="0-1">
+          <item>at</item>
+          <item>
+            <ruleref uri="#TheaterName" />
+            <tag>out.Theater=rules.latest();</tag>
+          </item>
+        </item>
+        <item repeat="0-1">
+          <one-of>
+            <item>
+              <ruleref uri="#DT_Date" />
+            </item>
+            <item>
+              <ruleref uri="#DT_Time"/>
+            </item>
+            <item>
+              <ruleref uri="#DT_DateTime"/>
+            </item>
+          </one-of>
+          <tag>out.Time=rules.latest();</tag>
+        </item>
+      </item>
+
+      <item>
+        <tag>out.SubCommand="Showtimes"</tag>
+        <tag>out.Time="TimeOfDay=today;";</tag>
+        <tag>out.Theater="";</tag>
+        <item>
+          <one-of>
+            <item>What time is</item>
+            <item>When is</item>
+            <item>When will</item>
+          </one-of>
+        </item>
+        <item>
+          <ruleref uri="#MovieName" />
+          <tag>out.Title=rules.latest();</tag>
+        </item>
+        <one-of>
+          <item>playing</item>
+          <item>be playing</item>
+          <item>showing</item>
+          <item>be showing</item>
+        </one-of>
+        <item repeat="0-1">
+          <item>at</item>
+          <item>
+            <ruleref uri="#TheaterName" />
+            <tag>out.Theater=rules.latest();</tag>
+          </item>
+        </item>
+        <item repeat="0-1">
+          <one-of>
+            <item>
+              <ruleref uri="#DT_Date" />
+            </item>
+            <item>
+              <ruleref uri="#DT_Time"/>
+            </item>
+            <item>
+              <ruleref uri="#DT_DateTime"/>
+            </item>
+          </one-of>
+          <tag>out.Time=rules.latest();</tag>
+        </item>
+      </item>
+
+      <item>
+        <tag>out.SubCommand="Description"</tag>
+        <item>What is</item>
+        <item>
+          <ruleref uri="#MovieName" />
+          <tag>out.Title=rules.latest();</tag>
+        </item>
+        <item>about</item>
+      </item>
+
+      <item>
+        <tag>out.SubCommand="Rating"</tag>
+        <item>What is</item>
+        <item>
+          <ruleref uri="#MovieName" />
+          <tag>out.Title=rules.latest();</tag>
+        </item>
+        <item>rated</item>
+      </item>
+      
+    </one-of>
+  </rule>
+  
+</grammar>

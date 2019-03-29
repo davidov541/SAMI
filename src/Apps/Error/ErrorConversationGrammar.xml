@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0" root="exceptionCommands">
+  <rule id="exceptionCommands" scope="public">
+    <tag>out.Command="error";</tag>
+    <tag>out.Subcommand="";</tag>
+    <one-of>
+      <item>
+        <tag>out.Subcommand="message";</tag>
+        <one-of>
+          <item>message</item>
+          <item>What's the message?</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.Subcommand="callstack";</tag>
+        <one-of>
+          <item>call stack</item>
+          <item>What's the last function called?</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.Subcommand="type";</tag>
+        <one-of>
+          <item>type</item>
+          <item>What type of exception is it?</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.Subcommand="quit";</tag>
+        <one-of>
+          <item>stop</item>
+          <item>I'm done.</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

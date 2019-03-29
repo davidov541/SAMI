@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<IncludedConfiguration>
+  <MockApp TestProp="NestedIncludedTest" />
+  <MockApp TestProp="NestedIncludedTest2" />
+  <SAMIInclude href="IncludedMockConfiguration.xml" path="//IncludedConfiguration/MockApp" />
+</IncludedConfiguration>

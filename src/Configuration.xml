@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<General>
+		<City>Austin</City>
+		<State>TX</State>
+		<ZipCode>78759</ZipCode>
+		<CurrentVersion>0.1.0.0</CurrentVersion>
+		<XBeeCOM>COM4</XBeeCOM>
+	</General>
+	<Apps>
+		<Alarm />
+		<Baseball>
+			<MLBRemote RemoteName="ATTDVR" />
+		</Baseball>
+		<Drinks />
+		<Current />
+		<Echo />
+		<Jokes />
+		<Lights />
+		<Movies />
+		<Music />
+		<PodcastApp>
+			<Podcast Name="Tech News Today" Url="http://feeds.twit.tv/tnt.xml" IsOldestFirst="False" />
+		</PodcastApp>
+		<Remote>
+			<IOInterfaceReference Tag="Power" References="ATTDVR" />
+			<IOInterfaceReference Tag="Power" References="RCATV" />
+			<IOInterfaceReference Tag="Channel" References="ATTDVR" />
+		</Remote>
+		<Volume>
+			<IOInterfaceReference References="RCATV" />
+		</Volume>
+		<Weather />
+		<Football />
+		<ZWaveUtility />
+	</Apps>
+	<Components>
+		<Baseball />
+		<Bartender XBeeId="13A20040B5E380">
+			<Dispenser Key="sprite" DispenserIndex="0" MillilitersPerSecond="0.7"/>
+			<Dispenser Key="vodka" DispenserIndex="1" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="white_rum" DispenserIndex="2" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="tonic" DispenserIndex="3" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="coke" DispenserIndex="4" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="midori" DispenserIndex="5" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="gin" DispenserIndex="6" MillilitersPerSecond="0.6"/>
+			<Dispenser Key="cranberry_juice" DispenserIndex="7" MillilitersPerSecond="0.6"/>
+		</Bartender>
+		<TMSMovies APIKey="cecfaxd766sq2wdufccptn5h" />
+		<WeatherChannel APIKey="29e42753ce072cec" />
+		<Spotify Username="mcginnda" Password="Lzo425ip" />
+		<LightSwitch Room="Living Room" XBeeId="13A20040A581DD" Name="Living Room Light" Type="Light" ServoId="1" />
+		<LightSwitch Room="Living Room" XBeeId="13A20040A581DD" Name="Living Room Fan" Type="Fan" ServoId="0" />
+		<LightSwitch Room="Living Room" XBeeId="13A20040A581DD" Name="Dining Room Light" Type="Light" ServoId="2" />
+		<MediaPlayer />
+		<IRRemoteControl Name="ATTDVR" COMPort="COM3">
+			<SAMIInclude href="ATTUVerseChannels.xml" path="//Channels/Channel" />
+			<SAMIInclude href="ATTDVRRemoteCodes.xml" path="//RemoteCodes/RemoteCode" />
+		</IRRemoteControl>
+		<IRRemoteControl Name="HDMISwitch" COMPort="COM3">
+			<SAMIInclude href="HDMISwitchCodes.xml" path="//RemoteCodes/RemoteCode" />
+		</IRRemoteControl>
+		<IRRemoteControl Name="RCATV" COMPort="COM3">
+			<SAMIInclude href="RCARemoteCodes.xml" path="//RemoteCodes/RemoteCode" />
+		</IRRemoteControl>
+		<IRRemoteControl Name="XBox" COMPort="COM3">
+			<SAMIInclude href="XBoxRemoteCodes.xml" path="//Channels/Channel" />
+		</IRRemoteControl>
+		<VoiceOutput />
+		<KinectTwo />
+		<Football />
+		<SimulatedKinectTwo />
+		<TextOutput />
+	</Components>
+</Configuration>
+
+
+
+
+
+

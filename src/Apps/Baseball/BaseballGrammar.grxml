@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="baseballCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="baseballCommand" scope="public">
+    <tag>out.Command="baseball";</tag>
+    <one-of>
+	
+      <item>
+        <tag>out.Team="";</tag>
+        <tag>out.Time="DayOfWeek=today;";</tag>
+        <tag>out.Parameter="Score";</tag>
+        <item>
+          How are the 
+        </item>
+        <item>
+          <ruleref uri="#baseballTeams" />
+          <tag>out.Team=rules.latest();</tag>
+        </item>
+        <item>
+          doing
+        </item>
+      </item>
+
+      <item>
+        <tag>out.Team="";</tag>
+        <tag>out.Time="DayOfWeek=today;";</tag>
+        <tag>out.Parameter="Score";</tag>
+        <item>
+          How did the
+        </item>
+        <item>
+          <ruleref uri="#baseballTeams" />
+          <tag>out.Team=rules.latest();</tag>
+        </item>
+        <item>
+          do
+        </item>
+        <item>
+          <ruleref uri="#DT_Date"/>
+          <tag>out.Time=rules.latest();</tag>
+        </item>
+      </item>
+	  
+      <item>
+        <tag>out.Team="";</tag>
+        <tag>out.Time="DayOfWeek=today;";</tag>
+        <tag>out.Parameter="Score";</tag>
+        <item>
+          What's the score of the
+        </item>
+        <item>
+          <ruleref uri="#baseballTeams" />
+          <tag>out.Team=rules.latest();</tag>
+        </item>
+        <item>
+          game
+        </item>
+      </item>
+	  
+      <item>
+        <tag>out.Team="";</tag>
+        <tag>out.Time="DayOfWeek=today;";</tag>
+        <tag>out.Parameter="Standings";</tag>
+        <item>
+          How far back are the
+        </item>
+        <item>
+          <ruleref uri="#baseballTeams" />
+          <tag>out.Team=rules.latest();</tag>
+        </item>
+      </item>
+	  
+      <item>
+        <tag>out.Team="";</tag>
+        <tag>out.Time="DayOfWeek=today;";</tag>
+        <tag>out.Parameter="MLBTVFreeGame";</tag>
+        <item>
+          What game is free tonight on MLB.TV
+        </item>
+      </item>
+	  
+      <item>
+        <tag>out.Team="";</tag>
+        <tag>out.Time="DayOfWeek=today;";</tag>
+        <tag>out.Parameter="TurnToGame";</tag>
+        <item>
+          Turn to the 
+        </item>
+        <item>
+          <ruleref uri="#baseballTeams" />
+          <tag>out.Team=rules.latest();</tag>
+        </item>
+        <item>
+          game
+        </item>
+      </item>
+	  
+      <item>
+        <tag>out.Team="";</tag>
+        <tag>out.Time="DayOfWeek=today;";</tag>
+        <tag>out.Parameter="TVChannel";</tag>
+        <item>
+          What channel is the
+        </item>
+        <item>
+          <ruleref uri="#baseballTeams" />
+          <tag>out.Team=rules.latest();</tag>
+        </item>
+        <item>
+          game on
+        </item>
+        <item repeat="0-1">
+          <ruleref uri="#DT_Date" />
+          <tag>out.Time=rules.latest();</tag>
+        </item>
+      </item>
+	  
+      <item>
+        <tag>out.Team="";</tag>
+        <tag>out.Time="DayOfWeek=today;";</tag>
+        <tag>out.Parameter="Standings";</tag>
+        <item>
+          Where are the 
+        </item>
+        <item>
+          <ruleref uri="#baseballTeams" />
+          <tag>out.Team=rules.latest();</tag>
+        </item>
+        <item>
+          in the standings
+        </item>
+      </item>	  
+    </one-of>
+  </rule>
+</grammar>

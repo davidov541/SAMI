@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" mode="voice" root="musicCommand"
+ xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="musicCommand" scope="public">
+    <one-of>
+      <item>
+        <tag>out.Command="music";</tag>
+        <tag>out.Subcommand="playrandom";</tag>
+        <tag>out.Playlist="favorites";</tag>
+        play my favorites
+      </item>
+      <item>
+        <tag>out.Command="music";</tag>
+        <tag>out.Subcommand="play";</tag>
+        <tag>out.Playlist="";</tag>
+        start the playlist
+        <item>
+          <ruleref uri="#PlaylistName" />
+          <tag>out.Playlist=rules.latest();</tag>
+        </item>
+      </item>
+      <item>
+        <tag>out.Command="music";</tag>
+        <tag>out.Subcommand="playrandom";</tag>
+        <tag>out.Playlist="";</tag>
+        play some
+        <item>
+          <ruleref uri="#PlaylistName" />
+          <tag>out.Playlist=rules.latest();</tag>
+        </item>
+      </item>
+      <item>
+        <tag>out.Command="music";</tag>
+        <tag>out.Subcommand="stop";</tag>
+        stop the music
+      </item>
+      <item>
+        <tag>out.Command="music";</tag>
+        <tag>out.Subcommand="playlists";</tag>
+        what playlists are available
+      </item>
+      <item>
+        <tag>out.Command="music";</tag>
+        <tag>out.Subcommand="deletesong";</tag>
+        delete this song
+      </item>
+      <item>
+        <tag>out.Command="music";</tag>
+        <tag>out.Subcommand="skip";</tag>
+        skip this song
+      </item>
+      <item>
+        <tag>out.Command="music";</tag>
+        <tag>out.Subcommand="song";</tag>
+        <one-of>
+          <item>what song is this</item>
+          <item>what song is playing</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out.Command="music";</tag>
+        <tag>out.Subcommand="artist";</tag>
+        <one-of>
+          <item>who is playing</item>
+          <item>who is this</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
