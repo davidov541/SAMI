@@ -331,3 +331,4 @@ ASALocalRun/
 
 # Exclude the SAMI configuration file
 Configuration.xml
+Debug*Configuration.xml
